@@ -24,7 +24,7 @@ module Data_Path
 	input		[1:0]	ALU_Src_B,
 	input 	[2:0]	ALU_Control,
 	input 	[1:0]	PC_Src,
-	input		[1:0]	ImmSrc,
+	input		[2:0]	ImmSrc,
 	
 	output			Zero,
 	output	[5:0]	Op,
@@ -158,13 +158,15 @@ module Data_Path
 	Sign_Extend	Sign_Ext	(
 									.Instr				(Instr[31:0]),
 									.ImmSrc			(ImmSrc),
-									.Sign_Ext_Imm	(Sign_Imm)
+									.ImmExt	(ImmExt_w)
 								);
+
 	
-	Shift_Left_2 Branch_Shift	(
-											.Ext_Imm			(Sign_Imm),
-											.Shifted_Imm	(Shifted_Imm)
-										);
+	
+	//Shift_Left_2 Branch_Shift	(
+	//										.Ext_Imm			(Sign_Imm),
+	//										.Shifted_Imm	(Shifted_Imm)
+	//									);
 	
 	Mux2x1	A_Input	(
 								.Selector	(ALU_Src_A),
@@ -173,12 +175,11 @@ module Data_Path
 								.Mux_Out		(Src_A)
 							);
 							
-	Mux4x1	B_Input	(
+	Mux3x1	B_Input	(
 								.Selector	(ALU_Src_B),
 								.I_0			(B),
 								.I_1			(4),
-								.I_2			(Sign_Imm),
-								.I_3			(Shifted_Imm),
+								.I_2			(ImmExt_w),
 								.Mux_Out		(Src_B)
 							);
 	

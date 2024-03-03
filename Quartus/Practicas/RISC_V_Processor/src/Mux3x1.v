@@ -1,0 +1,23 @@
+module Mux3x1
+#
+(
+	parameter DATA_WIDTH = 32
+)
+(
+	input			[1:0]					Selector,
+	input			[DATA_WIDTH-1:0]	I_0,
+	input			[DATA_WIDTH-1:0]	I_1,
+	input			[DATA_WIDTH-1:0]	I_2,
+	
+	output reg 	[DATA_WIDTH-1:0]	Mux_Out
+);
+
+	always@(*) begin
+		case (Selector)
+			0	:	Mux_Out = I_0;
+			1	:	Mux_Out = I_1;
+			2	:	Mux_Out = I_2;
+			default: Mux_Out = 31'b0;
+		endcase	
+	end	
+endmodule

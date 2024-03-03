@@ -19,7 +19,7 @@ module Control_Unit
 	output 	[1:0]	ALU_Src_B,
 	output 	[2:0]	ALU_Control,
 	output 	[1:0]	PC_Src,
-	output	[1:0] ImmSrc
+	output	[2:0] ImmSrc
 );
 	
 	wire			PC_Write;

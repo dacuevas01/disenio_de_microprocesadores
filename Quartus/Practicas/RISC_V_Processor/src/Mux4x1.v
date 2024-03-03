@@ -19,6 +19,7 @@ module Mux4x1
 			1	:	Mux_Out = I_1;
 			2	:	Mux_Out = I_2;
 			3	:	Mux_Out = I_3;
+			default: Mux_Out = 31'b0;
 		endcase	
 	end	
 endmodule

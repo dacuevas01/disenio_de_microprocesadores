@@ -20,7 +20,7 @@ module RISC_V_Processor
 								.RCO		(clk)
 							);
 
-	RISC_V_Multi_Cycle	MIPS	(
+	RISC_V_Multi_Cycle	RISC_V	(
 										.clk			(clk),
 										.reset		(SW[9]),
 										.GPIO_In		(SW[7:0]),

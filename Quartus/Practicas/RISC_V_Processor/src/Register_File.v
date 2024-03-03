@@ -31,7 +31,7 @@ module Register_File
 							.q 		(q[0])
 						);
 	
-	Register at 	(	
+	Register ra 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[1] & Reg_Write_i),
@@ -39,7 +39,7 @@ module Register_File
 							.q 		(q[1])
 						);
 	
-	Register v0 	(	
+	Register sp 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[2] & Reg_Write_i),
@@ -47,7 +47,7 @@ module Register_File
 							.q 		(q[2])
 						);
 	
-	Register v1 	(	
+	Register gp 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[3] & Reg_Write_i),
@@ -55,7 +55,7 @@ module Register_File
 							.q 		(q[3])
 						);
 	
-	Register a0 	(	
+	Register tp 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[4] & Reg_Write_i),
@@ -63,7 +63,7 @@ module Register_File
 							.q 		(q[4])
 						);
 	
-	Register a1 	(	
+	Register t0 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[5] & Reg_Write_i),
@@ -71,7 +71,7 @@ module Register_File
 							.q 		(q[5])
 						);
 	
-	Register a2 	(	
+	Register t1 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[6] & Reg_Write_i),
@@ -79,7 +79,7 @@ module Register_File
 							.q 		(q[6])
 						);
 		
-	Register a3 	(	
+	Register t2 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[7] & Reg_Write_i),
@@ -87,7 +87,7 @@ module Register_File
 							.q 		(q[7])
 						);
 	
-	Register t0 	(	
+	Register s0 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[8] & Reg_Write_i),
@@ -95,7 +95,7 @@ module Register_File
 							.q 		(q[8])
 						);
 
-	Register t1 	(	
+	Register s1 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[9] & Reg_Write_i),
@@ -103,7 +103,7 @@ module Register_File
 							.q 		(q[9])
 						);
 	
-	Register t2 	(	
+	Register a0 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[10] & Reg_Write_i),
@@ -111,7 +111,7 @@ module Register_File
 							.q 		(q[10])
 						);
 	
-	Register t3 	(	
+	Register a1 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[11] & Reg_Write_i),
@@ -119,7 +119,7 @@ module Register_File
 							.q 		(q[11])
 						);
 	
-	Register t4 	(	
+	Register a2 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[12] & Reg_Write_i),
@@ -127,7 +127,7 @@ module Register_File
 							.q 		(q[12])
 						);
 
-	Register t5 	(	
+	Register a3 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[13] & Reg_Write_i),
@@ -135,7 +135,7 @@ module Register_File
 							.q 		(q[13])
 						);
 	
-	Register t6 	(	
+	Register a4 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[14] & Reg_Write_i),
@@ -143,7 +143,7 @@ module Register_File
 							.q 		(q[14])
 						);
 	
-	Register t7 	(	
+	Register a5 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[15] & Reg_Write_i),
@@ -151,7 +151,7 @@ module Register_File
 							.q 		(q[15])
 						);	
 	
-	Register s0 	(	
+	Register a6 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[16] & Reg_Write_i),
@@ -159,7 +159,7 @@ module Register_File
 							.q 		(q[16])
 						);
 
-	Register s1 	(	
+	Register a7 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[17] & Reg_Write_i),
@@ -215,7 +215,7 @@ module Register_File
 							.q 		(q[23])
 						);	
 	
-	Register t8 	(	
+	Register s8 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[24] & Reg_Write_i),
@@ -223,7 +223,7 @@ module Register_File
 							.q 		(q[24])
 						);
 	
-	Register t9 	(	
+	Register s9 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[25] & Reg_Write_i),
@@ -231,7 +231,7 @@ module Register_File
 							.q 		(q[25])
 						);
 						
-	Register k0 	(	
+	Register s10 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[26] & Reg_Write_i),
@@ -239,7 +239,7 @@ module Register_File
 							.q 		(q[26])
 						);
 	
-	Register k1 	(	
+	Register s11 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[27] & Reg_Write_i),
@@ -247,7 +247,7 @@ module Register_File
 							.q 		(q[27])
 						);	
 
-	Register gp 	(	
+	Register t3 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[28] & Reg_Write_i),
@@ -255,7 +255,7 @@ module Register_File
 							.q 		(q[28])
 						);
 	
-	Register sp 	(	
+	Register t4 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[29] & Reg_Write_i),
@@ -263,7 +263,7 @@ module Register_File
 							.q 		(q[29])
 						);
 	
-	Register fp 	(	
+	Register t5 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[30] & Reg_Write_i),
@@ -271,7 +271,7 @@ module Register_File
 							.q 		(q[30])
 						);
 	
-	Register ra 	(	
+	Register t6 	(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[31] & Reg_Write_i),
