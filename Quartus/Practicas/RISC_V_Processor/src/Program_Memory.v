@@ -12,7 +12,7 @@ module Program_Memory
 	reg 	[DATA_WIDTH-1:0] 	rom[MEMORY_DEPTH-1:0];
 
 	initial begin
-		$readmemh("C:/Workspace/Quartus/assembly_code/factorial.txt", rom);
+		$readmemh("C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/assembly_code/factorial.txt", rom);
 	end
 
 	always @ (Address) begin

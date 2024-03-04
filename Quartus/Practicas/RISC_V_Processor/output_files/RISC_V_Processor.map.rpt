@@ -1,6 +1,6 @@
 Analysis & Elaboration report for RISC_V_Processor
-Thu Feb 29 18:36:01 2024
-Quartus Prime Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+Mon Mar 04 00:04:46 2024
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
 ---------------------
@@ -18,78 +18,75 @@ Quartus Prime Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
  10. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Program_Memory:ROM
  11. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Data_Memory:RAM
  12. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:Instruction_Register
- 13. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:Data_Register
- 14. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux4x1:Rrt_or_Rrd
- 15. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux4x1:Write_Data_Mux
- 16. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File
- 17. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:zero
- 18. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:ra
- 19. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:sp
- 20. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:gp
- 21. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:tp
- 22. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:t0
- 23. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:t1
- 24. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:t2
- 25. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s0
- 26. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s1
- 27. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:a0
- 28. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:a1
- 29. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:a2
- 30. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:a3
- 31. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:a4
- 32. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:a5
- 33. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:a6
- 34. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:a7
- 35. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s2
- 36. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s3
- 37. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s4
- 38. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s5
- 39. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s6
- 40. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s7
- 41. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s8
- 42. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s9
- 43. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s10
- 44. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s11
- 45. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:t3
- 46. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:t4
- 47. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:t5
- 48. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:t6
- 49. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Mux32x1:Rrs
- 50. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Mux32x1:Rrt
- 51. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:GPIO_Out_Register
- 52. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:A_Register
- 53. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:B_Register
- 54. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux2x1:A_Input
- 55. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux3x1:B_Input
- 56. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|ALU:ALU
- 57. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:Result_Register
- 58. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Shift_Left_2:Jump_Shift
- 59. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux4x1:Program_Count_Source
- 60. altpll Parameter Settings by Entity Instance
- 61. Analysis & Elaboration Settings
- 62. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux4x1:Program_Count_Source"
- 63. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Shift_Left_2:Jump_Shift"
- 64. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:Result_Register"
- 65. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux3x1:B_Input"
- 66. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:B_Register"
- 67. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:A_Register"
- 68. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:GPIO_Out_Register"
- 69. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:zero"
- 70. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux4x1:Write_Data_Mux"
- 71. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux4x1:Rrt_or_Rrd"
- 72. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:Data_Register"
- 73. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Data_Memory:RAM"
- 74. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Program_Memory:ROM"
- 75. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath"
- 76. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Control_Unit:Control"
- 77. Analysis & Elaboration Messages
+ 13. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:OldPC_Register
+ 14. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:Data_Register
+ 15. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File
+ 16. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:zero
+ 17. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:ra
+ 18. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:sp
+ 19. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:gp
+ 20. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:tp
+ 21. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:t0
+ 22. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:t1
+ 23. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:t2
+ 24. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s0
+ 25. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s1
+ 26. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:a0
+ 27. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:a1
+ 28. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:a2
+ 29. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:a3
+ 30. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:a4
+ 31. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:a5
+ 32. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:a6
+ 33. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:a7
+ 34. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s2
+ 35. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s3
+ 36. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s4
+ 37. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s5
+ 38. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s6
+ 39. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s7
+ 40. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s8
+ 41. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s9
+ 42. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s10
+ 43. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:s11
+ 44. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:t3
+ 45. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:t4
+ 46. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:t5
+ 47. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:t6
+ 48. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Mux32x1:Rrs
+ 49. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Mux32x1:Rrt
+ 50. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:A_Register
+ 51. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:B_Register
+ 52. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux3x1:A_Input
+ 53. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux3x1:B_Input
+ 54. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|ALU:ALU
+ 55. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:Result_Register
+ 56. Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux3x1:Result_Source
+ 57. altpll Parameter Settings by Entity Instance
+ 58. Analysis & Elaboration Settings
+ 59. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux3x1:Result_Source"
+ 60. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:Result_Register"
+ 61. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|ALU:ALU"
+ 62. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux3x1:B_Input"
+ 63. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux3x1:A_Input"
+ 64. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Sign_Extend:Sign_Ext"
+ 65. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:B_Register"
+ 66. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:A_Register"
+ 67. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:zero"
+ 68. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:Data_Register"
+ 69. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Data_Memory:RAM"
+ 70. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Program_Memory:ROM"
+ 71. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath"
+ 72. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Control_Unit:Control|Control_Signals:State_and_Signals"
+ 73. Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Control_Unit:Control"
+ 74. Analysis & Elaboration Messages
 
 
 
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2023  Intel Corporation. All rights reserved.
+Copyright (C) 2020  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -106,22 +103,22 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+--------------------------------------------------------------------------------+
-; Analysis & Elaboration Summary                                                 ;
-+-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Thu Feb 29 18:36:01 2024          ;
-; Quartus Prime Version         ; 23.1std.0 Build 991 11/28/2023 SC Lite Edition ;
-; Revision Name                 ; RISC_V_Processor                               ;
-; Top-level Entity Name         ; RISC_V_Processor                               ;
-; Family                        ; Cyclone V                                      ;
-; Logic utilization (in ALMs)   ; N/A until Partition Merge                      ;
-; Total registers               ; N/A until Partition Merge                      ;
-; Total pins                    ; N/A until Partition Merge                      ;
-; Total virtual pins            ; N/A until Partition Merge                      ;
-; Total block memory bits       ; N/A until Partition Merge                      ;
-; Total PLLs                    ; N/A until Partition Merge                      ;
-; Total DLLs                    ; N/A until Partition Merge                      ;
-+-------------------------------+------------------------------------------------+
++-----------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                              ;
++-------------------------------+---------------------------------------------+
+; Analysis & Elaboration Status ; Successful - Mon Mar 04 00:04:46 2024       ;
+; Quartus Prime Version         ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                 ; RISC_V_Processor                            ;
+; Top-level Entity Name         ; RISC_V_Processor                            ;
+; Family                        ; Cyclone V                                   ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
+; Total registers               ; N/A until Partition Merge                   ;
+; Total pins                    ; N/A until Partition Merge                   ;
+; Total virtual pins            ; N/A until Partition Merge                   ;
+; Total block memory bits       ; N/A until Partition Merge                   ;
+; Total PLLs                    ; N/A until Partition Merge                   ;
+; Total DLLs                    ; N/A until Partition Merge                   ;
++-------------------------------+---------------------------------------------+
 
 
 +------------------------------------------+
@@ -599,6 +596,17 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++-------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:OldPC_Register ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; DATA_WIDTH     ; 32    ; Signed Integer                                                                           ;
+; RESET_VALUE    ; 0     ; Signed Integer                                                                           ;
++----------------+-------+------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +------------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:Data_Register ;
 +----------------+-------+-----------------------------------------------------------------------------------------+
@@ -607,26 +615,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; DATA_WIDTH     ; 32    ; Signed Integer                                                                          ;
 ; RESET_VALUE    ; 0     ; Signed Integer                                                                          ;
 +----------------+-------+-----------------------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux4x1:Rrt_or_Rrd ;
-+----------------+-------+------------------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                               ;
-+----------------+-------+------------------------------------------------------------------------------------+
-; DATA_WIDTH     ; 5     ; Signed Integer                                                                     ;
-+----------------+-------+------------------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux4x1:Write_Data_Mux ;
-+----------------+-------+----------------------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                                   ;
-+----------------+-------+----------------------------------------------------------------------------------------+
-; DATA_WIDTH     ; 32    ; Signed Integer                                                                         ;
-+----------------+-------+----------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1012,17 +1000,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:GPIO_Out_Register ;
-+----------------+-------+---------------------------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                                        ;
-+----------------+-------+---------------------------------------------------------------------------------------------+
-; DATA_WIDTH     ; 32    ; Signed Integer                                                                              ;
-; RESET_VALUE    ; 0     ; Signed Integer                                                                              ;
-+----------------+-------+---------------------------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +---------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:A_Register ;
 +----------------+-------+--------------------------------------------------------------------------------------+
@@ -1046,7 +1023,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux2x1:A_Input ;
+; Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux3x1:A_Input ;
 +----------------+-------+---------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                            ;
 +----------------+-------+---------------------------------------------------------------------------------+
@@ -1086,23 +1063,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Shift_Left_2:Jump_Shift ;
-+----------------+-------+------------------------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                                     ;
-+----------------+-------+------------------------------------------------------------------------------------------+
-; DATA_WIDTH     ; 28    ; Signed Integer                                                                           ;
-+----------------+-------+------------------------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux4x1:Program_Count_Source ;
-+----------------+-------+----------------------------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                                         ;
-+----------------+-------+----------------------------------------------------------------------------------------------+
-; DATA_WIDTH     ; 32    ; Signed Integer                                                                               ;
-+----------------+-------+----------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux3x1:Result_Source ;
++----------------+-------+---------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                  ;
++----------------+-------+---------------------------------------------------------------------------------------+
+; DATA_WIDTH     ; 32    ; Signed Integer                                                                        ;
++----------------+-------+---------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1210,23 +1177,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux4x1:Program_Count_Source" ;
-+-------------+-------+----------+---------------------------------------------------------------------+
-; Port        ; Type  ; Severity ; Details                                                             ;
-+-------------+-------+----------+---------------------------------------------------------------------+
-; I_2[31..28] ; Input ; Info     ; Stuck at GND                                                        ;
-; I_3         ; Input ; Info     ; Stuck at GND                                                        ;
-+-------------+-------+----------+---------------------------------------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Shift_Left_2:Jump_Shift" ;
-+-----------------+-------+----------+-------------------------------------------------------------+
-; Port            ; Type  ; Severity ; Details                                                     ;
-+-----------------+-------+----------+-------------------------------------------------------------+
-; Ext_Imm[27..26] ; Input ; Info     ; Stuck at GND                                                ;
-+-----------------+-------+----------+-------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux3x1:Result_Source"                                                                                  ;
++----------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                                                                          ;
++----------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Selector ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (2 bits) it drives.  Extra input bit(s) "Selector[1..1]" will be connected to GND. ;
++----------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------+
@@ -1238,15 +1195,43 @@ Note: In order to hide this table in the UI and the text report file, please set
 +--------+-------+----------+-----------------------------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux3x1:B_Input" ;
-+------------+-------+----------+---------------------------------------------------------+
-; Port       ; Type  ; Severity ; Details                                                 ;
-+------------+-------+----------+---------------------------------------------------------+
-; I_1[31..3] ; Input ; Info     ; Stuck at GND                                            ;
-; I_1[1..0]  ; Input ; Info     ; Stuck at GND                                            ;
-; I_1[2]     ; Input ; Info     ; Stuck at VCC                                            ;
-+------------+-------+----------+---------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|ALU:ALU"                                                                                             ;
++---------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                         ;
++---------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Control ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (3 bits) it drives.  Extra input bit(s) "Control[2..1]" will be connected to GND. ;
++---------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux3x1:B_Input"                                                                                          ;
++------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port       ; Type  ; Severity ; Details                                                                                                                                          ;
++------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Selector   ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (2 bits) it drives.  Extra input bit(s) "Selector[1..1]" will be connected to GND. ;
+; I_2[31..3] ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
+; I_2[1..0]  ; Input ; Info     ; Stuck at GND                                                                                                                                     ;
+; I_2[2]     ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
++------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux3x1:A_Input"                                                                                        ;
++----------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                                                                                                                          ;
++----------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Selector ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (2 bits) it drives.  Extra input bit(s) "Selector[1..1]" will be connected to GND. ;
++----------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Sign_Extend:Sign_Ext"                                                                              ;
++--------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port   ; Type  ; Severity ; Details                                                                                                                                        ;
++--------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; ImmSrc ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (3 bits) it drives.  Extra input bit(s) "ImmSrc[2..1]" will be connected to GND. ;
++--------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------+
@@ -1267,15 +1252,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +--------+-------+----------+------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:GPIO_Out_Register"                                               ;
-+------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                                ;
-+------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
-; q    ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (8 bits) it drives; bit(s) "q[31..8]" have no fanouts ;
-+------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
-
-
 +---------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Register:zero" ;
 +------+-------+----------+-------------------------------------------------------------------------------------+
@@ -1283,27 +1259,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+-------+----------+-------------------------------------------------------------------------------------+
 ; d    ; Input ; Info     ; Stuck at GND                                                                        ;
 +------+-------+----------+-------------------------------------------------------------------------------------+
-
-
-+------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux4x1:Write_Data_Mux" ;
-+------------+-------+----------+----------------------------------------------------------------+
-; Port       ; Type  ; Severity ; Details                                                        ;
-+------------+-------+----------+----------------------------------------------------------------+
-; I_2[31..8] ; Input ; Info     ; Stuck at GND                                                   ;
-; I_3        ; Input ; Info     ; Stuck at GND                                                   ;
-+------------+-------+----------+----------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux4x1:Rrt_or_Rrd"                                                                                                                        ;
-+-----------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port      ; Type  ; Severity ; Details                                                                                                                                                                            ;
-+-----------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; I_2       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
-; I_3       ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (5 bits) it drives.  The 27 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; I_3[4..0] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
-+-----------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-------------------------------------------------------------------------------------------------+
@@ -1333,22 +1288,44 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------+-------+----------+------------------------------------------------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath"                                                                                                 ;
-+--------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type  ; Severity ; Details                                                                                                                                      ;
-+--------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
-; ImmSrc ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-+--------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath"                                                                                                                                          ;
++------------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                                                                                                                          ;
++------------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; GPIO_o     ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                              ;
+; ResultSrc  ; Input  ; Warning  ; Input port expression (2 bits) is wider than the input port (1 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; ALUSrcB    ; Input  ; Warning  ; Input port expression (2 bits) is wider than the input port (1 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; ALUSrcA    ; Input  ; Warning  ; Input port expression (2 bits) is wider than the input port (1 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; ALUControl ; Input  ; Warning  ; Input port expression (3 bits) is wider than the input port (1 bits) it drives.  The 2 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; ADRSrc     ; Input  ; Warning  ; Input port expression (2 bits) is wider than the input port (1 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; ImmSrc     ; Input  ; Warning  ; Input port expression (3 bits) is wider than the input port (1 bits) it drives.  The 2 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; Funct3     ; Output ; Warning  ; Output or bidir port (3 bits) is smaller than the port expression (4 bits) it drives.  The 1 most-significant bit(s) in the port expression will be connected to GND.            ;
++------------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Control_Unit:Control"                                                            ;
-+--------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                  ;
-+--------+--------+----------+----------------------------------------------------------------------------------------------------------+
-; ImmSrc ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
-+--------+--------+----------+----------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Control_Unit:Control|Control_Signals:State_and_Signals"                                                                                       ;
++--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                                                                                                               ;
++--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; AdrSrc ; Output ; Warning  ; Output or bidir port (1 bits) is smaller than the port expression (2 bits) it drives.  The 1 most-significant bit(s) in the port expression will be connected to GND. ;
++--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "RISC_V_Multi_Cycle:RISC_V|Control_Unit:Control"                                                                                                                                              ;
++------------------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port             ; Type   ; Severity ; Details                                                                                                                                                                          ;
++------------------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Funct3           ; Input  ; Warning  ; Input port expression (4 bits) is wider than the input port (3 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; ResultSrc[1]     ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                              ;
+; ALUSrcB[1]       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                              ;
+; ALUSrcA[1]       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                              ;
+; ALUControl[2..1] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                              ;
+; ADRSrc[1]        ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                              ;
+; ImmSrc[2..1]     ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                              ;
++------------------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +---------------------------------+
@@ -1356,63 +1333,63 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
-    Info: Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
-    Info: Processing started: Thu Feb 29 18:35:45 2024
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Mon Mar 04 00:04:37 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off RISC_V_Processor -c RISC_V_Processor --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file src/sign_extend.v
-    Info (12023): Found entity 1: Sign_Extend File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Sign_Extend.v Line: 1
+    Info (12023): Found entity 1: Sign_Extend File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Sign_Extend.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file src/shift_left_2.v
-    Info (12023): Found entity 1: Shift_Left_2 File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Shift_Left_2.v Line: 1
+    Info (12023): Found entity 1: Shift_Left_2 File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Shift_Left_2.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file src/risc_v_processor.v
-    Info (12023): Found entity 1: RISC_V_Processor File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/RISC_V_Processor.v Line: 1
+    Info (12023): Found entity 1: RISC_V_Processor File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/RISC_V_Processor.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file src/risc_v_multi_cycle.v
-    Info (12023): Found entity 1: RISC_V_Multi_Cycle File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/RISC_V_Multi_Cycle.v Line: 1
+    Info (12023): Found entity 1: RISC_V_Multi_Cycle File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/RISC_V_Multi_Cycle.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file src/register_file.v
-    Info (12023): Found entity 1: Register_File File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Register_File.v Line: 1
+    Info (12023): Found entity 1: Register_File File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Register_File.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file src/register.v
-    Info (12023): Found entity 1: Register File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Register.v Line: 1
+    Info (12023): Found entity 1: Register File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Register.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file src/program_memory.v
-    Info (12023): Found entity 1: Program_Memory File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Program_Memory.v Line: 1
+    Info (12023): Found entity 1: Program_Memory File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Program_Memory.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file src/mux32x1.v
-    Info (12023): Found entity 1: Mux32x1 File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Mux32x1.v Line: 1
+    Info (12023): Found entity 1: Mux32x1 File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Mux32x1.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file src/mux4x1.v
-    Info (12023): Found entity 1: Mux4x1 File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Mux4x1.v Line: 1
+    Info (12023): Found entity 1: Mux4x1 File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Mux4x1.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file src/mux2x1.v
-    Info (12023): Found entity 1: Mux2x1 File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Mux2x1.v Line: 1
+    Info (12023): Found entity 1: Mux2x1 File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Mux2x1.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file src/memory_system.v
-    Info (12023): Found entity 1: Memory_System File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Memory_System.v Line: 1
-Warning (10229): Verilog HDL Expression warning at Instr_Decoder.v(38): truncated literal to match 2 bits File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Instr_Decoder.v Line: 38
-Warning (10229): Verilog HDL Expression warning at Instr_Decoder.v(41): truncated literal to match 2 bits File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Instr_Decoder.v Line: 41
+    Info (12023): Found entity 1: Memory_System File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Memory_System.v Line: 1
+Warning (10229): Verilog HDL Expression warning at Instr_Decoder.v(38): truncated literal to match 2 bits File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Instr_Decoder.v Line: 38
+Warning (10229): Verilog HDL Expression warning at Instr_Decoder.v(41): truncated literal to match 2 bits File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Instr_Decoder.v Line: 41
 Info (12021): Found 1 design units, including 1 entities, in source file src/instr_decoder.v
-    Info (12023): Found entity 1: Instr_Decoder File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Instr_Decoder.v Line: 1
+    Info (12023): Found entity 1: Instr_Decoder File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Instr_Decoder.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file src/decoder.v
-    Info (12023): Found entity 1: Decoder File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Decoder.v Line: 1
+    Info (12023): Found entity 1: Decoder File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Decoder.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file src/data_path.v
-    Info (12023): Found entity 1: Data_Path File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 1
+    Info (12023): Found entity 1: Data_Path File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file src/data_memory.v
-    Info (12023): Found entity 1: Data_Memory File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Memory.v Line: 1
+    Info (12023): Found entity 1: Data_Memory File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Memory.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file src/control_unit.v
-    Info (12023): Found entity 1: Control_Unit File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Control_Unit.v Line: 1
+    Info (12023): Found entity 1: Control_Unit File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Control_Unit.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file src/control_signals.v
-    Info (12023): Found entity 1: Control_Signals File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Control_Signals.v Line: 1
+    Info (12023): Found entity 1: Control_Signals File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Control_Signals.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file src/cont_1s_rco.v
-    Info (12023): Found entity 1: cont_1s_RCO File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/cont_1s_RCO.v Line: 6
+    Info (12023): Found entity 1: cont_1s_RCO File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/cont_1s_RCO.v Line: 6
 Info (12021): Found 1 design units, including 1 entities, in source file src/clock_gen.v
-    Info (12023): Found entity 1: Clock_Gen File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Clock_Gen.v Line: 40
+    Info (12023): Found entity 1: Clock_Gen File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Clock_Gen.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file src/alu_decoder.v
-    Info (12023): Found entity 1: ALU_Decoder File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/ALU_Decoder.v Line: 1
+    Info (12023): Found entity 1: ALU_Decoder File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/ALU_Decoder.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file src/alu.v
-    Info (12023): Found entity 1: ALU File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/ALU.v Line: 1
+    Info (12023): Found entity 1: ALU File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/ALU.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file src/mux3x1.v
-    Info (12023): Found entity 1: Mux3x1 File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Mux3x1.v Line: 1
+    Info (12023): Found entity 1: Mux3x1 File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Mux3x1.v Line: 1
 Info (12127): Elaborating entity "RISC_V_Processor" for the top level hierarchy
-Warning (10034): Output port "LEDR[8]" at RISC_V_Processor.v(7) has no driver File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/RISC_V_Processor.v Line: 7
-Info (12128): Elaborating entity "Clock_Gen" for hierarchy "Clock_Gen:Clock_Gen_inst" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/RISC_V_Processor.v Line: 15
-Info (12128): Elaborating entity "altpll" for hierarchy "Clock_Gen:Clock_Gen_inst|altpll:altpll_component" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Clock_Gen.v Line: 91
-Info (12130): Elaborated megafunction instantiation "Clock_Gen:Clock_Gen_inst|altpll:altpll_component" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Clock_Gen.v Line: 91
-Info (12133): Instantiated megafunction "Clock_Gen:Clock_Gen_inst|altpll:altpll_component" with the following parameter: File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Clock_Gen.v Line: 91
+Warning (10034): Output port "LEDR[8]" at RISC_V_Processor.v(7) has no driver File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/RISC_V_Processor.v Line: 7
+Info (12128): Elaborating entity "Clock_Gen" for hierarchy "Clock_Gen:Clock_Gen_inst" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/RISC_V_Processor.v Line: 15
+Info (12128): Elaborating entity "altpll" for hierarchy "Clock_Gen:Clock_Gen_inst|altpll:altpll_component" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Clock_Gen.v Line: 91
+Info (12130): Elaborated megafunction instantiation "Clock_Gen:Clock_Gen_inst|altpll:altpll_component" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Clock_Gen.v Line: 91
+Info (12133): Instantiated megafunction "Clock_Gen:Clock_Gen_inst|altpll:altpll_component" with the following parameter: File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Clock_Gen.v Line: 91
     Info (12134): Parameter "bandwidth_type" = "AUTO"
     Info (12134): Parameter "clk0_divide_by" = "5000"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
@@ -1468,50 +1445,47 @@ Info (12133): Instantiated megafunction "Clock_Gen:Clock_Gen_inst|altpll:altpll_
     Info (12134): Parameter "port_extclk3" = "PORT_UNUSED"
     Info (12134): Parameter "width_clock" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/clock_gen_altpll.v
-    Info (12023): Found entity 1: Clock_Gen_altpll File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/db/clock_gen_altpll.v Line: 30
-Info (12128): Elaborating entity "Clock_Gen_altpll" for hierarchy "Clock_Gen:Clock_Gen_inst|altpll:altpll_component|Clock_Gen_altpll:auto_generated" File: c:/intelfpga_lite/23.1std/quartus/libraries/megafunctions/altpll.tdf Line: 898
-Info (12128): Elaborating entity "cont_1s_RCO" for hierarchy "cont_1s_RCO:clock" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/RISC_V_Processor.v Line: 21
-Info (12128): Elaborating entity "RISC_V_Multi_Cycle" for hierarchy "RISC_V_Multi_Cycle:RISC_V" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/RISC_V_Processor.v Line: 28
-Info (12128): Elaborating entity "Control_Unit" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Control_Unit:Control" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/RISC_V_Multi_Cycle.v Line: 42
-Info (12128): Elaborating entity "Control_Signals" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Control_Unit:Control|Control_Signals:State_and_Signals" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Control_Unit.v Line: 46
-Info (12128): Elaborating entity "ALU_Decoder" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Control_Unit:Control|ALU_Decoder:Operation" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Control_Unit.v Line: 52
-Warning (10935): Verilog HDL Casex/Casez warning at ALU_Decoder.v(21): casex/casez item expression overlaps with a previous casex/casez item expression File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/ALU_Decoder.v Line: 21
-Warning (10935): Verilog HDL Casex/Casez warning at ALU_Decoder.v(29): casex/casez item expression overlaps with a previous casex/casez item expression File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/ALU_Decoder.v Line: 29
-Info (12128): Elaborating entity "Instr_Decoder" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Control_Unit:Control|Instr_Decoder:Instant_Dec" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Control_Unit.v Line: 57
-Warning (10199): Verilog HDL Case Statement warning at Instr_Decoder.v(25): case item expression never matches the case expression File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Instr_Decoder.v Line: 25
-Warning (10199): Verilog HDL Case Statement warning at Instr_Decoder.v(31): case item expression never matches the case expression File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Instr_Decoder.v Line: 31
-Warning (10199): Verilog HDL Case Statement warning at Instr_Decoder.v(34): case item expression never matches the case expression File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Instr_Decoder.v Line: 34
-Info (12128): Elaborating entity "Data_Path" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/RISC_V_Multi_Cycle.v Line: 67
-Info (12128): Elaborating entity "Register" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:Program_Counter" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 66
-Info (12128): Elaborating entity "Mux2x1" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux2x1:Instr_or_Data" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 73
-Info (12128): Elaborating entity "Memory_System" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 81
-Info (12128): Elaborating entity "Program_Memory" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Program_Memory:ROM" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Memory_System.v Line: 29
-Warning (10850): Verilog HDL warning at Program_Memory.v(15): number of words (23) in memory file does not match the number of elements in the address range [0:63] File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Program_Memory.v Line: 15
-Warning (10030): Net "rom.data_a" at Program_Memory.v(12) has no driver or initial value, using a default initial value '0' File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Program_Memory.v Line: 12
-Warning (10030): Net "rom.waddr_a" at Program_Memory.v(12) has no driver or initial value, using a default initial value '0' File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Program_Memory.v Line: 12
-Warning (10030): Net "rom.we_a" at Program_Memory.v(12) has no driver or initial value, using a default initial value '0' File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Program_Memory.v Line: 12
-Info (12128): Elaborating entity "Data_Memory" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Data_Memory:RAM" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Memory_System.v Line: 37
-Info (12128): Elaborating entity "Register" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:Instruction_Register" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 89
-Info (12128): Elaborating entity "Mux4x1" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux4x1:Rrt_or_Rrd" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 111
-Warning (10230): Verilog HDL assignment warning at Mux4x1.v(22): truncated value with size 32 to match size of target (5) File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Mux4x1.v Line: 22
-Info (12128): Elaborating entity "Mux4x1" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux4x1:Write_Data_Mux" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 120
-Info (12128): Elaborating entity "Register_File" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 132
-Info (12128): Elaborating entity "Decoder" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Decoder:DEC" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Register_File.v Line: 24
-Info (12128): Elaborating entity "Mux32x1" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Mux32x1:Rrs" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Register_File.v Line: 317
-Info (12128): Elaborating entity "Sign_Extend" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Sign_Extend:Sign_Ext" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 162
-Warning (10235): Verilog HDL Always Construct warning at Sign_Extend.v(10): variable "Instr" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Sign_Extend.v Line: 10
-Warning (10235): Verilog HDL Always Construct warning at Sign_Extend.v(11): variable "Instr" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Sign_Extend.v Line: 11
-Warning (10235): Verilog HDL Always Construct warning at Sign_Extend.v(12): variable "Instr" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Sign_Extend.v Line: 12
-Warning (10235): Verilog HDL Always Construct warning at Sign_Extend.v(13): variable "Instr" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Sign_Extend.v Line: 13
-Warning (10235): Verilog HDL Always Construct warning at Sign_Extend.v(14): variable "Instr" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Sign_Extend.v Line: 14
-Info (12128): Elaborating entity "Mux3x1" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux3x1:B_Input" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 184
-Info (12128): Elaborating entity "ALU" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|ALU:ALU" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 191
-Info (12128): Elaborating entity "Shift_Left_2" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Shift_Left_2:Jump_Shift" File: C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 209
-Warning (12241): 4 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+    Info (12023): Found entity 1: Clock_Gen_altpll File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/db/clock_gen_altpll.v Line: 30
+Info (12128): Elaborating entity "Clock_Gen_altpll" for hierarchy "Clock_Gen:Clock_Gen_inst|altpll:altpll_component|Clock_Gen_altpll:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altpll.tdf Line: 898
+Info (12128): Elaborating entity "cont_1s_RCO" for hierarchy "cont_1s_RCO:clock" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/RISC_V_Processor.v Line: 21
+Info (12128): Elaborating entity "RISC_V_Multi_Cycle" for hierarchy "RISC_V_Multi_Cycle:RISC_V" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/RISC_V_Processor.v Line: 28
+Warning (10034): Output port "GPIO_Out" at RISC_V_Multi_Cycle.v(8) has no driver File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/RISC_V_Multi_Cycle.v Line: 8
+Info (12128): Elaborating entity "Control_Unit" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Control_Unit:Control" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/RISC_V_Multi_Cycle.v Line: 48
+Info (12128): Elaborating entity "Control_Signals" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Control_Unit:Control|Control_Signals:State_and_Signals" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Control_Unit.v Line: 46
+Info (12128): Elaborating entity "ALU_Decoder" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Control_Unit:Control|ALU_Decoder:Operation" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Control_Unit.v Line: 55
+Warning (10272): Verilog HDL Case Statement warning at ALU_Decoder.v(24): case item expression covers a value already covered by a previous case item File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/ALU_Decoder.v Line: 24
+Warning (10272): Verilog HDL Case Statement warning at ALU_Decoder.v(26): case item expression covers a value already covered by a previous case item File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/ALU_Decoder.v Line: 26
+Info (12128): Elaborating entity "Instr_Decoder" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Control_Unit:Control|Instr_Decoder:Instant_Dec" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Control_Unit.v Line: 60
+Info (12128): Elaborating entity "Data_Path" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/RISC_V_Multi_Cycle.v Line: 81
+Warning (10034): Output port "GPIO_o" at Data_Path.v(13) has no driver File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 13
+Info (12128): Elaborating entity "Register" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:Program_Counter" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 64
+Info (12128): Elaborating entity "Mux2x1" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux2x1:Instr_or_Data" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 71
+Info (12128): Elaborating entity "Memory_System" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 79
+Info (12128): Elaborating entity "Program_Memory" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Program_Memory:ROM" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Memory_System.v Line: 29
+Warning (10850): Verilog HDL warning at Program_Memory.v(15): number of words (23) in memory file does not match the number of elements in the address range [0:63] File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Program_Memory.v Line: 15
+Warning (10030): Net "rom.data_a" at Program_Memory.v(12) has no driver or initial value, using a default initial value '0' File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Program_Memory.v Line: 12
+Warning (10030): Net "rom.waddr_a" at Program_Memory.v(12) has no driver or initial value, using a default initial value '0' File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Program_Memory.v Line: 12
+Warning (10030): Net "rom.we_a" at Program_Memory.v(12) has no driver or initial value, using a default initial value '0' File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Program_Memory.v Line: 12
+Info (12128): Elaborating entity "Data_Memory" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Data_Memory:RAM" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Memory_System.v Line: 37
+Info (12128): Elaborating entity "Register" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register:Instruction_Register" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 87
+Info (12128): Elaborating entity "Register_File" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 139
+Info (12128): Elaborating entity "Decoder" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Decoder:DEC" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Register_File.v Line: 24
+Info (12128): Elaborating entity "Mux32x1" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Register_File:Reg_File|Mux32x1:Rrs" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Register_File.v Line: 317
+Info (12128): Elaborating entity "Sign_Extend" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Sign_Extend:Sign_Ext" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 169
+Warning (10235): Verilog HDL Always Construct warning at Sign_Extend.v(10): variable "Instr" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Sign_Extend.v Line: 10
+Warning (10235): Verilog HDL Always Construct warning at Sign_Extend.v(11): variable "Instr" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Sign_Extend.v Line: 11
+Warning (10235): Verilog HDL Always Construct warning at Sign_Extend.v(12): variable "Instr" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Sign_Extend.v Line: 12
+Warning (10235): Verilog HDL Always Construct warning at Sign_Extend.v(13): variable "Instr" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Sign_Extend.v Line: 13
+Warning (10235): Verilog HDL Always Construct warning at Sign_Extend.v(14): variable "Instr" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Sign_Extend.v Line: 14
+Info (12128): Elaborating entity "Mux3x1" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Mux3x1:A_Input" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 184
+Info (12128): Elaborating entity "ALU" for hierarchy "RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|ALU:ALU" File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/Data_Path.v Line: 199
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "RISC_V_Multi_Cycle:RISC_V|Funct3_w[3]" is missing source, defaulting to GND File: C:/Master/disenio_de_microprocesadores/Quartus/Practicas/RISC_V_Processor/src/RISC_V_Multi_Cycle.v Line: 11
+Warning (12241): 8 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 20 warnings
-    Info: Peak virtual memory: 4801 megabytes
-    Info: Processing ended: Thu Feb 29 18:36:02 2024
-    Info: Elapsed time: 00:00:17
-    Info: Total CPU time (on all processors): 00:00:39
+    Info: Peak virtual memory: 4795 megabytes
+    Info: Processing ended: Mon Mar 04 00:04:46 2024
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:13
 
 

@@ -4,51 +4,54 @@ module Control_Unit
 	input 			reset,
 	
 	//CONTROL SIGNALS
-	input		[5:0]	Op,
-	input 	[5:0] Funct,
+	input		[6:0]	Op,
+	input 	[2:0] Funct3,
+	input		[6:0]	Funct7,
 	input				Zero,
 	
-	output  			PC_En,
-	output			I_or_D,
-	output 			Mem_Write,
-	output 			IR_Write,
-	output 	[1:0]	Reg_Dst,
-	output 	[1:0]	Mem_to_Reg,
-	output 			Reg_Write,
-	output 			ALU_Src_A,
-	output 	[1:0]	ALU_Src_B,
-	output 	[2:0]	ALU_Control,
-	output 	[1:0]	PC_Src,
+	output  			PCWrite,
+	output			RegWrite,
+	output 			MemWrite,
+	output 			IRWrite,
+	output	[1:0]	ResultSrc,
+	output 	[1:0]	ALUSrcB,
+	output 	[1:0]	ALUSrcA,
+	output 	[2:0]	ALUControl,
+	output 	[1:0]	ADRSrc,
 	output	[2:0] ImmSrc
 );
 	
-	wire			PC_Write;
+	wire			PCUpdate;
 	wire			Branch;
-	wire	[1:0]	ALU_Op;
+	wire	[1:0]	ALUOp;
 	
-	Control_Signals	State_and_Signals	(
-														.clk			(clk),
-														.reset		(reset),
-														.Op			(Op),
-														.Funct		(Funct),
-														.PC_Write	(PC_Write),
-														.I_or_D		(I_or_D),
-														.Mem_Write	(Mem_Write),
-														.IR_Write	(IR_Write),
-														.Reg_Dst		(Reg_Dst),
-														.Mem_to_Reg	(Mem_to_Reg),
-														.Reg_Write	(Reg_Write),
-														.ALU_Src_A	(ALU_Src_A),
-														.ALU_Src_B	(ALU_Src_B),
-														.ALU_Op		(ALU_Op),
-														.PC_Src		(PC_Src),
-														.Branch		(Branch)
-													);
+	
+Control_Signals State_and_Signals(
+												.clk			(clk),
+												.reset		(reset),
+												.Op			(Op),
+												.Branch		(Branch),	
+												.PC_Update	(PCUpdate),
+	//output			I_or_D,
+												.Reg_Write	(RegWrite),
+												.Mem_Write	(MemWrite),
+												.IR_Write	(IRWrite),
+	//output 	[1:0]	Reg_Dst,
+	//output 	[1:0]	Mem_to_Reg,
+												.Result_Src	(ResultSrc),
+												.ALU_Src_B	(ALUSrcB),
+												.ALU_Src_A	(ALUSrcA),
+												.AdrSrc		(ADRSrc),
+												.ALU_Op		(ALUOp)
+);
+	
+	
 	
 	ALU_Decoder	Operation	(
-										.ALU_Op			(ALU_Op),
-										.Funct			(Funct),
-										.ALU_Control	(ALU_Control)
+										.ALU_Op			(ALUOp),
+										.Funct3			(Funct3),
+										.Funct7			(Funct7),
+										.ALUControl		(ALUControl)
 									);
 									
 	Instr_Decoder Instant_Dec (
@@ -57,6 +60,6 @@ module Control_Unit
 									);
 									
 	
-	assign PC_En = PC_Write | (Branch & Zero);
+	assign PCWrite = PCUpdate | (Branch & Zero);
 	
 endmodule

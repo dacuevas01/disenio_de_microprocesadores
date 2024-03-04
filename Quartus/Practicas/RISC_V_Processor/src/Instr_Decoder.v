@@ -1,5 +1,5 @@
 module Instr_Decoder (
-	input 	[5:0] Op,
+	input 	[6:0] Op,
 	output reg	[2:0] ImmSrc
 );
 

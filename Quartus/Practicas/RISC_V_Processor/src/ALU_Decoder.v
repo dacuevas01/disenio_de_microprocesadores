@@ -1,33 +1,35 @@
 module ALU_Decoder
 (
 	input 		[1:0]	ALU_Op,
-	input 		[5:0]	Funct,
+	input 		[2:0]	Funct3,
+	input			[6:0]	Funct7,
 	
-	output reg	[2:0]	ALU_Control
+	output reg	[2:0]	ALUControl
 );
 
-	localparam	add 	= 8'b00_100000,
-					addi	= 8'b00_xxxxxx,
-					sub	= 8'b01_xxxxxx,
-					lui	= 8'b10_xxxxxx,
-					slti	= 8'b11_xxxxxx,
-					mult	= 8'b11_011000;
+	localparam	lwsw 		= 12'b00_xxx_xxxxxxx,
+					beq		= 12'b01_xxx_xxxxxxx,
+					add		= 12'b01_000_0000000,
+					sub		= 12'b01_000_0100000,
+					opor		= 12'b11_110_0000000,
+					opand		= 12'b11_111_0000000;
 	
 	
-	always@({ALU_Op,Funct}) begin
-		casex({ALU_Op,Funct})
-			add	:	ALU_Control = 3'b000;
-
-			addi	:	ALU_Control = 3'b000;
+	always@({ALU_Op,Funct3,Funct7}) begin
+		casex({ALU_Op,Funct3,Funct7})
+			lwsw  	:	ALUControl = 3'b000;
 			
-			sub	:	ALU_Control = 3'b001;
+			beq		:	ALUControl = 3'b001;
 			
-			lui	:	ALU_Control = 3'b110;
+			add		:	ALUControl = 3'b000;
+	
+			sub		:	ALUControl = 3'b001;
 			
-			mult	:	ALU_Control = 3'b010;
+			opor		:	ALUControl = 3'b100;
 			
-			slti 	: 	ALU_Control = 3'b111;
-
+			opand		: 	ALUControl = 3'b011;
+			
+			default	:	ALUControl = 3'b000;
 		endcase
 	end
 endmodule
