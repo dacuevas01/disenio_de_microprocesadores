@@ -1,0 +1,1 @@
+Info (10281): Verilog HDL Declaration information at UART_Register_Decode.v(4): object "UART_TX_Reg_In" differs only in case from object "UART_Tx_Reg_In" in the same scope File: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Register_Decode.v Line: 4

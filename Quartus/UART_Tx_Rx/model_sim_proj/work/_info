@@ -1,0 +1,562 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vBit_Rate_Pulse
+Z0 !s110 1711057978
+!i10b 1
+!s100 T96YkDYP4k9PbML=GmChO1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IDYAM1A:N[]h3BWL708ab]0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/model_sim_proj
+w1667174214
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Bit_Rate_Pulse.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Bit_Rate_Pulse.v
+!i122 223
+L0 7 30
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1711057978.000000
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Bit_Rate_Pulse.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Bit_Rate_Pulse.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@bit_@rate_@pulse
+vBit_Rate_Pulse_Tx
+R0
+!i10b 1
+!s100 iMo_ng45kaLjG31aZT<Y90
+R1
+INHHB][T7_D`FN[0c;;Zo[0
+R2
+R3
+w1667180351
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Bit_Rate_Pulse_Tx.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Bit_Rate_Pulse_Tx.v
+!i122 224
+L0 3 32
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Bit_Rate_Pulse_Tx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Bit_Rate_Pulse_Tx.v|
+!i113 1
+R6
+R7
+n@bit_@rate_@pulse_@tx
+vCounter_Param
+R0
+!i10b 1
+!s100 UT59g6Z79ezzVn[234Pm_0
+R1
+ISDK2K5NDIl6G?cGV?nb0W1
+R2
+R3
+w1710967196
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Counter_Param.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Counter_Param.v
+!i122 225
+L0 7 18
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Counter_Param.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Counter_Param.v|
+!i113 1
+R6
+R7
+n@counter_@param
+vCounter_Param_Tx
+Z8 !s110 1711057979
+!i10b 1
+!s100 YN=:jbmLQkz:g<WKkO`?U0
+R1
+IEW5B0zYhakaQ?dD8h:fHW1
+R2
+R3
+w1667174675
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Counter_Param_Tx.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Counter_Param_Tx.v
+!i122 226
+L0 6 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Counter_Param_Tx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Counter_Param_Tx.v|
+!i113 1
+R6
+R7
+n@counter_@param_@tx
+vdecoder_bin_hex_7seg
+R8
+!i10b 1
+!s100 ;G]h1cahdC^UcfQnHgXW[0
+R1
+IBWA24_JWZGf3c>1<HE=8S1
+R2
+R3
+w1667175443
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/DecoderBinDec7seg.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/DecoderBinDec7seg.v
+!i122 227
+L0 1 23
+R4
+r1
+!s85 0
+31
+Z9 !s108 1711057979.000000
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/DecoderBinDec7seg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/DecoderBinDec7seg.v|
+!i113 1
+R6
+R7
+vFF_D_enable
+R8
+!i10b 1
+!s100 _Fm[o]<EJ@JIL?n2WWD5?0
+R1
+IQC:bDaDbJC0=OAH0CzY?D1
+R2
+R3
+Z10 w1710966347
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/FF_D_enable.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/FF_D_enable.v
+!i122 228
+L0 6 18
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/FF_D_enable.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/FF_D_enable.v|
+!i113 1
+R6
+R7
+n@f@f_@d_enable
+vFSM_UART_Rx
+R8
+!i10b 1
+!s100 zJ@2QBKFe15:Xd;4FJ1:D3
+R1
+IacAf25PPKN9Fnzg]JV`5A2
+R2
+R3
+w1710998061
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/FSM_UART_Rx.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/FSM_UART_Rx.v
+!i122 229
+L0 7 134
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/FSM_UART_Rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/FSM_UART_Rx.v|
+!i113 1
+R6
+R7
+n@f@s@m_@u@a@r@t_@rx
+vHeard_Bit
+R8
+!i10b 1
+!s100 U80PhAQ?X4_?82V>SOg451
+R1
+Im:4gCKN@BfnnNSA:YPz`P2
+R2
+R3
+w1710966346
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Heard_Bit.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Heard_Bit.v
+!i122 230
+L0 8 50
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Heard_Bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Heard_Bit.v|
+!i113 1
+R6
+R7
+n@heard_@bit
+vReg_Param
+R8
+!i10b 1
+!s100 oTE6=ci6<WUgG>@Y<O?Sc0
+R1
+IdLJKG<9F`3;J:o56f=`[n0
+R2
+R3
+R10
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Reg_Param.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Reg_Param.v
+!i122 231
+L0 5 18
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Reg_Param.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Reg_Param.v|
+!i113 1
+R6
+R7
+n@reg_@param
+vRx_Register_Decoder
+Z11 !s110 1711057980
+!i10b 1
+!s100 T[5dW`n^Ic@6bHGG90a4_2
+R1
+IQBF=3RT2zWcCMoUXR:Mo>1
+R2
+R3
+w1711052018
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Rx_Register_Decoder.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Rx_Register_Decoder.v
+!i122 243
+Z12 L0 1 27
+R4
+r1
+!s85 0
+31
+Z13 !s108 1711057980.000000
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Rx_Register_Decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Rx_Register_Decoder.v|
+!i113 1
+R6
+R7
+n@rx_@register_@decoder
+vSerializer
+R8
+!i10b 1
+!s100 Ob13L4CzA@[BLW6U0fF:S3
+R1
+IbOZ6_59Wc4abd^D2`T;zD2
+R2
+R3
+w1667174713
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Serializer.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Serializer.v
+!i122 232
+L0 2 32
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Serializer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Serializer.v|
+!i113 1
+R6
+R7
+n@serializer
+vShift_Register_R_Param
+R8
+!i10b 1
+!s100 5T7TzLS8j>@>R]`H]FZGX1
+R1
+I7UQoE391^:IG`AYH6O=]O2
+R2
+R3
+w1710966348
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Shift_Register_R_Param.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Shift_Register_R_Param.v
+!i122 233
+L0 7 17
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Shift_Register_R_Param.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Shift_Register_R_Param.v|
+!i113 1
+R6
+R7
+n@shift_@register_@r_@param
+vTx_Register_Decoder
+!s110 1711058827
+!i10b 1
+!s100 HoRa@2DnC=<EF9ebk<3U80
+R1
+I4TID=@7]FBM?]H?R_o2o53
+R2
+R3
+w1711058823
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Tx_Register_Decoder.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Tx_Register_Decoder.v
+!i122 246
+R12
+R4
+r1
+!s85 0
+31
+!s108 1711058827.000000
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Tx_Register_Decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Tx_Register_Decoder.v|
+!i113 1
+R6
+R7
+n@tx_@register_@decoder
+vTx_Register_Encoder
+R11
+!i10b 1
+!s100 m5^DE]YWZW4C9Hl:cMe@A3
+R1
+ICnlmiDSg2;ISDmVG?0BUU1
+R2
+R3
+w1711003365
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Tx_Register_Encoder.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Tx_Register_Encoder.v
+!i122 244
+L0 1 21
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Tx_Register_Encoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Tx_Register_Encoder.v|
+!i113 1
+R6
+R7
+n@tx_@register_@encoder
+vUART_Full_Duplex
+R8
+!i10b 1
+!s100 n;<[hX4^bKRBL4S1iJ1Ya1
+R1
+I=EL6RGJUCAoin67lm1mIk0
+R2
+R3
+w1711056670
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Full_Duplex.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Full_Duplex.v
+!i122 234
+L0 1 54
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Full_Duplex.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Full_Duplex.v|
+!i113 1
+R6
+R7
+n@u@a@r@t_@full_@duplex
+vUART_Register_Decode
+R11
+!i10b 1
+!s100 YSY`L;f7ZV;D_lT3H:ZU53
+R1
+IB2ZWQ75Ek`zZnS1Sa`Yb_0
+R2
+R3
+w1711057865
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Register_Decode.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Register_Decode.v
+!i122 235
+L0 1 110
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Register_Decode.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Register_Decode.v|
+!i113 1
+R6
+R7
+n@u@a@r@t_@register_@decode
+vUART_Rx
+R11
+!i10b 1
+!s100 DPiTC5XVK68B5>iEkcH9e3
+R1
+I49JVkF[:jZakHlN=76m8]3
+R2
+R3
+w1710966344
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Rx.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Rx.v
+!i122 236
+L0 2 101
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Rx.v|
+!i113 1
+R6
+R7
+n@u@a@r@t_@rx
+vUART_Rx_TB
+R11
+!i10b 1
+!s100 Pjf=TGSgK]71CK]^P9fgO3
+R1
+ID8HjU_a:7AEmLK]Ffn@8C1
+R2
+R3
+w1667174366
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Rx_TB.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Rx_TB.v
+!i122 237
+L0 5 28
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Rx_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Rx_TB.v|
+!i113 1
+R6
+R7
+n@u@a@r@t_@rx_@t@b
+vUART_Tx
+R11
+!i10b 1
+!s100 jDeb0i^eZ>U6B5ZAkk<4n1
+R1
+I:lY:hUJIlibdlXzUWg>dI3
+R2
+R3
+w1711056484
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx.v
+!i122 238
+L0 1 78
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx.v|
+!i113 1
+R6
+R7
+n@u@a@r@t_@tx
+vUart_Tx_Fsm
+R11
+!i10b 1
+!s100 INNlFSk^2hV?LUbPf<[eU1
+R1
+IZhz98mF>iG10=];I`e<U=1
+R2
+R3
+w1711056485
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Uart_Tx_Fsm.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Uart_Tx_Fsm.v
+!i122 239
+L0 2 89
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Uart_Tx_Fsm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Uart_Tx_Fsm.v|
+!i113 1
+R6
+R7
+n@uart_@tx_@fsm
+vUART_Tx_Rx
+R11
+!i10b 1
+!s100 LGMR>Dl9@P_UbFDLl@hSd0
+R1
+IfCmn0cCN[5Y57WcWGCoEm2
+R2
+R3
+w1711056610
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx_Rx.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx_Rx.v
+!i122 240
+L0 1 65
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx_Rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx_Rx.v|
+!i113 1
+R6
+R7
+n@u@a@r@t_@tx_@rx
+vUART_Tx_Rx_TB
+R11
+!i10b 1
+!s100 k1_D`PAAhHL?PDS2neQbc3
+R1
+IKi_VHP@Y2me54HN]D1@Q:2
+R2
+R3
+w1711054587
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx_Rx_TB.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx_Rx_TB.v
+!i122 241
+L0 2 61
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx_Rx_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx_Rx_TB.v|
+!i113 1
+R6
+R7
+n@u@a@r@t_@tx_@rx_@t@b
+vUART_Tx_tb
+R11
+!i10b 1
+!s100 >A7h=C2FLH@9T39Rg]KM>2
+R1
+IFl];=Y>iS7ez0oIgIGdE51
+R2
+R3
+w1666934055
+8C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx_tb.v
+FC:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx_tb.v
+!i122 242
+L0 2 26
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx_tb.v|
+!i113 1
+R6
+R7
+n@u@a@r@t_@tx_tb

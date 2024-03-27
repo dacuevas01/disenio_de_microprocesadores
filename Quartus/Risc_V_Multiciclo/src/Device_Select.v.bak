@@ -1,0 +1,46 @@
+module Device_Select #(
+	parameter 	DATA_WIDTH = 32
+)
+
+(
+	input		[(DATA_WIDTH-1):0]	Address_i,
+	output	[2:0]						Device_sel
+);
+
+localparam	DEVICE_UART_TX		= 3'b001,
+				DEVICE_UART_RX		= 3'b010,
+				DEVICE_GPIO_O		= 3'b011,
+				DECICE_GPIO_I		= 3'b100;
+
+localparam	
+				ADDRESS_GPIO_O		= 32'h10010024,
+				ADDRESS_GPIO_I		= 32'h10010028,
+				ADDRESS_UART_TX 	= 32'h1001002c,
+				ADDRESS_UART_RX	= 32'h10010030,
+				ADDRESS_ROM		 	= 32'h04000000,
+				ADDRESS_RAM			= 32'h10010000;
+				
+reg [2:0]	Device_sel_o;
+				
+always @(Address_i) begin
+	case(Address_i)
+		ADDRESS_UART_TX:	begin
+									Device_sel_o = DEVICE_UART_TX;
+								end
+		ADDRESS_UART_RX:	begin
+									Device_sel_o = DEVICE_UART_RX;
+								end
+		ADDRESS_GPIO_O:	begin
+									Device_sel_o = DEVICE_GPIO_O;
+								end
+		ADDRESS_GPIO_I:	begin
+									Device_sel_o = DECICE_GPIO_I;
+								end
+		default: Device_sel_o = 3'b000;
+	
+	endcase
+end
+
+assign Device_sel = Device_sel_o;
+
+endmodule

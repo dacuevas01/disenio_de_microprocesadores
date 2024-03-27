@@ -1,0 +1,24 @@
+.data
+TX: .word 0
+RX: .word 0
+TX_i: .word 0
+
+.text
+
+la s9,RX
+la s10,TX
+la s11,TX_i
+
+addi a0,zero,0x1
+addi a1,zero,0x0
+addi t0,zero,0x2bf
+
+loop_UART_Rx:
+	sw t0, 48(s9)
+	lw t0, 48(s9)
+	srli t0, t0, 9
+	beq t0,a0,exit_loop
+	jal ra, loop_UART_Rx
+
+ exit_loop:
+ nop 

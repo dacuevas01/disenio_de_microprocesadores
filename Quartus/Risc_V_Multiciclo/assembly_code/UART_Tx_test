@@ -1,0 +1,21 @@
+.data
+TX: .word 0
+RX: .word 0
+TX_i: .word 0
+
+.text
+la s10,TX
+la s11,RX
+la s9, TX_i
+
+addi s0,zero,0x30e
+addi s1,zero,0x100
+
+sw s0, 44(s10)
+Tx_Loop:
+	lw s2, 32(s9)
+	andi t0,s2,0x100
+	beq s1,t0,exit_Tx_Loop
+	jal Tx_Loop
+exit_Tx_Loop:
+	nop

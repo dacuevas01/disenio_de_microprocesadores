@@ -1,0 +1,100 @@
+vsim work.UART_Tx_Rx_TB
+# vsim work.UART_Tx_Rx_TB 
+# Start time: 15:57:07 on Mar 21,2024
+# Loading work.UART_Tx_Rx_TB
+# Loading work.UART_Tx_Rx
+# Loading work.UART_Full_Duplex
+# Loading work.UART_Rx
+# Loading work.Shift_Register_R_Param
+# Loading work.Reg_Param
+# Loading work.FF_D_enable
+# Loading work.Bit_Rate_Pulse
+# Loading work.FSM_UART_Rx
+# Loading work.Counter_Param
+# Loading work.Heard_Bit
+# Loading work.UART_Tx
+# Loading work.Counter_Param_Tx
+# Loading work.Bit_Rate_Pulse_Tx
+# Loading work.Uart_Tx_Fsm
+# Loading work.Serializer
+# Loading work.UART_Register_Decode
+# Loading work.Rx_Register_Decoder
+# Loading work.Tx_Register_Encoder
+# Loading work.Tx_Register_Decoder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Serializer.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_Tx_Rx_TB/UUT/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx.v Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Reg_UART_Rx'. The port definition is at: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Rx_Register_Decoder.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_Tx_Rx_TB/UUT/UART_Reg/Rx_Decoder File: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Register_Decode.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'D'. The port definition is at: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Reg_Param.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_Tx_Rx_TB/UUT/UART_Reg/Rx_Decoder/UART_RX_Register File: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Rx_Register_Decoder.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Reg_UART_Tx'. The port definition is at: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Tx_Register_Decoder.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_Tx_Rx_TB/UUT/UART_Reg/Tx_Decoder File: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Register_Decode.v Line: 69
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'D'. The port definition is at: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Reg_Param.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_Tx_Rx_TB/UUT/UART_Reg/Tx_Decoder/UART_RX_Register File: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Tx_Register_Decoder.v Line: 16
+add wave -position insertpoint sim:/UART_Tx_Rx_TB/UUT/UART/UART_Tx_i/Uart_Tx_Fsm_i/clk
+add wave -position insertpoint sim:/UART_Tx_Rx_TB/UUT/UART/UART_Tx_i/Uart_Tx_Fsm_i/start
+add wave -position insertpoint sim:/UART_Tx_Rx_TB/UUT/UART/UART_Tx_i/Uart_Tx_Fsm_i/State
+add wave -position insertpoint /UART_Tx_Rx_TB/UUT/UART_Reg/Reg_Data_UART_Tx_w
+add wave -position insertpoint sim:/UART_Tx_Rx_TB/UUT/UART_Reg/UART_Tx_Reg_W
+add wave -position insertpoint sim:/UART_Tx_Rx_TB/UUT/UART_Reg/tx_send
+add wave -position insertpoint sim:/UART_Tx_Rx_TB/tx
+run
+run
+add wave -position insertpoint sim:/UART_Tx_Rx_TB/UUT/UART_Reg/Tx_Decoder/rst
+add wave -position insertpoint sim:/UART_Tx_Rx_TB/UUT/UART_Reg/Tx_Decoder/reg_enable
+add wave -position insertpoint sim:/UART_Tx_Rx_TB/UUT/UART_Reg/Tx_Decoder/UART_Tx_Reg_w
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Serializer.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_Tx_Rx_TB/UUT/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx.v Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Reg_UART_Rx'. The port definition is at: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Rx_Register_Decoder.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_Tx_Rx_TB/UUT/UART_Reg/Rx_Decoder File: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Register_Decode.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'D'. The port definition is at: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Reg_Param.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_Tx_Rx_TB/UUT/UART_Reg/Rx_Decoder/UART_RX_Register File: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Rx_Register_Decoder.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Reg_UART_Tx'. The port definition is at: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Tx_Register_Decoder.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_Tx_Rx_TB/UUT/UART_Reg/Tx_Decoder File: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Register_Decode.v Line: 69
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'D'. The port definition is at: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Reg_Param.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_Tx_Rx_TB/UUT/UART_Reg/Tx_Decoder/UART_RX_Register File: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Tx_Register_Decoder.v Line: 16
+run
+run
+add wave -position insertpoint sim:/UART_Tx_Rx_TB/UUT/UART_Reg/tx_send
+# Compile of Tx_Register_Decoder.v was successful.
+vsim work.UART_Tx_Rx_TB
+# End time: 16:07:15 on Mar 21,2024, Elapsed time: 0:10:08
+# Errors: 0, Warnings: 7
+# vsim work.UART_Tx_Rx_TB 
+# Start time: 16:07:15 on Mar 21,2024
+# Loading work.UART_Tx_Rx_TB
+# Loading work.UART_Tx_Rx
+# Loading work.UART_Full_Duplex
+# Loading work.UART_Rx
+# Loading work.Shift_Register_R_Param
+# Loading work.Reg_Param
+# Loading work.FF_D_enable
+# Loading work.Bit_Rate_Pulse
+# Loading work.FSM_UART_Rx
+# Loading work.Counter_Param
+# Loading work.Heard_Bit
+# Loading work.UART_Tx
+# Loading work.Counter_Param_Tx
+# Loading work.Bit_Rate_Pulse_Tx
+# Loading work.Uart_Tx_Fsm
+# Loading work.Serializer
+# Loading work.UART_Register_Decode
+# Loading work.Rx_Register_Decoder
+# Loading work.Tx_Register_Encoder
+# Loading work.Tx_Register_Decoder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Serializer.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_Tx_Rx_TB/UUT/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx.v Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Reg_UART_Rx'. The port definition is at: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Rx_Register_Decoder.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_Tx_Rx_TB/UUT/UART_Reg/Rx_Decoder File: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Register_Decode.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'D'. The port definition is at: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Reg_Param.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_Tx_Rx_TB/UUT/UART_Reg/Rx_Decoder/UART_RX_Register File: C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Rx_Register_Decoder.v Line: 16
+add wave -position insertpoint sim:/UART_Tx_Rx_TB/UUT/UART_Reg/clk
+add wave -position insertpoint sim:/UART_Tx_Rx_TB/UUT/UART_Reg/tx_send
+add wave -position insertpoint sim:/UART_Tx_Rx_TB/UUT/UART_Reg/Reg_Data_UART_Tx_w
+add wave -position insertpoint sim:/UART_Tx_Rx_TB/UUT/UART_Reg/UART_Tx_Reg_W
+run
+run
+# End time: 16:16:44 on Mar 23,2024, Elapsed time: 48:09:29
+# Errors: 0, Warnings: 4

@@ -1,0 +1,162 @@
+C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/DecoderBinDec7seg.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/DecoderBinDec7seg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decoder_bin_hex_7seg
+
+Top level modules:
+	decoder_bin_hex_7seg
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/FSM_UART_Rx.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/FSM_UART_Rx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FSM_UART_Rx
+
+Top level modules:
+	FSM_UART_Rx
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Rx_TB.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Rx_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UART_Rx_TB
+
+Top level modules:
+	UART_Rx_TB
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Bit_Rate_Pulse.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Bit_Rate_Pulse.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Bit_Rate_Pulse
+
+Top level modules:
+	Bit_Rate_Pulse
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Serializer.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Serializer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Serializer
+
+Top level modules:
+	Serializer
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Register_Decode.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Register_Decode.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UART_Register_Decode
+
+Top level modules:
+	UART_Register_Decode
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Shift_Register_R_Param.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Shift_Register_R_Param.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Shift_Register_R_Param
+
+Top level modules:
+	Shift_Register_R_Param
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Uart_Tx_Fsm.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Uart_Tx_Fsm.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Uart_Tx_Fsm
+
+Top level modules:
+	Uart_Tx_Fsm
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx_tb.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UART_Tx_tb
+
+Top level modules:
+	UART_Tx_tb
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx_Rx_TB.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx_Rx_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UART_Tx_Rx_TB
+
+Top level modules:
+	UART_Tx_Rx_TB
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Bit_Rate_Pulse_Tx.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Bit_Rate_Pulse_Tx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Bit_Rate_Pulse_Tx
+
+Top level modules:
+	Bit_Rate_Pulse_Tx
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/FF_D_enable.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/FF_D_enable.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FF_D_enable
+
+Top level modules:
+	FF_D_enable
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Full_Duplex.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Full_Duplex.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UART_Full_Duplex
+
+Top level modules:
+	UART_Full_Duplex
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Counter_Param.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Counter_Param.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter_Param
+
+Top level modules:
+	Counter_Param
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx_Rx.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx_Rx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UART_Tx_Rx
+
+Top level modules:
+	UART_Tx_Rx
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Heard_Bit.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Heard_Bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Heard_Bit
+
+Top level modules:
+	Heard_Bit
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Counter_Param_Tx.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Counter_Param_Tx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter_Param_Tx
+
+Top level modules:
+	Counter_Param_Tx
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Rx_Register_Decoder.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Rx_Register_Decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Rx_Register_Decoder
+
+Top level modules:
+	Rx_Register_Decoder
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Tx_Register_Decoder.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Tx_Register_Decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Tx_Register_Decoder
+
+Top level modules:
+	Tx_Register_Decoder
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Rx.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Rx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UART_Rx
+
+Top level modules:
+	UART_Rx
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Reg_Param.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Reg_Param.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Reg_Param
+
+Top level modules:
+	Reg_Param
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Tx_Register_Encoder.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/Tx_Register_Encoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Tx_Register_Encoder
+
+Top level modules:
+	Tx_Register_Encoder
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/UART_Tx_Rx/src/UART_Tx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UART_Tx
+
+Top level modules:
+	UART_Tx
+
+} {} {}}

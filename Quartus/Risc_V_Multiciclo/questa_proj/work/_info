@@ -1,0 +1,538 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vALU
+Z0 !s110 1710570045
+!i10b 1
+!s100 cePb<OD1YzN3C?^@RfXCg2
+IIOSaLHf[?zVHLEWdkzT5n1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/questa_proj
+Z3 w1709050826
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/ALU.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/ALU.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1710570045.000000
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/ALU.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@a@l@u
+vALU_Decoder
+R0
+!i10b 1
+!s100 X3AYHINGim[TN4K3EUS;m3
+I>c?>__b7fj2;FYC1z=E?d3
+R1
+R2
+w1709654560
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/ALU_Decoder.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/ALU_Decoder.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/ALU_Decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/ALU_Decoder.v|
+!i113 1
+R6
+R7
+n@a@l@u_@decoder
+vClock_Gen
+Z8 !s110 1710570046
+!i10b 1
+!s100 N:2mGKU7ZF`c0Z5nIIdc20
+I?4`OoA:ba49kcGbGINAhR3
+R1
+R2
+R3
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Clock_Gen_bb.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Clock_Gen_bb.v
+L0 35
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Clock_Gen_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Clock_Gen_bb.v|
+!i113 1
+R6
+R7
+n@clock_@gen
+vcont_1s_RCO
+R8
+!i10b 1
+!s100 H[ePo^MF346ogZ65W=hJ52
+I[aCd4TAiX4@>J7Pn3B<na1
+R1
+R2
+R3
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/cont_1s_RCO.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/cont_1s_RCO.v
+L0 6
+R4
+r1
+!s85 0
+31
+Z9 !s108 1710570046.000000
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/cont_1s_RCO.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/cont_1s_RCO.v|
+!i113 1
+R6
+R7
+ncont_1s_@r@c@o
+vControl_Signals
+R8
+!i10b 1
+!s100 ARGS=V7S@RL4DbRS[JWLO2
+I3iRP^@WU7S<<AfN[1h67M0
+R1
+R2
+w1710480937
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Control_Signals.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Control_Signals.v
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Control_Signals.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Control_Signals.v|
+!i113 1
+R6
+R7
+n@control_@signals
+vControl_Unit
+Z10 !s110 1710570047
+!i10b 1
+!s100 4T`:U]ob4`UBU9YYcZ2f33
+IQOfQUL3<DTZ<McJF5?AoM1
+R1
+R2
+w1709654955
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Control_Unit.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Control_Unit.v
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Control_Unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Control_Unit.v|
+!i113 1
+R6
+R7
+n@control_@unit
+vData_Memory
+R10
+!i10b 1
+!s100 UMeNcgHjbAhjU6NY2JkAi3
+IHgLjKlz;c4lZ?[g8P07GE2
+R1
+R2
+R3
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Data_Memory.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Data_Memory.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z11 !s108 1710570047.000000
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Data_Memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Data_Memory.v|
+!i113 1
+R6
+R7
+n@data_@memory
+vData_Path
+R10
+!i10b 1
+!s100 6SXLM>]:_?3bdd47IX@?P2
+I2:Eo?ekc0mKo]nW70a`o51
+R1
+R2
+w1710567808
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Data_Path.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Data_Path.v
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Data_Path.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Data_Path.v|
+!i113 1
+R6
+R7
+n@data_@path
+vDecoder
+R10
+!i10b 1
+!s100 4CON7NUTO]d76S4C^focK3
+I;>@GGS<mFJRX[>j<JAX112
+R1
+R2
+R3
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Decoder.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Decoder.v
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Decoder.v|
+!i113 1
+R6
+R7
+n@decoder
+vDevice_Select
+Z12 !s110 1710570048
+!i10b 1
+!s100 BZPShiXZGGdg60?RWo85o2
+I6UYVUQbMGHP``RXQEJKJV0
+R1
+R2
+w1710568110
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Device_Select.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Device_Select.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z13 !s108 1710570048.000000
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Device_Select.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Device_Select.v|
+!i113 1
+R6
+R7
+n@device_@select
+vExtend
+R12
+!i10b 1
+!s100 S7@hDOLEC3?SOLiE]LSam0
+I@LQSP6MU]mlkB3mE8bmZM2
+R1
+R2
+w1710566967
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Extend.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Extend.v
+L0 1
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Extend.v|
+!i113 1
+R6
+R7
+n@extend
+vInstr_Decoder
+R12
+!i10b 1
+!s100 6k4GU@IkL5`:YV[j4]N8B3
+I@Ao3Xm7?3VE9F]Ok46W=<0
+R1
+R2
+w1710567955
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Instr_Decoder.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Instr_Decoder.v
+L0 1
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Instr_Decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Instr_Decoder.v|
+!i113 1
+R6
+R7
+n@instr_@decoder
+vMemory_System
+R12
+!i10b 1
+!s100 g><A6G[hBM_QzLbkT80_<0
+IGne;bmO2Y:>Dl3hN`OfD21
+R1
+R2
+w1710567809
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Memory_System.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Memory_System.v
+L0 1
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Memory_System.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Memory_System.v|
+!i113 1
+R6
+R7
+n@memory_@system
+vMux2x1
+Z14 !s110 1710570049
+!i10b 1
+!s100 zbb@CTXmVF77:?BLORMCH0
+IgM1MJ:4Xe6KGd?Bm?abDL1
+R1
+R2
+R3
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux2x1.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux2x1.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z15 !s108 1710570049.000000
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux2x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux2x1.v|
+!i113 1
+R6
+R7
+n@mux2x1
+vMux32x1
+Z16 !s110 1710570050
+!i10b 1
+!s100 <H`39H:ChM2acWFbTi8jM1
+IND12o`gH5QXFc_QPeDYkS0
+R1
+R2
+R3
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux32x1.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux32x1.v
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux32x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux32x1.v|
+!i113 1
+R6
+R7
+n@mux32x1
+vMux3x1
+R14
+!i10b 1
+!s100 <=V:oQNNiBZ=dkK;id[W]0
+IDG`k@z@PYaBOZ^SUeMi>50
+R1
+R2
+Z17 w1709253441
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux3x1.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux3x1.v
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux3x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux3x1.v|
+!i113 1
+R6
+R7
+n@mux3x1
+vMux4x1
+R14
+!i10b 1
+!s100 KA:FO7SI19>i@;jZ@k;=[2
+I;K0595X[a3LfBnHVGNTVf1
+R1
+R2
+R17
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux4x1.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux4x1.v
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux4x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux4x1.v|
+!i113 1
+R6
+R7
+n@mux4x1
+vProgram_Memory
+R16
+!i10b 1
+!s100 ?YW42z1IO^=2;=U4=I7Kd0
+I3WcR:@e_4LzHmdn>JSm7G0
+R1
+R2
+w1709654956
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Program_Memory.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Program_Memory.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z18 !s108 1710570050.000000
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Program_Memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Program_Memory.v|
+!i113 1
+R6
+R7
+n@program_@memory
+vRegister
+R16
+!i10b 1
+!s100 n;omd8?M51Bk<fzc8=<KK0
+IKKcFPo>bk=2k=maM1<=bH2
+R1
+R2
+R3
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Register.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Register.v
+L0 1
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Register.v|
+!i113 1
+R6
+R7
+n@register
+vRegister_File
+R16
+!i10b 1
+!s100 HcKQ;7Q<2<czGKhzIz5431
+I`l1:VW8^Hf<]ZGKPJ=MNL1
+R1
+R2
+w1709251807
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Register_File.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Register_File.v
+L0 1
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Register_File.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Register_File.v|
+!i113 1
+R6
+R7
+n@register_@file
+vRISC_V_Multi_Cycle
+R16
+!i10b 1
+!s100 L[hC;NfE5JGZAE0TBoDg]3
+I2gF[kF<lWbUU]OYRH^OU20
+R1
+R2
+w1710568048
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v
+L0 1
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v|
+!i113 1
+R6
+R7
+n@r@i@s@c_@v_@multi_@cycle
+vRISC_V_Processor
+Z19 !s110 1710570051
+!i10b 1
+!s100 UnZ6B^;UTX`T^V_3Gl[km3
+ID8ZiA6emT;6[c;ohNOQ0T0
+R1
+R2
+w1709251957
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/RISC_V_Processor.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/RISC_V_Processor.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z20 !s108 1710570051.000000
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/RISC_V_Processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/RISC_V_Processor.v|
+!i113 1
+R6
+R7
+n@r@i@s@c_@v_@processor
+vShift_Left_2
+R19
+!i10b 1
+!s100 hoA9KmVO;5UCoRTJd7CC:1
+I@JOjcbX6_<5lXl@4hBQAf3
+R1
+R2
+R3
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Shift_Left_2.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Shift_Left_2.v
+L0 1
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Shift_Left_2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Shift_Left_2.v|
+!i113 1
+R6
+R7
+n@shift_@left_2
+vSign_Extend
+R19
+!i10b 1
+!s100 YHO:D[7R[UNm6gW`^cJZP3
+IdS1V>fi;XEz?bGF6KGhQk3
+R1
+R2
+w1709251805
+8C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Sign_Extend.v
+FC:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Sign_Extend.v
+L0 1
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Sign_Extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Sign_Extend.v|
+!i113 1
+R6
+R7
+n@sign_@extend

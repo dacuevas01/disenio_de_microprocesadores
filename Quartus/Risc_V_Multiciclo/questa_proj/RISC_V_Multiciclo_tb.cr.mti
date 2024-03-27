@@ -1,0 +1,176 @@
+{C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Control_Signals.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Control_Signals.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Control_Signals
+
+Top level modules:
+	Control_Signals
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/ALU.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Data_Memory.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Data_Memory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Data_Memory
+
+Top level modules:
+	Data_Memory
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Register_File.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Register_File.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Register_File
+
+Top level modules:
+	Register_File
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Register.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Register.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux2x1.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux2x1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Mux2x1
+
+Top level modules:
+	Mux2x1
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Instr_Decoder.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Instr_Decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Instr_Decoder
+
+Top level modules:
+	Instr_Decoder
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux3x1.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux3x1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Mux3x1
+
+Top level modules:
+	Mux3x1
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Data_Path.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Data_Path.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Data_Path
+
+Top level modules:
+	Data_Path
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Device_Select.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Device_Select.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Device_Select
+
+Top level modules:
+	Device_Select
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RISC_V_Multi_Cycle
+
+Top level modules:
+	RISC_V_Multi_Cycle
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux4x1.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux4x1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Mux4x1
+
+Top level modules:
+	Mux4x1
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/ALU_Decoder.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/ALU_Decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU_Decoder
+
+Top level modules:
+	ALU_Decoder
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Extend.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Extend.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Extend
+
+Top level modules:
+	Extend
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux32x1.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Mux32x1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Mux32x1
+
+Top level modules:
+	Mux32x1
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Program_Memory.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Program_Memory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Program_Memory
+
+Top level modules:
+	Program_Memory
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Sign_Extend.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Sign_Extend.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Sign_Extend
+
+Top level modules:
+	Sign_Extend
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Shift_Left_2.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Shift_Left_2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Shift_Left_2
+
+Top level modules:
+	Shift_Left_2
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/cont_1s_RCO.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/cont_1s_RCO.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cont_1s_RCO
+
+Top level modules:
+	cont_1s_RCO
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Clock_Gen.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Clock_Gen.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Clock_Gen
+
+Top level modules:
+	Clock_Gen
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Memory_System.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Memory_System.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Memory_System
+
+Top level modules:
+	Memory_System
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/RISC_V_Processor.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/RISC_V_Processor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RISC_V_Processor
+
+Top level modules:
+	RISC_V_Processor
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Decoder.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Decoder
+
+Top level modules:
+	Decoder
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Control_Unit.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Control_Unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Control_Unit
+
+Top level modules:
+	Control_Unit
+
+} {} {}} {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Clock_Gen_bb.v} {1 {vlog -work work -stats=none {C:/Users/dacuevas/OneDrive - Intel Corporation/Documents/Maestria/Disenio de microprocesadores/disenio_de_microprocesadores/Quartus/Practicas/Risc_V_Multiciclo/src/Clock_Gen_bb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Clock_Gen
+
+Top level modules:
+	Clock_Gen
+
+} {} {}}

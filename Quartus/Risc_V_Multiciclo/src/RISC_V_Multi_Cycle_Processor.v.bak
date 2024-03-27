@@ -1,0 +1,41 @@
+module RISC_V_Multi_Cycle_Processor (
+	input clk,
+	input reset,
+	input rx,
+	
+	output [7:0] GPIO_Out,
+	output tx
+);
+
+wire [7:0] 	GPIO_Out_w;
+wire [7:0] 	GPIO_In_w;
+wire		  	UART_RX_Sel_w;
+wire			UART_TX_Sel_w;
+
+RISC_V_Multi_Cycle RISC_V(
+	.clk(clk),
+	.reset(reset),
+	.GPIO_In(GPIO_In_w),
+	
+	.GPIO_Out(GPIO_Out_w),
+	.UART_RX_Sel(UART_RX_Sel_w),
+	.UART_Tx_Sel(UART_TX_Sel_w)
+);
+
+UART_Full_Duplex UART(
+
+	.clk(clk),
+	.rst(rst),
+	.rx(rx),
+	.tx_send(UART_TX_Sel_w),
+	.parity_sel(),
+	.Tx_data(GPIO_Out_w),
+	
+	.parity(),
+	//.Rx_Data(),
+	.Rx_SR(GPIO_In_w),
+	.heard_bit_out(),
+	.tx(tx)
+);
+
+endmodule 

@@ -1,0 +1,26 @@
+module Register_Mux
+#
+(
+	parameter DATA_WIDTH = 32
+)
+(
+	input			[2:0]					Selector,
+	input			[DATA_WIDTH-1:0]	I_0,
+	input			[DATA_WIDTH-1:0]	I_1,
+	
+	output reg 	[DATA_WIDTH-1:0]	Mux_Out
+);
+
+localparam	DEVICE_UART_TX		= 3'b001,
+				DEVICE_UART_RX		= 3'b010,
+				DEVICE_UART_TX_O	= 3'b011;
+
+	always@(*) begin
+		case (Selector)
+			DEVICE_UART_TX		:	Mux_Out = I_1;
+			DEVICE_UART_RX		:	Mux_Out = I_1;
+			DEVICE_UART_TX_O	:	Mux_Out = I_1;
+			default:				:	Mux_Out = I_0;
+		endcase	
+	end
+endmodule
