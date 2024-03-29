@@ -56,14 +56,11 @@ Rx_Register_Decoder Rx_Decoder (
  
 //UART_Tx_Reg_In
 
-wire Tx_Sel;
-assign Tx_Sel = (UART_Reg_Sel_i == 2'b01) ? 1:0;
-
 
 Tx_Register_Encoder Tx_Encoder (
 											//inputs
 											.UART_TX_Reg_In(UART_TX_Reg_In),
-											.Tx_Sel_In(Tx_Sel),
+											.Tx_Sel_In(UART_Tx_Done),
 											//outputs
 											.Tx_Data(UART_Tx_Data_w),
 											.Parity_sel(Parity_w),

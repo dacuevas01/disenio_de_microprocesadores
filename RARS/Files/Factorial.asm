@@ -1,7 +1,7 @@
 
 .text
 main:
-	li a2,15 # Loading constant
+	li a2,4 # Loading constant
 	jal factorial # Calling procedure
 	j exit	# Jump to Main label
 	

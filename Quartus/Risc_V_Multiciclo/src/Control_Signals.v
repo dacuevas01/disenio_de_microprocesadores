@@ -77,7 +77,7 @@ module Control_Signals
 						end
 
 			EX_I	: 	begin
-							control_bus = 14'b0_0_0_0_0_00_01_10_0_10; //addi
+							control_bus = 14'b0_0_0_0_0_00_01_10_0_11; //addi
 
 							next_state = ALU_WB;
 						end
@@ -126,7 +126,7 @@ module Control_Signals
 						end
 			
 			AUIPC	:	begin
-							control_bus = 14'b0_0_0_0_0_00_01_01_0_10;
+							control_bus = 14'b0_0_0_0_0_00_01_01_0_11;
 							
 							next_state = ALU_WB;
 						end

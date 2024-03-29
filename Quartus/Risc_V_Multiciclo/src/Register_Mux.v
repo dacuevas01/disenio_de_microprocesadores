@@ -17,10 +17,10 @@ localparam	DEVICE_UART_TX		= 2'b01,
 
 	always@(*) begin
 		case (Select)
-			DEVICE_UART_TX		:	Mux_Out = I_1;
-			DEVICE_UART_RX		:	Mux_Out = I_1;
-			DEVICE_UART_TX_O	:	Mux_Out = I_1;
-			default				:	Mux_Out = I_0;
+			DEVICE_UART_TX		:	Mux_Out <= I_1;
+			DEVICE_UART_RX		:	Mux_Out <= I_1;
+			DEVICE_UART_TX_O	:	Mux_Out <= I_1;
+			default				:	Mux_Out <= I_0;
 		endcase	
 	end
 endmodule

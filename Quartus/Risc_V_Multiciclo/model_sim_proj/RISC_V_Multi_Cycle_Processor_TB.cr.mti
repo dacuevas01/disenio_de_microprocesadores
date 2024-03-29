@@ -1,9 +1,9 @@
-C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v
+C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/ALU_Decoder.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/ALU_Decoder.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module RISC_V_Multi_Cycle
+-- Compiling module ALU_Decoder
 
 Top level modules:
-	RISC_V_Multi_Cycle
+	ALU_Decoder
 
 } {} {}} C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Full_Duplex.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Full_Duplex.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -12,33 +12,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	UART_Full_Duplex
 
-} {} {}} C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/ALU_Decoder.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/ALU_Decoder.v
+} {} {}} C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ALU_Decoder
+-- Compiling module RISC_V_Multi_Cycle
 
 Top level modules:
-	ALU_Decoder
-
-} {} {}} C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module UART_Tx_Rx
-
-Top level modules:
-	UART_Tx_Rx
-
-} {} {}} C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Program_Memory.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Program_Memory.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Program_Memory
-
-Top level modules:
-	Program_Memory
-
-} {} {}} C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Sign_Extend.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Sign_Extend.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Sign_Extend
-
-Top level modules:
-	Sign_Extend
+	RISC_V_Multi_Cycle
 
 } {} {}} C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Counter_Param.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Counter_Param.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -47,12 +26,26 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	Counter_Param
 
-} {} {}} C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Heard_Bit.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Heard_Bit.v
+} {} {}} C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Sign_Extend.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Sign_Extend.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Heard_Bit
+-- Compiling module Sign_Extend
 
 Top level modules:
-	Heard_Bit
+	Sign_Extend
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Program_Memory.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Program_Memory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Program_Memory
+
+Top level modules:
+	Program_Memory
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UART_Tx_Rx
+
+Top level modules:
+	UART_Tx_Rx
 
 } {} {}} C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/cont_1s_RCO.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/cont_1s_RCO.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -61,6 +54,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	cont_1s_RCO
 
+} {} {}} C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Heard_Bit.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Heard_Bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Heard_Bit
+
+Top level modules:
+	Heard_Bit
+
 } {} {}} C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Rx_Register_Decoder.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Rx_Register_Decoder.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module Rx_Register_Decoder
@@ -68,19 +68,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	Rx_Register_Decoder
 
-} {} {}} C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Tx_Register_Decoder.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Tx_Register_Decoder.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Tx_Register_Decoder
-
-Top level modules:
-	Tx_Register_Decoder
-
 } {} {}} C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Processor.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Processor.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module RISC_V_Processor
 
 Top level modules:
 	RISC_V_Processor
+
+} {} {}} C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Tx_Register_Decoder.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Tx_Register_Decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Tx_Register_Decoder
+
+Top level modules:
+	Tx_Register_Decoder
 
 } {} {}} C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Tx_Register_Encoder.v {1 {vlog -work work -stats=none C:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Tx_Register_Encoder.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

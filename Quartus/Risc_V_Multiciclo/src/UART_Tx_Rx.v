@@ -52,7 +52,7 @@ assign Tx_Sel = (UART_Reg_Sel_i == 2'b01) ? 1:0;
 			Read_Data_Register
 									(
 										.clk(clk),
-										.reset(reset),
+										.reset(rst),
 										.enable(Tx_Sel),
 										.d(UART_Register_Tx),
 	

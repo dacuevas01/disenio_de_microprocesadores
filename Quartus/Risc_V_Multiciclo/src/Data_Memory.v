@@ -20,9 +20,9 @@ module Data_Memory
 		if (Write_Enable) begin
 			ram[Address] <= Write_Data;
 		end
-		Address_reg <= Address;
+		//Address_reg <= Address;
 	end
 
-	assign Read_Data = ram[Address_reg];
+	assign Read_Data = ram[Address];
 
 endmodule

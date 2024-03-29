@@ -1,5 +1,5 @@
 Flow report for Risc_V_Multiciclo
-Wed Mar 27 00:14:35 2024
+Thu Mar 28 21:27:41 2024
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Wed Mar 27 00:14:35 2024       ;
+; Flow Status                 ; Successful - Thu Mar 28 21:27:41 2024       ;
 ; Quartus Prime Version       ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name               ; Risc_V_Multiciclo                           ;
 ; Top-level Entity Name       ; RISC_V_Multi_Cycle_Processor                ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/27/2024 00:14:21 ;
+; Start date & time ; 03/28/2024 21:27:32 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Risc_V_Multiciclo   ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+-------------------+------------------------------+-----------------------------------+
 ; Assignment Name                     ; Value                                  ; Default Value     ; Entity Name                  ; Section Id                        ;
 +-------------------------------------+----------------------------------------+-------------------+------------------------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 167300352332832.171152006118152        ; --                ; --                           ; --                                ;
+; COMPILER_SIGNATURE_ID               ; 167300352332832.171168285201332        ; --                ; --                           ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                ; --                           ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                ; --                           ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                ; --                           ; eda_board_design_signal_integrity ;
@@ -99,8 +99,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:15     ; 1.0                     ; 4788 MB             ; 00:00:15                           ;
-; Total                  ; 00:00:15     ; --                      ; --                  ; 00:00:15                           ;
+; Analysis & Elaboration ; 00:00:09     ; 1.0                     ; 4786 MB             ; 00:00:14                           ;
+; Total                  ; 00:00:09     ; --                      ; --                  ; 00:00:14                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -39,7 +39,12 @@ module Register_File
 							.q 		(q[1])
 						);
 	
-	Register sp 	(	
+	Register #(
+					.DATA_WIDTH(32),
+					.RESET_VALUE('h10010090)
+					)		
+					sp 
+						(	
 							.clk		(clk),
 							.reset	(reset),
 							.enable	(one_hot[2] & Reg_Write_i),
