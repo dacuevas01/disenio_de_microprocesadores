@@ -14,7 +14,7 @@ module Serializer (
 
 always @(posedge clk, posedge rst) begin
 	if(rst) begin
-		data_out = 1'b0;
+		data_out = 1'b1;
 	end
 	else begin
 		if(end_bit_time) begin

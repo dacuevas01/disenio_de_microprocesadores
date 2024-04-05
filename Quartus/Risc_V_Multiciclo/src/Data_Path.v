@@ -21,7 +21,7 @@ module Data_Path
 	input 	[1:0]					ResultSrc,
 	input 	[1:0]					ALUSrcB,
 	input 	[1:0]					ALUSrcA,
-	input 	[2:0]					ALUControl,
+	input 	[3:0]					ALUControl,
 	input 							ADRSrc,
 	input 	[2:0]					ImmSrc,
 					

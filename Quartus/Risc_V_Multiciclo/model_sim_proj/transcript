@@ -1,5 +1,238 @@
-# Compile of ALU_Decoder.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor.v was successful.
+# Compile of UART_Tx.v was successful.
 # Compile of ALU.v was successful.
+# Compile of ALU_Decoder.v was successful.
+# Compile of Bit_Rate_Pulse.v was successful.
+# Compile of Bit_Rate_Pulse_Tx.v was successful.
+# Compile of Clock_Gen.v was successful.
+# Compile of Clock_Gen_bb.v was successful.
+# Compile of cont_1s_RCO.v was successful.
+# Compile of Control_Signals.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Counter_Param.v was successful.
+# Compile of Counter_Param_Tx.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Data_Path.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of DecoderBinDec7seg.v was successful.
+# Compile of Device_Select.v was successful.
+# Compile of Device_Selector.v was successful.
+# Compile of Extend.v was successful.
+# Compile of FF_D_enable.v was successful.
+# Compile of FSM_UART_Rx.v was successful.
+# Compile of Heard_Bit.v was successful.
+# Compile of Instr_Decoder.v was successful.
+# Compile of Memory_System.v was successful.
+# Compile of Mux2x1.v was successful.
+# Compile of Mux3x1.v was successful.
+# Compile of Mux4x1.v was successful.
+# Compile of Mux32x1.v was successful.
+# Compile of Program_Memory.v was successful.
+# Compile of Reg_Param.v was successful.
+# Compile of Register.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Register_Mux.v was successful.
+# Compile of RISC_V_Multi_Cycle.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor_TB.v was successful.
+# Compile of RISC_V_Multi_Cycle_TB.v was successful.
+# Compile of RISC_V_Processor.v was successful.
+# Compile of Rx_Register_Decoder.v was successful.
+# Compile of Serializer.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Shift_Register_R_Param.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of Tx_Register_Decoder.v was successful.
+# Compile of Tx_Register_Encoder.v was successful.
+# Compile of UART_Full_Duplex.v was successful.
+# Compile of UART_Register_Decode.v was successful.
+# Compile of UART_Rx.v was successful.
+# Compile of UART_Rx_TB.v was successful.
+# Compile of UART_Tx.v was successful.
+# Compile of Uart_Tx_Fsm.v was successful.
+# Compile of UART_Tx_Rx.v was successful.
+# Compile of UART_Tx_Rx_TB.v was successful.
+# Compile of UART_Tx_tb.v was successful.
+# 53 compiles, 0 failed with no errors.
+# Compile of ALU.v was successful.
+# Compile of ALU_Decoder.v was successful.
+# Compile of Bit_Rate_Pulse.v was successful.
+# Compile of Bit_Rate_Pulse_Tx.v was successful.
+# Compile of Clock_Gen.v was successful.
+# Compile of Clock_Gen_bb.v was successful.
+# Compile of cont_1s_RCO.v was successful.
+# Compile of Control_Signals.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Counter_Param.v was successful.
+# Compile of Counter_Param_Tx.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Data_Path.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of DecoderBinDec7seg.v was successful.
+# Compile of Device_Select.v was successful.
+# Compile of Device_Selector.v was successful.
+# Compile of Extend.v was successful.
+# Compile of FF_D_enable.v was successful.
+# Compile of FSM_UART_Rx.v was successful.
+# Compile of Heard_Bit.v was successful.
+# Compile of Instr_Decoder.v was successful.
+# Compile of Memory_System.v was successful.
+# Compile of Mux2x1.v was successful.
+# Compile of Mux3x1.v was successful.
+# Compile of Mux4x1.v was successful.
+# Compile of Mux32x1.v was successful.
+# Compile of Program_Memory.v was successful.
+# Compile of Reg_Param.v was successful.
+# Compile of Register.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Register_Mux.v was successful.
+# Compile of RISC_V_Multi_Cycle.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor_TB.v was successful.
+# Compile of RISC_V_Multi_Cycle_TB.v was successful.
+# Compile of RISC_V_Processor.v was successful.
+# Compile of Rx_Register_Decoder.v was successful.
+# Compile of Serializer.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Shift_Register_R_Param.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of Tx_Register_Decoder.v was successful.
+# Compile of Tx_Register_Encoder.v was successful.
+# Compile of UART_Full_Duplex.v was successful.
+# Compile of UART_Register_Decode.v was successful.
+# Compile of UART_Rx.v was successful.
+# Compile of UART_Rx_TB.v was successful.
+# Compile of UART_Tx.v was successful.
+# Compile of Uart_Tx_Fsm.v was successful.
+# Compile of UART_Tx_Rx.v was successful.
+# Compile of UART_Tx_Rx_TB.v was successful.
+# Compile of UART_Tx_tb.v was successful.
+# 53 compiles, 0 failed with no errors.
+# Compile of RISC_V_Multi_Cycle_Processor_TB.v was successful.
+vsim work.RISC_V_Multi_Cycle_Processor_TB
+# vsim work.RISC_V_Multi_Cycle_Processor_TB 
+# Start time: 15:37:32 on Apr 04,2024
+# Loading work.RISC_V_Multi_Cycle_Processor_TB
+# Loading work.RISC_V_Multi_Cycle_Processor
+# ** Error: (vsim-3033) Instantiation of 'PLL_Clock_Gen_25M' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor.v Line: 34
+#         Searched libraries:
+#             C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/model_sim_proj/work
+# Loading work.RISC_V_Multi_Cycle
+# Loading work.Control_Unit
+# Loading work.Control_Signals
+# Loading work.ALU_Decoder
+# Loading work.Instr_Decoder
+# Loading work.Data_Path
+# Loading work.Register
+# Loading work.Mux2x1
+# Loading work.Memory_System
+# Loading work.Program_Memory
+# Loading work.Data_Memory
+# Loading work.Device_Select
+# Loading work.Register_Mux
+# Loading work.Register_File
+# Loading work.Decoder
+# Loading work.Mux32x1
+# Loading work.Sign_Extend
+# Loading work.Mux3x1
+# Loading work.ALU
+# Loading work.UART_Tx_Rx
+# Loading work.UART_Full_Duplex
+# Loading work.UART_Rx
+# Loading work.Shift_Register_R_Param
+# Loading work.Reg_Param
+# Loading work.FF_D_enable
+# Loading work.Bit_Rate_Pulse
+# Loading work.FSM_UART_Rx
+# Loading work.Counter_Param
+# Loading work.Heard_Bit
+# Loading work.UART_Tx
+# Loading work.Counter_Param_Tx
+# Loading work.Bit_Rate_Pulse_Tx
+# Loading work.Uart_Tx_Fsm
+# Loading work.Serializer
+# Loading work.UART_Register_Decode
+# Loading work.Rx_Register_Decoder
+# Loading work.Tx_Register_Encoder
+# Loading work.Tx_Register_Decoder
+# Error loading design
+# End time: 15:37:33 on Apr 04,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 6
+# Compile of RISC_V_Multi_Cycle_Processor.v was successful.
+vsim work.RISC_V_Multi_Cycle_Processor_TB
+# vsim work.RISC_V_Multi_Cycle_Processor_TB 
+# Start time: 15:39:42 on Apr 04,2024
+# Loading work.RISC_V_Multi_Cycle_Processor_TB
+# Loading work.RISC_V_Multi_Cycle_Processor
+# Loading work.RISC_V_Multi_Cycle
+# Loading work.Control_Unit
+# Loading work.Control_Signals
+# Loading work.ALU_Decoder
+# Loading work.Instr_Decoder
+# Loading work.Data_Path
+# Loading work.Register
+# Loading work.Mux2x1
+# Loading work.Memory_System
+# Loading work.Program_Memory
+# Loading work.Data_Memory
+# Loading work.Device_Select
+# Loading work.Register_Mux
+# Loading work.Register_File
+# Loading work.Decoder
+# Loading work.Mux32x1
+# Loading work.Sign_Extend
+# Loading work.Mux3x1
+# Loading work.ALU
+# Loading work.UART_Tx_Rx
+# Loading work.UART_Full_Duplex
+# Loading work.UART_Rx
+# Loading work.Shift_Register_R_Param
+# Loading work.Reg_Param
+# Loading work.FF_D_enable
+# Loading work.Bit_Rate_Pulse
+# Loading work.FSM_UART_Rx
+# Loading work.Counter_Param
+# Loading work.Heard_Bit
+# Loading work.UART_Tx
+# Loading work.Counter_Param_Tx
+# Loading work.Bit_Rate_Pulse_Tx
+# Loading work.Uart_Tx_Fsm
+# Loading work.Serializer
+# Loading work.UART_Register_Decode
+# Loading work.Rx_Register_Decoder
+# Loading work.Tx_Register_Encoder
+# Loading work.Tx_Register_Decoder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/MAX10_CLK1_50
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: dace_  Hostname: LAPTOP-NUL466BS  ProcessID: 9076
+#           Attempting to use alternate WLF file "./wlftf6cm15".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftf6cm15
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/Op
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/state
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/GPIO_Out_w
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Tx_data
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/parity_sel
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/tx_send
+run
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/tx
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/tx_done
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
+run
 # Compile of ALU.v was successful.
 # Compile of ALU_Decoder.v was successful.
 # Compile of Bit_Rate_Pulse.v was successful.
@@ -55,8 +288,10 @@
 # Compile of UART_Tx_tb.v was successful.
 # 53 compiles, 0 failed with no errors.
 vsim work.RISC_V_Multi_Cycle_Processor_TB
+# End time: 16:04:02 on Apr 04,2024, Elapsed time: 0:24:20
+# Errors: 0, Warnings: 5
 # vsim work.RISC_V_Multi_Cycle_Processor_TB 
-# Start time: 16:37:25 on Mar 28,2024
+# Start time: 16:04:02 on Apr 04,2024
 # Loading work.RISC_V_Multi_Cycle_Processor_TB
 # Loading work.RISC_V_Multi_Cycle_Processor
 # Loading work.RISC_V_Multi_Cycle
@@ -97,9 +332,6 @@ vsim work.RISC_V_Multi_Cycle_Processor_TB
 # Loading work.Rx_Register_Decoder
 # Loading work.Tx_Register_Encoder
 # Loading work.Tx_Register_Decoder
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
 #    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
@@ -109,27 +341,16 @@ vsim work.RISC_V_Multi_Cycle_Processor_TB
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/clk_r
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: dace_  Hostname: LAPTOP-NUL466BS  ProcessID: 9076
-#           Attempting to use alternate WLF file "./wlfte2vi1s".
+#           Attempting to use alternate WLF file "./wlfthja2nc".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlfte2vi1s
+#           Using alternate file: ./wlfthja2nc
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/Op
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/state
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/PC
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/B
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/MemWrite
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcA
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcB
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUResult
-run
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/Write_Data_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/ra/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/sp/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/a2/enable
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/GPIO_Out_w
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/tx
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/tx_done
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
 #    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
@@ -137,14 +358,10 @@ restart
 # ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
 #    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
 run
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Address_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Write_Data_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Write_Enable_i
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/Tx_Sel
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART_Reg_Sel_i
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
 #    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
@@ -152,25 +369,15 @@ restart
 # ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
 #    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
 run
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/sp/d
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-run
-# Compile of Register_File.v was successful.
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i/data_out
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i/out_sel
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i/end_bit_time
+# Compile of Serializer.v was successful.
 vsim work.RISC_V_Multi_Cycle_Processor_TB
-# End time: 18:01:10 on Mar 28,2024, Elapsed time: 1:23:45
-# Errors: 0, Warnings: 7
+# End time: 20:28:31 on Apr 04,2024, Elapsed time: 4:24:29
+# Errors: 0, Warnings: 5
 # vsim work.RISC_V_Multi_Cycle_Processor_TB 
-# Start time: 18:01:10 on Mar 28,2024
+# Start time: 20:28:31 on Apr 04,2024
 # Loading work.RISC_V_Multi_Cycle_Processor_TB
 # Loading work.RISC_V_Multi_Cycle_Processor
 # Loading work.RISC_V_Multi_Cycle
@@ -211,9 +418,138 @@ vsim work.RISC_V_Multi_Cycle_Processor_TB
 # Loading work.Rx_Register_Decoder
 # Loading work.Tx_Register_Encoder
 # Loading work.Tx_Register_Decoder
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/clk_r
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: dace_  Hostname: LAPTOP-NUL466BS  ProcessID: 9076
+#           Attempting to use alternate WLF file "./wlfthmer34".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfthmer34
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/Op
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/state
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/PC
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/GPIO_Out_w
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/Tx_Start_w
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART_Tx_Data_w
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/tx
+run
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/tx_send_w
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# Compile of ALU.v was successful.
+# Compile of ALU_Decoder.v was successful.
+# Compile of Bit_Rate_Pulse.v was successful.
+# Compile of Bit_Rate_Pulse_Tx.v was successful.
+# Compile of Clock_Gen.v was successful.
+# Compile of Clock_Gen_bb.v was successful.
+# Compile of cont_1s_RCO.v was successful.
+# Compile of Control_Signals.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Counter_Param.v was successful.
+# Compile of Counter_Param_Tx.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Data_Path.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of DecoderBinDec7seg.v was successful.
+# Compile of Device_Select.v was successful.
+# Compile of Device_Selector.v was successful.
+# Compile of Extend.v was successful.
+# Compile of FF_D_enable.v was successful.
+# Compile of FSM_UART_Rx.v was successful.
+# Compile of Heard_Bit.v was successful.
+# Compile of Instr_Decoder.v was successful.
+# Compile of Memory_System.v was successful.
+# Compile of Mux2x1.v was successful.
+# Compile of Mux3x1.v was successful.
+# Compile of Mux4x1.v was successful.
+# Compile of Mux32x1.v was successful.
+# Compile of Program_Memory.v was successful.
+# Compile of Reg_Param.v was successful.
+# Compile of Register.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Register_Mux.v was successful.
+# Compile of RISC_V_Multi_Cycle.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor_TB.v was successful.
+# Compile of RISC_V_Multi_Cycle_TB.v was successful.
+# Compile of RISC_V_Processor.v was successful.
+# Compile of Rx_Register_Decoder.v was successful.
+# Compile of Serializer.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Shift_Register_R_Param.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of Tx_Register_Decoder.v was successful.
+# Compile of Tx_Register_Encoder.v was successful.
+# Compile of UART_Full_Duplex.v was successful.
+# Compile of UART_Register_Decode.v was successful.
+# Compile of UART_Rx.v was successful.
+# Compile of UART_Rx_TB.v was successful.
+# Compile of UART_Tx.v was successful.
+# Compile of Uart_Tx_Fsm.v was successful.
+# Compile of UART_Tx_Rx.v was successful.
+# Compile of UART_Tx_Rx_TB.v was successful.
+# Compile of UART_Tx_tb.v was successful.
+# 53 compiles, 0 failed with no errors.
+vsim work.RISC_V_Multi_Cycle_Processor_TB
+# End time: 20:39:24 on Apr 04,2024, Elapsed time: 0:10:53
+# Errors: 0, Warnings: 5
+# vsim work.RISC_V_Multi_Cycle_Processor_TB 
+# Start time: 20:39:24 on Apr 04,2024
+# Loading work.RISC_V_Multi_Cycle_Processor_TB
+# Loading work.RISC_V_Multi_Cycle_Processor
+# Loading work.RISC_V_Multi_Cycle
+# Loading work.Control_Unit
+# Loading work.Control_Signals
+# Loading work.ALU_Decoder
+# Loading work.Instr_Decoder
+# Loading work.Data_Path
+# Loading work.Register
+# Loading work.Mux2x1
+# Loading work.Memory_System
+# Loading work.Program_Memory
+# Loading work.Data_Memory
+# Loading work.Device_Select
+# Loading work.Register_Mux
+# Loading work.Register_File
+# Loading work.Decoder
+# Loading work.Mux32x1
+# Loading work.Sign_Extend
+# Loading work.Mux3x1
+# Loading work.ALU
+# Loading work.UART_Tx_Rx
+# Loading work.UART_Full_Duplex
+# Loading work.UART_Rx
+# Loading work.Shift_Register_R_Param
+# Loading work.Reg_Param
+# Loading work.FF_D_enable
+# Loading work.Bit_Rate_Pulse
+# Loading work.FSM_UART_Rx
+# Loading work.Counter_Param
+# Loading work.Heard_Bit
+# Loading work.UART_Tx
+# Loading work.Counter_Param_Tx
+# Loading work.Bit_Rate_Pulse_Tx
+# Loading work.Uart_Tx_Fsm
+# Loading work.Serializer
+# Loading work.UART_Register_Decode
+# Loading work.Rx_Register_Decoder
+# Loading work.Tx_Register_Encoder
+# Loading work.Tx_Register_Decoder
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
 #    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
@@ -223,401 +559,131 @@ vsim work.RISC_V_Multi_Cycle_Processor_TB
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/clk
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: dace_  Hostname: LAPTOP-NUL466BS  ProcessID: 9076
-#           Attempting to use alternate WLF file "./wlftxei2kk".
+#           Attempting to use alternate WLF file "./wlftacj8ef".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftxei2kk
+#           Using alternate file: ./wlftacj8ef
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/tx
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/Op
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/state
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/PC
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcA
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcB
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUResult
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/sp/d
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/sp/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/ra/d
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/ra/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/a0/d
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/a0/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Write_Data_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Write_Enable_i
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/tx_send_w
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/parity_sel_w
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/Tx_Start_w
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART_Tx_Data_w
 run
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/a2/enable
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-run
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Address_i
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-run
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/ram_out
+# Compile of ALU.v was successful.
+# Compile of ALU_Decoder.v was successful.
+# Compile of Bit_Rate_Pulse.v was successful.
+# Compile of Bit_Rate_Pulse_Tx.v was successful.
+# Compile of Clock_Gen.v was successful.
+# Compile of Clock_Gen_bb.v was successful.
+# Compile of cont_1s_RCO.v was successful.
+# Compile of Control_Signals.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Counter_Param.v was successful.
+# Compile of Counter_Param_Tx.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Data_Path.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of DecoderBinDec7seg.v was successful.
+# Compile of Device_Select.v was successful.
+# Compile of Device_Selector.v was successful.
+# Compile of Extend.v was successful.
+# Compile of FF_D_enable.v was successful.
+# Compile of FSM_UART_Rx.v was successful.
+# Compile of Heard_Bit.v was successful.
+# Compile of Instr_Decoder.v was successful.
+# Compile of Memory_System.v was successful.
+# Compile of Mux2x1.v was successful.
+# Compile of Mux3x1.v was successful.
+# Compile of Mux4x1.v was successful.
+# Compile of Mux32x1.v was successful.
+# Compile of Program_Memory.v was successful.
+# Compile of Reg_Param.v was successful.
+# Compile of Register.v was successful.
 # Compile of Register_File.v was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.Register_File
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-run
-run
+# Compile of Register_Mux.v was successful.
+# Compile of RISC_V_Multi_Cycle.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor_TB.v was successful.
+# Compile of RISC_V_Multi_Cycle_TB.v was successful.
+# Compile of RISC_V_Processor.v was successful.
+# Compile of Rx_Register_Decoder.v was successful.
+# Compile of Serializer.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Shift_Register_R_Param.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of Tx_Register_Decoder.v was successful.
+# Compile of Tx_Register_Encoder.v was successful.
+# Compile of UART_Full_Duplex.v was successful.
+# Compile of UART_Register_Decode.v was successful.
+# Compile of UART_Rx.v was successful.
+# Compile of UART_Rx_TB.v was successful.
+# Compile of UART_Tx.v was successful.
+# Compile of Uart_Tx_Fsm.v failed with 1 errors.
+# Compile of UART_Tx_Rx.v was successful.
+# Compile of UART_Tx_Rx_TB.v was successful.
+# Compile of UART_Tx_tb.v was successful.
+# 53 compiles, 1 failed with 1 error.
+# Compile of UART_Rx.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU_Decoder.v was successful.
+# Compile of Bit_Rate_Pulse.v was successful.
+# Compile of Bit_Rate_Pulse_Tx.v was successful.
+# Compile of Clock_Gen.v was successful.
+# Compile of Clock_Gen_bb.v was successful.
+# Compile of cont_1s_RCO.v was successful.
+# Compile of Control_Signals.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Counter_Param.v was successful.
+# Compile of Counter_Param_Tx.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Data_Path.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of DecoderBinDec7seg.v was successful.
+# Compile of Device_Select.v was successful.
+# Compile of Device_Selector.v was successful.
+# Compile of Extend.v was successful.
+# Compile of FF_D_enable.v was successful.
+# Compile of FSM_UART_Rx.v was successful.
+# Compile of Heard_Bit.v was successful.
+# Compile of Instr_Decoder.v was successful.
+# Compile of Memory_System.v was successful.
+# Compile of Mux2x1.v was successful.
+# Compile of Mux3x1.v was successful.
+# Compile of Mux4x1.v was successful.
+# Compile of Mux32x1.v was successful.
+# Compile of Program_Memory.v was successful.
+# Compile of Reg_Param.v was successful.
+# Compile of Register.v was successful.
 # Compile of Register_File.v was successful.
+# Compile of Register_Mux.v was successful.
+# Compile of RISC_V_Multi_Cycle.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor_TB.v was successful.
+# Compile of RISC_V_Multi_Cycle_TB.v was successful.
+# Compile of RISC_V_Processor.v was successful.
+# Compile of Rx_Register_Decoder.v was successful.
+# Compile of Serializer.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Shift_Register_R_Param.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of Tx_Register_Decoder.v was successful.
+# Compile of Tx_Register_Encoder.v was successful.
+# Compile of UART_Full_Duplex.v was successful.
+# Compile of UART_Register_Decode.v was successful.
+# Compile of UART_Rx.v was successful.
+# Compile of UART_Rx_TB.v was successful.
+# Compile of UART_Tx.v was successful.
+# Compile of Uart_Tx_Fsm.v was successful.
+# Compile of UART_Tx_Rx.v was successful.
+# Compile of UART_Tx_Rx_TB.v was successful.
+# Compile of UART_Tx_tb.v was successful.
+# 53 compiles, 0 failed with no errors.
 vsim work.RISC_V_Multi_Cycle_Processor_TB
-# End time: 19:02:29 on Mar 28,2024, Elapsed time: 1:01:19
-# Errors: 0, Warnings: 7
-# vsim work.RISC_V_Multi_Cycle_Processor_TB 
-# Start time: 19:02:29 on Mar 28,2024
-# Loading work.RISC_V_Multi_Cycle_Processor_TB
-# Loading work.RISC_V_Multi_Cycle_Processor
-# Loading work.RISC_V_Multi_Cycle
-# Loading work.Control_Unit
-# Loading work.Control_Signals
-# Loading work.ALU_Decoder
-# Loading work.Instr_Decoder
-# Loading work.Data_Path
-# Loading work.Register
-# Loading work.Mux2x1
-# Loading work.Memory_System
-# Loading work.Program_Memory
-# Loading work.Data_Memory
-# Loading work.Device_Select
-# Loading work.Register_Mux
-# Loading work.Register_File
-# Loading work.Decoder
-# Loading work.Mux32x1
-# Loading work.Sign_Extend
-# Loading work.Mux3x1
-# Loading work.ALU
-# Loading work.UART_Tx_Rx
-# Loading work.UART_Full_Duplex
-# Loading work.UART_Rx
-# Loading work.Shift_Register_R_Param
-# Loading work.Reg_Param
-# Loading work.FF_D_enable
-# Loading work.Bit_Rate_Pulse
-# Loading work.FSM_UART_Rx
-# Loading work.Counter_Param
-# Loading work.Heard_Bit
-# Loading work.UART_Tx
-# Loading work.Counter_Param_Tx
-# Loading work.Bit_Rate_Pulse_Tx
-# Loading work.Uart_Tx_Fsm
-# Loading work.Serializer
-# Loading work.UART_Register_Decode
-# Loading work.Rx_Register_Decoder
-# Loading work.Tx_Register_Encoder
-# Loading work.Tx_Register_Decoder
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/clk
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: dace_  Hostname: LAPTOP-NUL466BS  ProcessID: 9076
-#           Attempting to use alternate WLF file "./wlftz5xsxs".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftz5xsxs
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/Op
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/state
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/PC
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcA
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcB
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUResult
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/Write_Data_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/ra/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/sp/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/a2/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/a0/enable
-add wave -position insertpoint /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/RAM/Write_Enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/RAM/Write_Data
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/RAM/Address
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/RAM/Read_Data
-run
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/MEM_OUT/Selector
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-run
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/model_sim_proj/wave.do
-quit -sim
-# End time: 19:23:49 on Mar 28,2024, Elapsed time: 0:21:20
-# Errors: 0, Warnings: 6
-# Compile of Register_File.v was successful.
-vsim work.RISC_V_Multi_Cycle_Processor_TB
-# vsim work.RISC_V_Multi_Cycle_Processor_TB 
-# Start time: 19:25:59 on Mar 28,2024
-# Loading work.RISC_V_Multi_Cycle_Processor_TB
-# Loading work.RISC_V_Multi_Cycle_Processor
-# Loading work.RISC_V_Multi_Cycle
-# Loading work.Control_Unit
-# Loading work.Control_Signals
-# Loading work.ALU_Decoder
-# Loading work.Instr_Decoder
-# Loading work.Data_Path
-# Loading work.Register
-# Loading work.Mux2x1
-# Loading work.Memory_System
-# Loading work.Program_Memory
-# Loading work.Data_Memory
-# Loading work.Device_Select
-# Loading work.Register_Mux
-# Loading work.Register_File
-# Loading work.Decoder
-# Loading work.Mux32x1
-# Loading work.Sign_Extend
-# Loading work.Mux3x1
-# Loading work.ALU
-# Loading work.UART_Tx_Rx
-# Loading work.UART_Full_Duplex
-# Loading work.UART_Rx
-# Loading work.Shift_Register_R_Param
-# Loading work.Reg_Param
-# Loading work.FF_D_enable
-# Loading work.Bit_Rate_Pulse
-# Loading work.FSM_UART_Rx
-# Loading work.Counter_Param
-# Loading work.Heard_Bit
-# Loading work.UART_Tx
-# Loading work.Counter_Param_Tx
-# Loading work.Bit_Rate_Pulse_Tx
-# Loading work.Uart_Tx_Fsm
-# Loading work.Serializer
-# Loading work.UART_Register_Decode
-# Loading work.Rx_Register_Decoder
-# Loading work.Tx_Register_Encoder
-# Loading work.Tx_Register_Decoder
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-dataset reload -f {}
-# too many nested evaluations (infinite loop?)
-dataset reload -f sim
-# too many nested evaluations (infinite loop?)
-# ** Note: (vish-4074) File C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/model_sim_proj/vsim.wlf is still open, viewing file in live viewing mode.
-# C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/model_sim_proj/vsim.wlf opened as dataset "vsim"
-dataset reload -f vsim
-# ** Note: (vish-4074) File C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/model_sim_proj/vsim.wlf is still open, viewing file in live viewing mode.
-# vsim:/RISC_V_Multi_Cycle_TB
-quit -sim
-# End time: 19:27:13 on Mar 28,2024, Elapsed time: 0:01:14
-# Errors: 0, Warnings: 7
-# ** Note: (vish-4074) File C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/model_sim_proj/vsim.wlf is still open, viewing file in live viewing mode.
-# C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/model_sim_proj/vsim.wlf opened as dataset "vsim"
-add wave -position insertpoint clk
-# (vish-4014) No objects found matching 'clk'.
-vsim work.RISC_V_Multi_Cycle_Processor_TB
-# vsim work.RISC_V_Multi_Cycle_Processor_TB 
-# Start time: 19:28:24 on Mar 28,2024
-# Loading work.RISC_V_Multi_Cycle_Processor_TB
-# Loading work.RISC_V_Multi_Cycle_Processor
-# Loading work.RISC_V_Multi_Cycle
-# Loading work.Control_Unit
-# Loading work.Control_Signals
-# Loading work.ALU_Decoder
-# Loading work.Instr_Decoder
-# Loading work.Data_Path
-# Loading work.Register
-# Loading work.Mux2x1
-# Loading work.Memory_System
-# Loading work.Program_Memory
-# Loading work.Data_Memory
-# Loading work.Device_Select
-# Loading work.Register_Mux
-# Loading work.Register_File
-# Loading work.Decoder
-# Loading work.Mux32x1
-# Loading work.Sign_Extend
-# Loading work.Mux3x1
-# Loading work.ALU
-# Loading work.UART_Tx_Rx
-# Loading work.UART_Full_Duplex
-# Loading work.UART_Rx
-# Loading work.Shift_Register_R_Param
-# Loading work.Reg_Param
-# Loading work.FF_D_enable
-# Loading work.Bit_Rate_Pulse
-# Loading work.FSM_UART_Rx
-# Loading work.Counter_Param
-# Loading work.Heard_Bit
-# Loading work.UART_Tx
-# Loading work.Counter_Param_Tx
-# Loading work.Bit_Rate_Pulse_Tx
-# Loading work.Uart_Tx_Fsm
-# Loading work.Serializer
-# Loading work.UART_Register_Decode
-# Loading work.Rx_Register_Decoder
-# Loading work.Tx_Register_Encoder
-# Loading work.Tx_Register_Decoder
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/clk
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: dace_  Hostname: LAPTOP-NUL466BS  ProcessID: 9076
-#           Attempting to use alternate WLF file "./wlft7k07k8".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft7k07k8
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/Op
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/PC
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcA
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcB
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUResult
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/Write_Data_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/ra/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/sp/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/a0/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/a2/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/ram_out
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Data_Out_Read_w
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Device_o_w
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Write_Data_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Address_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Write_Enable_i
-run
-quit -sim
-# End time: 19:41:11 on Mar 28,2024, Elapsed time: 0:12:47
-# Errors: 0, Warnings: 8
-# Compile of Register_File.v was successful.
-# C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/model_sim_proj/sp_test.wlf opened as dataset "sp_test"
-vsim work.RISC_V_Multi_Cycle_Processor_TB
-# vsim work.RISC_V_Multi_Cycle_Processor_TB 
-# Start time: 19:41:58 on Mar 28,2024
-# Loading work.RISC_V_Multi_Cycle_Processor_TB
-# Loading work.RISC_V_Multi_Cycle_Processor
-# Loading work.RISC_V_Multi_Cycle
-# Loading work.Control_Unit
-# Loading work.Control_Signals
-# Loading work.ALU_Decoder
-# Loading work.Instr_Decoder
-# Loading work.Data_Path
-# Loading work.Register
-# Loading work.Mux2x1
-# Loading work.Memory_System
-# Loading work.Program_Memory
-# Loading work.Data_Memory
-# Loading work.Device_Select
-# Loading work.Register_Mux
-# Loading work.Register_File
-# Loading work.Decoder
-# Loading work.Mux32x1
-# Loading work.Sign_Extend
-# Loading work.Mux3x1
-# Loading work.ALU
-# Loading work.UART_Tx_Rx
-# Loading work.UART_Full_Duplex
-# Loading work.UART_Rx
-# Loading work.Shift_Register_R_Param
-# Loading work.Reg_Param
-# Loading work.FF_D_enable
-# Loading work.Bit_Rate_Pulse
-# Loading work.FSM_UART_Rx
-# Loading work.Counter_Param
-# Loading work.Heard_Bit
-# Loading work.UART_Tx
-# Loading work.Counter_Param_Tx
-# Loading work.Bit_Rate_Pulse_Tx
-# Loading work.Uart_Tx_Fsm
-# Loading work.Serializer
-# Loading work.UART_Register_Decode
-# Loading work.Rx_Register_Decoder
-# Loading work.Tx_Register_Encoder
-# Loading work.Tx_Register_Decoder
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/clk
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: dace_  Hostname: LAPTOP-NUL466BS  ProcessID: 9076
-#           Attempting to use alternate WLF file "./wlftc4z5g2".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftc4z5g2
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/Op
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/state
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/PC
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcA
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcB
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUResult
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/Write_Data_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/ra/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/sp/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/a0/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/a2/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Write_Enable_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Write_Data_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Address_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/ram_out
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Device_o_w
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Data_Out_Read_w
-run
-# C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/model_sim_proj/sp_test.wlf opened as dataset "sp_test"
-quit -sim
-# End time: 19:50:22 on Mar 28,2024, Elapsed time: 0:08:24
+# End time: 21:01:36 on Apr 04,2024, Elapsed time: 0:22:12
 # Errors: 0, Warnings: 9
-# C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/model_sim_proj/sp_test.wlf opened as dataset "sp_test1"
-dataset reload -f sp_test
-# sp_test1:/RISC_V_Multi_Cycle_Processor_TB
-dataset reload -f sp_test1
-# sp_test1:/RISC_V_Multi_Cycle_Processor_TB
-quit -sim
-quit -sim
-quit -sim
-# Compile of Register_File.v was successful.
-vsim work.RISC_V_Multi_Cycle_Processor_TB
 # vsim work.RISC_V_Multi_Cycle_Processor_TB 
-# Start time: 19:51:36 on Mar 28,2024
+# Start time: 21:01:36 on Apr 04,2024
 # Loading work.RISC_V_Multi_Cycle_Processor_TB
 # Loading work.RISC_V_Multi_Cycle_Processor
 # Loading work.RISC_V_Multi_Cycle
@@ -658,188 +724,6 @@ vsim work.RISC_V_Multi_Cycle_Processor_TB
 # Loading work.Rx_Register_Decoder
 # Loading work.Tx_Register_Encoder
 # Loading work.Tx_Register_Decoder
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/clk
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: dace_  Hostname: LAPTOP-NUL466BS  ProcessID: 9076
-#           Attempting to use alternate WLF file "./wlft9sy5ch".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft9sy5ch
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/Op
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/state
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Write_Enable_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Write_Data_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Address_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/ram_out
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Data_Out_Read_w
-run
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcA
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcB
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUResult
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-run
-# GetModuleFileName: No se puede encontrar el módulo especificado.
-# 
-# 
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/Write_Data_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/ra/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/sp/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/a0/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/a2/enable
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-run
-# GetModuleFileName: No se puede encontrar el módulo especificado.
-# 
-# 
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/PC
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-run
-# GetModuleFileName: No se puede encontrar el módulo especificado.
-# 
-# 
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/ram_out
-run
-# Compile of Register_Mux.v was successful.
-vsim work.RISC_V_Multi_Cycle_Processor_TB
-# End time: 20:15:26 on Mar 28,2024, Elapsed time: 0:23:50
-# Errors: 0, Warnings: 7
-# vsim work.RISC_V_Multi_Cycle_Processor_TB 
-# Start time: 20:15:26 on Mar 28,2024
-# Loading work.RISC_V_Multi_Cycle_Processor_TB
-# Loading work.RISC_V_Multi_Cycle_Processor
-# Loading work.RISC_V_Multi_Cycle
-# Loading work.Control_Unit
-# Loading work.Control_Signals
-# Loading work.ALU_Decoder
-# Loading work.Instr_Decoder
-# Loading work.Data_Path
-# Loading work.Register
-# Loading work.Mux2x1
-# Loading work.Memory_System
-# Loading work.Program_Memory
-# Loading work.Data_Memory
-# Loading work.Device_Select
-# Loading work.Register_Mux
-# Loading work.Register_File
-# Loading work.Decoder
-# Loading work.Mux32x1
-# Loading work.Sign_Extend
-# Loading work.Mux3x1
-# Loading work.ALU
-# Loading work.UART_Tx_Rx
-# Loading work.UART_Full_Duplex
-# Loading work.UART_Rx
-# Loading work.Shift_Register_R_Param
-# Loading work.Reg_Param
-# Loading work.FF_D_enable
-# Loading work.Bit_Rate_Pulse
-# Loading work.FSM_UART_Rx
-# Loading work.Counter_Param
-# Loading work.Heard_Bit
-# Loading work.UART_Tx
-# Loading work.Counter_Param_Tx
-# Loading work.Bit_Rate_Pulse_Tx
-# Loading work.Uart_Tx_Fsm
-# Loading work.Serializer
-# Loading work.UART_Register_Decode
-# Loading work.Rx_Register_Decoder
-# Loading work.Tx_Register_Encoder
-# Loading work.Tx_Register_Decoder
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-vsim work.RISC_V_Multi_Cycle_Processor_TB
-# End time: 20:15:37 on Mar 28,2024, Elapsed time: 0:00:11
-# Errors: 0, Warnings: 6
-# vsim work.RISC_V_Multi_Cycle_Processor_TB 
-# Start time: 20:15:37 on Mar 28,2024
-# Loading work.RISC_V_Multi_Cycle_Processor_TB
-# Loading work.RISC_V_Multi_Cycle_Processor
-# Loading work.RISC_V_Multi_Cycle
-# Loading work.Control_Unit
-# Loading work.Control_Signals
-# Loading work.ALU_Decoder
-# Loading work.Instr_Decoder
-# Loading work.Data_Path
-# Loading work.Register
-# Loading work.Mux2x1
-# Loading work.Memory_System
-# Loading work.Program_Memory
-# Loading work.Data_Memory
-# Loading work.Device_Select
-# Loading work.Register_Mux
-# Loading work.Register_File
-# Loading work.Decoder
-# Loading work.Mux32x1
-# Loading work.Sign_Extend
-# Loading work.Mux3x1
-# Loading work.ALU
-# Loading work.UART_Tx_Rx
-# Loading work.UART_Full_Duplex
-# Loading work.UART_Rx
-# Loading work.Shift_Register_R_Param
-# Loading work.Reg_Param
-# Loading work.FF_D_enable
-# Loading work.Bit_Rate_Pulse
-# Loading work.FSM_UART_Rx
-# Loading work.Counter_Param
-# Loading work.Heard_Bit
-# Loading work.UART_Tx
-# Loading work.Counter_Param_Tx
-# Loading work.Bit_Rate_Pulse_Tx
-# Loading work.Uart_Tx_Fsm
-# Loading work.Serializer
-# Loading work.UART_Register_Decode
-# Loading work.Rx_Register_Decoder
-# Loading work.Tx_Register_Encoder
-# Loading work.Tx_Register_Decoder
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
 #    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
@@ -849,29 +733,25 @@ vsim work.RISC_V_Multi_Cycle_Processor_TB
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/clk_r
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: dace_  Hostname: LAPTOP-NUL466BS  ProcessID: 9076
-#           Attempting to use alternate WLF file "./wlftn3fq4w".
+#           Attempting to use alternate WLF file "./wlftc04wiq".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftn3fq4w
+#           Using alternate file: ./wlftc04wiq
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/tx
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/Op
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/state
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/PC
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcA
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcB
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUResult
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/Write_Data_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/ra/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/sp/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/a0/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/a2/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Data_Out_Read_w
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Write_Enable_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Write_Data_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Address_i
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/GPIO_Out_w
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/GPIO_In_W
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/parity_sel_w
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/Tx_Start_w
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART_Tx_Data_w
+run
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART_Reg/tx_send
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART_Reg/Reg_Data_UART_Tx_w
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART_Reg/UART_Tx_Reg_W
+run
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
 #    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
@@ -879,16 +759,12 @@ restart
 # ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
 #    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
 run
-# GetModuleFileName: No se puede encontrar el módulo especificado.
-# 
-# 
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/DEV_SEL/Reg_Mux_Write_Read/Select
-# Compile of Register_Mux.v was successful.
+# Compile of Uart_Tx_Fsm.v was successful.
 vsim work.RISC_V_Multi_Cycle_Processor_TB
-# End time: 20:20:49 on Mar 28,2024, Elapsed time: 0:05:12
-# Errors: 0, Warnings: 7
+# End time: 21:10:58 on Apr 04,2024, Elapsed time: 0:09:22
+# Errors: 0, Warnings: 5
 # vsim work.RISC_V_Multi_Cycle_Processor_TB 
-# Start time: 20:20:49 on Mar 28,2024
+# Start time: 21:10:58 on Apr 04,2024
 # Loading work.RISC_V_Multi_Cycle_Processor_TB
 # Loading work.RISC_V_Multi_Cycle_Processor
 # Loading work.RISC_V_Multi_Cycle
@@ -929,215 +805,31 @@ vsim work.RISC_V_Multi_Cycle_Processor_TB
 # Loading work.Rx_Register_Decoder
 # Loading work.Tx_Register_Encoder
 # Loading work.Tx_Register_Decoder
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
 #    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
 #    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
 # ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
 #    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/clk
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/clk_r
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: dace_  Hostname: LAPTOP-NUL466BS  ProcessID: 9076
-#           Attempting to use alternate WLF file "./wlft522atz".
+#           Attempting to use alternate WLF file "./wlftjn70j4".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft522atz
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/Op
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Data_Out_Read_w
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Write_Data_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Address_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/ram_out
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Write_Enable_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/Write_Data_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/ra/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/a2/enable
-run
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-run
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Instruction_o
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/state
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-run
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Instruction_o
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcA
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcB
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUResult
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-run
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Data
-run
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-run
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ResultSrc
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-run
-# Compile of Data_Memory.v was successful.
-vsim work.RISC_V_Multi_Cycle_Processor_TB
-# End time: 20:44:24 on Mar 28,2024, Elapsed time: 0:23:35
-# Errors: 0, Warnings: 7
-# vsim work.RISC_V_Multi_Cycle_Processor_TB 
-# Start time: 20:44:24 on Mar 28,2024
-# Loading work.RISC_V_Multi_Cycle_Processor_TB
-# Loading work.RISC_V_Multi_Cycle_Processor
-# Loading work.RISC_V_Multi_Cycle
-# Loading work.Control_Unit
-# Loading work.Control_Signals
-# Loading work.ALU_Decoder
-# Loading work.Instr_Decoder
-# Loading work.Data_Path
-# Loading work.Register
-# Loading work.Mux2x1
-# Loading work.Memory_System
-# Loading work.Program_Memory
-# Loading work.Data_Memory
-# Loading work.Device_Select
-# Loading work.Register_Mux
-# Loading work.Register_File
-# Loading work.Decoder
-# Loading work.Mux32x1
-# Loading work.Sign_Extend
-# Loading work.Mux3x1
-# Loading work.ALU
-# Loading work.UART_Tx_Rx
-# Loading work.UART_Full_Duplex
-# Loading work.UART_Rx
-# Loading work.Shift_Register_R_Param
-# Loading work.Reg_Param
-# Loading work.FF_D_enable
-# Loading work.Bit_Rate_Pulse
-# Loading work.FSM_UART_Rx
-# Loading work.Counter_Param
-# Loading work.Heard_Bit
-# Loading work.UART_Tx
-# Loading work.Counter_Param_Tx
-# Loading work.Bit_Rate_Pulse_Tx
-# Loading work.Uart_Tx_Fsm
-# Loading work.Serializer
-# Loading work.UART_Register_Decode
-# Loading work.Rx_Register_Decoder
-# Loading work.Tx_Register_Encoder
-# Loading work.Tx_Register_Decoder
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/clk
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: dace_  Hostname: LAPTOP-NUL466BS  ProcessID: 9076
-#           Attempting to use alternate WLF file "./wlftzyra3c".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftzyra3c
+#           Using alternate file: ./wlftjn70j4
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/Op
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/state
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/PC
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcA
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcB
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUResult
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/ram_out
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Address_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Data_Out_Read_w
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ROM_RAM/Instruction_o
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Data
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ResultSrc
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Result
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/RegWrite
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/Write_Data_i
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/ra/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/sp/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/a0/enable
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/Reg_File/a2/enable
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/GPIO_Out_w
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/tx
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART_Reg/Parity
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART_Reg/UART_Tx_Data
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART_Reg/Tx_Start
 run
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALU/Control
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART_Reg/tx_send
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART_Reg/UART_Reg
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-run
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/Operation/Control
-# Compile of Data_Memory.v was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.Data_Memory
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
-run
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/Operation/ALUControl
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
 #    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
@@ -1200,10 +892,10 @@ run
 # Compile of UART_Tx_tb.v was successful.
 # 53 compiles, 0 failed with no errors.
 vsim work.RISC_V_Multi_Cycle_Processor_TB
-# End time: 21:28:48 on Mar 28,2024, Elapsed time: 0:44:24
-# Errors: 0, Warnings: 7
+# End time: 21:28:25 on Apr 04,2024, Elapsed time: 0:17:27
+# Errors: 0, Warnings: 5
 # vsim work.RISC_V_Multi_Cycle_Processor_TB 
-# Start time: 21:28:48 on Mar 28,2024
+# Start time: 21:28:25 on Apr 04,2024
 # Loading work.RISC_V_Multi_Cycle_Processor_TB
 # Loading work.RISC_V_Multi_Cycle_Processor
 # Loading work.RISC_V_Multi_Cycle
@@ -1244,9 +936,6 @@ vsim work.RISC_V_Multi_Cycle_Processor_TB
 # Loading work.Rx_Register_Decoder
 # Loading work.Tx_Register_Encoder
 # Loading work.Tx_Register_Decoder
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'UUT'.  Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v Line: 11
-# ** Warning: (vsim-3722) C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v(11): [TFMPC] - Missing connection for port 'heard_bit_out'.
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
 #    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
@@ -1256,16 +945,807 @@ vsim work.RISC_V_Multi_Cycle_Processor_TB
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/clk_r
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: dace_  Hostname: LAPTOP-NUL466BS  ProcessID: 9076
-#           Attempting to use alternate WLF file "./wlfttxns1k".
+#           Attempting to use alternate WLF file "./wlftva59ei".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlfttxns1k
+#           Using alternate file: ./wlftva59ei
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/rx
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/GPIO_Out_w
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/tx
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/GPIO_In_W
+run
+run
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART_Reg/Reg_Data_UART_Rx_w
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART_Reg/UART_Rx_Reg_w
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
+run
+# Compile of ALU.v was successful.
+# Compile of ALU_Decoder.v was successful.
+# Compile of Bit_Rate_Pulse.v was successful.
+# Compile of Bit_Rate_Pulse_Tx.v was successful.
+# Compile of Clock_Gen.v was successful.
+# Compile of Clock_Gen_bb.v was successful.
+# Compile of cont_1s_RCO.v was successful.
+# Compile of Control_Signals.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Counter_Param.v was successful.
+# Compile of Counter_Param_Tx.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Data_Path.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of DecoderBinDec7seg.v was successful.
+# Compile of Device_Select.v was successful.
+# Compile of Device_Selector.v was successful.
+# Compile of Extend.v was successful.
+# Compile of FF_D_enable.v was successful.
+# Compile of FSM_UART_Rx.v was successful.
+# Compile of Heard_Bit.v was successful.
+# Compile of Instr_Decoder.v was successful.
+# Compile of Memory_System.v was successful.
+# Compile of Mux2x1.v was successful.
+# Compile of Mux3x1.v was successful.
+# Compile of Mux4x1.v was successful.
+# Compile of Mux32x1.v was successful.
+# Compile of Program_Memory.v was successful.
+# Compile of Reg_Param.v was successful.
+# Compile of Register.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Register_Mux.v was successful.
+# Compile of RISC_V_Multi_Cycle.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor_TB.v was successful.
+# Compile of RISC_V_Multi_Cycle_TB.v was successful.
+# Compile of RISC_V_Processor.v was successful.
+# Compile of Rx_Register_Decoder.v was successful.
+# Compile of Serializer.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Shift_Register_R_Param.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of Tx_Register_Decoder.v was successful.
+# Compile of Tx_Register_Encoder.v was successful.
+# Compile of UART_Full_Duplex.v was successful.
+# Compile of UART_Register_Decode.v was successful.
+# Compile of UART_Rx.v was successful.
+# Compile of UART_Rx_TB.v was successful.
+# Compile of UART_Tx.v was successful.
+# Compile of Uart_Tx_Fsm.v was successful.
+# Compile of UART_Tx_Rx.v was successful.
+# Compile of UART_Tx_Rx_TB.v was successful.
+# Compile of UART_Tx_tb.v was successful.
+# 53 compiles, 0 failed with no errors.
+vsim work.RISC_V_Multi_Cycle_Processor_TB
+# End time: 00:08:55 on Apr 05,2024, Elapsed time: 2:40:30
+# Errors: 0, Warnings: 5
+# vsim work.RISC_V_Multi_Cycle_Processor_TB 
+# Start time: 00:08:55 on Apr 05,2024
+# Loading work.RISC_V_Multi_Cycle_Processor_TB
+# Loading work.RISC_V_Multi_Cycle_Processor
+# Loading work.RISC_V_Multi_Cycle
+# Loading work.Control_Unit
+# Loading work.Control_Signals
+# Loading work.ALU_Decoder
+# Loading work.Instr_Decoder
+# Loading work.Data_Path
+# Loading work.Register
+# Loading work.Mux2x1
+# Loading work.Memory_System
+# Loading work.Program_Memory
+# Loading work.Data_Memory
+# Loading work.Device_Select
+# Loading work.Register_Mux
+# Loading work.Register_File
+# Loading work.Decoder
+# Loading work.Mux32x1
+# Loading work.Sign_Extend
+# Loading work.Mux3x1
+# Loading work.ALU
+# Loading work.UART_Tx_Rx
+# Loading work.UART_Full_Duplex
+# Loading work.UART_Rx
+# Loading work.Shift_Register_R_Param
+# Loading work.Reg_Param
+# Loading work.FF_D_enable
+# Loading work.Bit_Rate_Pulse
+# Loading work.FSM_UART_Rx
+# Loading work.Counter_Param
+# Loading work.Heard_Bit
+# Loading work.UART_Tx
+# Loading work.Counter_Param_Tx
+# Loading work.Bit_Rate_Pulse_Tx
+# Loading work.Uart_Tx_Fsm
+# Loading work.Serializer
+# Loading work.UART_Register_Decode
+# Loading work.Rx_Register_Decoder
+# Loading work.Tx_Register_Encoder
+# Loading work.Tx_Register_Decoder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'ALUControl'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'ALUControl'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/clk_r
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: dace_  Hostname: LAPTOP-NUL466BS  ProcessID: 9076
+#           Attempting to use alternate WLF file "./wlftivb8e9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftivb8e9
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/Op
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/state
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/Operation/Control
-add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/Operation/ALUControl
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/PC
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUControl
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcA
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcB
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUResult
+# Compile of Program_Memory.v was successful.
+vsim work.RISC_V_Multi_Cycle_Processor_TB
+# End time: 00:23:45 on Apr 05,2024, Elapsed time: 0:14:50
+# Errors: 0, Warnings: 9
+# vsim work.RISC_V_Multi_Cycle_Processor_TB 
+# Start time: 00:23:45 on Apr 05,2024
+# Loading work.RISC_V_Multi_Cycle_Processor_TB
+# Loading work.RISC_V_Multi_Cycle_Processor
+# Loading work.RISC_V_Multi_Cycle
+# Loading work.Control_Unit
+# Loading work.Control_Signals
+# Loading work.ALU_Decoder
+# Loading work.Instr_Decoder
+# Loading work.Data_Path
+# Loading work.Register
+# Loading work.Mux2x1
+# Loading work.Memory_System
+# Loading work.Program_Memory
+# Loading work.Data_Memory
+# Loading work.Device_Select
+# Loading work.Register_Mux
+# Loading work.Register_File
+# Loading work.Decoder
+# Loading work.Mux32x1
+# Loading work.Sign_Extend
+# Loading work.Mux3x1
+# Loading work.ALU
+# Loading work.UART_Tx_Rx
+# Loading work.UART_Full_Duplex
+# Loading work.UART_Rx
+# Loading work.Shift_Register_R_Param
+# Loading work.Reg_Param
+# Loading work.FF_D_enable
+# Loading work.Bit_Rate_Pulse
+# Loading work.FSM_UART_Rx
+# Loading work.Counter_Param
+# Loading work.Heard_Bit
+# Loading work.UART_Tx
+# Loading work.Counter_Param_Tx
+# Loading work.Bit_Rate_Pulse_Tx
+# Loading work.Uart_Tx_Fsm
+# Loading work.Serializer
+# Loading work.UART_Register_Decode
+# Loading work.Rx_Register_Decoder
+# Loading work.Tx_Register_Encoder
+# Loading work.Tx_Register_Decoder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'ALUControl'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'ALUControl'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/clk_r
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: dace_  Hostname: LAPTOP-NUL466BS  ProcessID: 9076
+#           Attempting to use alternate WLF file "./wlftz34zx8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftz34zx8
 add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/Op
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/state
+run
+# Can't move the Now cursor.
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/PC
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUControl
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcA
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcB
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUResult
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'ALUControl'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'ALUControl'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
+run
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/Operation/Control
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'ALUControl'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'ALUControl'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
+run
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/Operation/ALUControl
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'ALUControl'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'ALUControl'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
+run
+run
+# Compile of RISC_V_Multi_Cycle_Processor.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor.v was successful.
+vsim work.RISC_V_Multi_Cycle_Processor_TB
+# End time: 00:39:39 on Apr 05,2024, Elapsed time: 0:15:54
+# Errors: 0, Warnings: 8
+# vsim work.RISC_V_Multi_Cycle_Processor_TB 
+# Start time: 00:39:39 on Apr 05,2024
+# Loading work.RISC_V_Multi_Cycle_Processor_TB
+# Loading work.RISC_V_Multi_Cycle_Processor
+# Loading work.RISC_V_Multi_Cycle
+# Loading work.Control_Unit
+# Loading work.Control_Signals
+# Loading work.ALU_Decoder
+# Loading work.Instr_Decoder
+# Loading work.Data_Path
+# Loading work.Register
+# Loading work.Mux2x1
+# Loading work.Memory_System
+# Loading work.Program_Memory
+# Loading work.Data_Memory
+# Loading work.Device_Select
+# Loading work.Register_Mux
+# Loading work.Register_File
+# Loading work.Decoder
+# Loading work.Mux32x1
+# Loading work.Sign_Extend
+# Loading work.Mux3x1
+# Loading work.ALU
+# Loading work.UART_Tx_Rx
+# Loading work.UART_Full_Duplex
+# Loading work.UART_Rx
+# Loading work.Shift_Register_R_Param
+# Loading work.Reg_Param
+# Loading work.FF_D_enable
+# Loading work.Bit_Rate_Pulse
+# Loading work.FSM_UART_Rx
+# Loading work.Counter_Param
+# Loading work.Heard_Bit
+# Loading work.UART_Tx
+# Loading work.Counter_Param_Tx
+# Loading work.Bit_Rate_Pulse_Tx
+# Loading work.Uart_Tx_Fsm
+# Loading work.Serializer
+# Loading work.UART_Register_Decode
+# Loading work.Rx_Register_Decoder
+# Loading work.Tx_Register_Encoder
+# Loading work.Tx_Register_Decoder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'ALUControl'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'ALUControl'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/clk
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: dace_  Hostname: LAPTOP-NUL466BS  ProcessID: 9076
+#           Attempting to use alternate WLF file "./wlfts3dm8v".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfts3dm8v
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/Op
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/state
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/PC
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUControl
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcA
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcB
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUResult
+run
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/Operation/ALUControl
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/ALUControl
+# Compile of ALU.v was successful.
+# Compile of ALU_Decoder.v was successful.
+# Compile of Bit_Rate_Pulse.v was successful.
+# Compile of Bit_Rate_Pulse_Tx.v was successful.
+# Compile of Clock_Gen.v was successful.
+# Compile of Clock_Gen_bb.v was successful.
+# Compile of cont_1s_RCO.v was successful.
+# Compile of Control_Signals.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Counter_Param.v was successful.
+# Compile of Counter_Param_Tx.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Data_Path.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of DecoderBinDec7seg.v was successful.
+# Compile of Device_Select.v was successful.
+# Compile of Device_Selector.v was successful.
+# Compile of Extend.v was successful.
+# Compile of FF_D_enable.v was successful.
+# Compile of FSM_UART_Rx.v was successful.
+# Compile of Heard_Bit.v was successful.
+# Compile of Instr_Decoder.v was successful.
+# Compile of Memory_System.v was successful.
+# Compile of Mux2x1.v was successful.
+# Compile of Mux3x1.v was successful.
+# Compile of Mux4x1.v was successful.
+# Compile of Mux32x1.v was successful.
+# Compile of Program_Memory.v was successful.
+# Compile of Reg_Param.v was successful.
+# Compile of Register.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Register_Mux.v was successful.
+# Compile of RISC_V_Multi_Cycle.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor_TB.v was successful.
+# Compile of RISC_V_Multi_Cycle_TB.v was successful.
+# Compile of RISC_V_Processor.v was successful.
+# Compile of Rx_Register_Decoder.v was successful.
+# Compile of Serializer.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Shift_Register_R_Param.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of Tx_Register_Decoder.v was successful.
+# Compile of Tx_Register_Encoder.v was successful.
+# Compile of UART_Full_Duplex.v was successful.
+# Compile of UART_Register_Decode.v was successful.
+# Compile of UART_Rx.v was successful.
+# Compile of UART_Rx_TB.v was successful.
+# Compile of UART_Tx.v was successful.
+# Compile of Uart_Tx_Fsm.v was successful.
+# Compile of UART_Tx_Rx.v was successful.
+# Compile of UART_Tx_Rx_TB.v was successful.
+# Compile of UART_Tx_tb.v was successful.
+# 53 compiles, 0 failed with no errors.
+vsim work.RISC_V_Multi_Cycle_Processor_TB
+# End time: 00:44:21 on Apr 05,2024, Elapsed time: 0:04:42
+# Errors: 0, Warnings: 9
+# vsim work.RISC_V_Multi_Cycle_Processor_TB 
+# Start time: 00:44:21 on Apr 05,2024
+# Loading work.RISC_V_Multi_Cycle_Processor_TB
+# Loading work.RISC_V_Multi_Cycle_Processor
+# Loading work.RISC_V_Multi_Cycle
+# Loading work.Control_Unit
+# Loading work.Control_Signals
+# Loading work.ALU_Decoder
+# Loading work.Instr_Decoder
+# Loading work.Data_Path
+# Loading work.Register
+# Loading work.Mux2x1
+# Loading work.Memory_System
+# Loading work.Program_Memory
+# Loading work.Data_Memory
+# Loading work.Device_Select
+# Loading work.Register_Mux
+# Loading work.Register_File
+# Loading work.Decoder
+# Loading work.Mux32x1
+# Loading work.Sign_Extend
+# Loading work.Mux3x1
+# Loading work.ALU
+# Loading work.UART_Tx_Rx
+# Loading work.UART_Full_Duplex
+# Loading work.UART_Rx
+# Loading work.Shift_Register_R_Param
+# Loading work.Reg_Param
+# Loading work.FF_D_enable
+# Loading work.Bit_Rate_Pulse
+# Loading work.FSM_UART_Rx
+# Loading work.Counter_Param
+# Loading work.Heard_Bit
+# Loading work.UART_Tx
+# Loading work.Counter_Param_Tx
+# Loading work.Bit_Rate_Pulse_Tx
+# Loading work.Uart_Tx_Fsm
+# Loading work.Serializer
+# Loading work.UART_Register_Decode
+# Loading work.Rx_Register_Decoder
+# Loading work.Tx_Register_Encoder
+# Loading work.Tx_Register_Decoder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/clk
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: dace_  Hostname: LAPTOP-NUL466BS  ProcessID: 9076
+#           Attempting to use alternate WLF file "./wlftkircyi".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkircyi
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/Op
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/state
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/PC
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUControl
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcA
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcB
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUResult
+run
+# Compile of ALU.v was successful.
+# Compile of ALU_Decoder.v was successful.
+# Compile of Bit_Rate_Pulse.v was successful.
+# Compile of Bit_Rate_Pulse_Tx.v was successful.
+# Compile of Clock_Gen.v was successful.
+# Compile of Clock_Gen_bb.v was successful.
+# Compile of cont_1s_RCO.v was successful.
+# Compile of Control_Signals.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Counter_Param.v was successful.
+# Compile of Counter_Param_Tx.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Data_Path.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of DecoderBinDec7seg.v was successful.
+# Compile of Device_Select.v was successful.
+# Compile of Device_Selector.v was successful.
+# Compile of Extend.v was successful.
+# Compile of FF_D_enable.v was successful.
+# Compile of FSM_UART_Rx.v was successful.
+# Compile of Heard_Bit.v was successful.
+# Compile of Instr_Decoder.v was successful.
+# Compile of Memory_System.v was successful.
+# Compile of Mux2x1.v was successful.
+# Compile of Mux3x1.v was successful.
+# Compile of Mux4x1.v was successful.
+# Compile of Mux32x1.v was successful.
+# Compile of Program_Memory.v was successful.
+# Compile of Reg_Param.v was successful.
+# Compile of Register.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Register_Mux.v was successful.
+# Compile of RISC_V_Multi_Cycle.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor_TB.v was successful.
+# Compile of RISC_V_Multi_Cycle_TB.v was successful.
+# Compile of RISC_V_Processor.v was successful.
+# Compile of Rx_Register_Decoder.v was successful.
+# Compile of Serializer.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Shift_Register_R_Param.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of Tx_Register_Decoder.v was successful.
+# Compile of Tx_Register_Encoder.v was successful.
+# Compile of UART_Full_Duplex.v was successful.
+# Compile of UART_Register_Decode.v was successful.
+# Compile of UART_Rx.v was successful.
+# Compile of UART_Rx_TB.v was successful.
+# Compile of UART_Tx.v was successful.
+# Compile of Uart_Tx_Fsm.v was successful.
+# Compile of UART_Tx_Rx.v was successful.
+# Compile of UART_Tx_Rx_TB.v was successful.
+# Compile of UART_Tx_tb.v was successful.
+# 53 compiles, 0 failed with no errors.
+vsim work.RISC_V_Multi_Cycle_Processor_TB
+# End time: 00:49:31 on Apr 05,2024, Elapsed time: 0:05:10
+# Errors: 0, Warnings: 7
+# vsim work.RISC_V_Multi_Cycle_Processor_TB 
+# Start time: 00:49:31 on Apr 05,2024
+# Loading work.RISC_V_Multi_Cycle_Processor_TB
+# Loading work.RISC_V_Multi_Cycle_Processor
+# Loading work.RISC_V_Multi_Cycle
+# Loading work.Control_Unit
+# Loading work.Control_Signals
+# Loading work.ALU_Decoder
+# Loading work.Instr_Decoder
+# Loading work.Data_Path
+# Loading work.Register
+# Loading work.Mux2x1
+# Loading work.Memory_System
+# Loading work.Program_Memory
+# Loading work.Data_Memory
+# Loading work.Device_Select
+# Loading work.Register_Mux
+# Loading work.Register_File
+# Loading work.Decoder
+# Loading work.Mux32x1
+# Loading work.Sign_Extend
+# Loading work.Mux3x1
+# Loading work.ALU
+# Loading work.UART_Tx_Rx
+# Loading work.UART_Full_Duplex
+# Loading work.UART_Rx
+# Loading work.Shift_Register_R_Param
+# Loading work.Reg_Param
+# Loading work.FF_D_enable
+# Loading work.Bit_Rate_Pulse
+# Loading work.FSM_UART_Rx
+# Loading work.Counter_Param
+# Loading work.Heard_Bit
+# Loading work.UART_Tx
+# Loading work.Counter_Param_Tx
+# Loading work.Bit_Rate_Pulse_Tx
+# Loading work.Uart_Tx_Fsm
+# Loading work.Serializer
+# Loading work.UART_Register_Decode
+# Loading work.Rx_Register_Decoder
+# Loading work.Tx_Register_Encoder
+# Loading work.Tx_Register_Decoder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/clk
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: dace_  Hostname: LAPTOP-NUL466BS  ProcessID: 9076
+#           Attempting to use alternate WLF file "./wlft7kn89v".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7kn89v
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/Op
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/state
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/PC
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUControl
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcA
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcB
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUResult
+run
+# Compile of ALU.v was successful.
+# Compile of ALU_Decoder.v was successful.
+# Compile of Bit_Rate_Pulse.v was successful.
+# Compile of Bit_Rate_Pulse_Tx.v was successful.
+# Compile of Clock_Gen.v was successful.
+# Compile of Clock_Gen_bb.v was successful.
+# Compile of cont_1s_RCO.v was successful.
+# Compile of Control_Signals.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Counter_Param.v was successful.
+# Compile of Counter_Param_Tx.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Data_Path.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of DecoderBinDec7seg.v was successful.
+# Compile of Device_Select.v was successful.
+# Compile of Device_Selector.v was successful.
+# Compile of Extend.v was successful.
+# Compile of FF_D_enable.v was successful.
+# Compile of FSM_UART_Rx.v was successful.
+# Compile of Heard_Bit.v was successful.
+# Compile of Instr_Decoder.v was successful.
+# Compile of Memory_System.v was successful.
+# Compile of Mux2x1.v was successful.
+# Compile of Mux3x1.v was successful.
+# Compile of Mux4x1.v was successful.
+# Compile of Mux32x1.v was successful.
+# Compile of Program_Memory.v was successful.
+# Compile of Reg_Param.v was successful.
+# Compile of Register.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Register_Mux.v was successful.
+# Compile of RISC_V_Multi_Cycle.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor_TB.v was successful.
+# Compile of RISC_V_Multi_Cycle_TB.v was successful.
+# Compile of RISC_V_Processor.v was successful.
+# Compile of Rx_Register_Decoder.v was successful.
+# Compile of Serializer.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Shift_Register_R_Param.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of Tx_Register_Decoder.v was successful.
+# Compile of Tx_Register_Encoder.v was successful.
+# Compile of UART_Full_Duplex.v was successful.
+# Compile of UART_Register_Decode.v was successful.
+# Compile of UART_Rx.v was successful.
+# Compile of UART_Rx_TB.v was successful.
+# Compile of UART_Tx.v was successful.
+# Compile of Uart_Tx_Fsm.v was successful.
+# Compile of UART_Tx_Rx.v was successful.
+# Compile of UART_Tx_Rx_TB.v was successful.
+# Compile of UART_Tx_tb.v was successful.
+# 53 compiles, 0 failed with no errors.
+vsim work.RISC_V_Multi_Cycle_Processor_TB
+# End time: 00:52:39 on Apr 05,2024, Elapsed time: 0:03:08
+# Errors: 0, Warnings: 7
+# vsim work.RISC_V_Multi_Cycle_Processor_TB 
+# Start time: 00:52:39 on Apr 05,2024
+# Loading work.RISC_V_Multi_Cycle_Processor_TB
+# Loading work.RISC_V_Multi_Cycle_Processor
+# Loading work.RISC_V_Multi_Cycle
+# Loading work.Control_Unit
+# Loading work.Control_Signals
+# Loading work.ALU_Decoder
+# Loading work.Instr_Decoder
+# Loading work.Data_Path
+# Loading work.Register
+# Loading work.Mux2x1
+# Loading work.Memory_System
+# Loading work.Program_Memory
+# Loading work.Data_Memory
+# Loading work.Device_Select
+# Loading work.Register_Mux
+# Loading work.Register_File
+# Loading work.Decoder
+# Loading work.Mux32x1
+# Loading work.Sign_Extend
+# Loading work.Mux3x1
+# Loading work.ALU
+# Loading work.UART_Tx_Rx
+# Loading work.UART_Full_Duplex
+# Loading work.UART_Rx
+# Loading work.Shift_Register_R_Param
+# Loading work.Reg_Param
+# Loading work.FF_D_enable
+# Loading work.Bit_Rate_Pulse
+# Loading work.FSM_UART_Rx
+# Loading work.Counter_Param
+# Loading work.Heard_Bit
+# Loading work.UART_Tx
+# Loading work.Counter_Param_Tx
+# Loading work.Bit_Rate_Pulse_Tx
+# Loading work.Uart_Tx_Fsm
+# Loading work.Serializer
+# Loading work.UART_Register_Decode
+# Loading work.Rx_Register_Decoder
+# Loading work.Tx_Register_Encoder
+# Loading work.Tx_Register_Decoder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/clk
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: dace_  Hostname: LAPTOP-NUL466BS  ProcessID: 9076
+#           Attempting to use alternate WLF file "./wlft9tbyx1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft9tbyx1
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/Op
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/state
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/PC
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUControl
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcA
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcB
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUResult
+run
+# Compile of ALU.v was successful.
+# Compile of ALU_Decoder.v was successful.
+# Compile of Bit_Rate_Pulse.v was successful.
+# Compile of Bit_Rate_Pulse_Tx.v was successful.
+# Compile of Clock_Gen.v was successful.
+# Compile of Clock_Gen_bb.v was successful.
+# Compile of cont_1s_RCO.v was successful.
+# Compile of Control_Signals.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Counter_Param.v was successful.
+# Compile of Counter_Param_Tx.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Data_Path.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of DecoderBinDec7seg.v was successful.
+# Compile of Device_Select.v was successful.
+# Compile of Device_Selector.v was successful.
+# Compile of Extend.v was successful.
+# Compile of FF_D_enable.v was successful.
+# Compile of FSM_UART_Rx.v was successful.
+# Compile of Heard_Bit.v was successful.
+# Compile of Instr_Decoder.v was successful.
+# Compile of Memory_System.v was successful.
+# Compile of Mux2x1.v was successful.
+# Compile of Mux3x1.v was successful.
+# Compile of Mux4x1.v was successful.
+# Compile of Mux32x1.v was successful.
+# Compile of Program_Memory.v was successful.
+# Compile of Reg_Param.v was successful.
+# Compile of Register.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of Register_Mux.v was successful.
+# Compile of RISC_V_Multi_Cycle.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor.v was successful.
+# Compile of RISC_V_Multi_Cycle_Processor_TB.v was successful.
+# Compile of RISC_V_Multi_Cycle_TB.v was successful.
+# Compile of RISC_V_Processor.v was successful.
+# Compile of Rx_Register_Decoder.v was successful.
+# Compile of Serializer.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Shift_Register_R_Param.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of Tx_Register_Decoder.v was successful.
+# Compile of Tx_Register_Encoder.v was successful.
+# Compile of UART_Full_Duplex.v was successful.
+# Compile of UART_Register_Decode.v was successful.
+# Compile of UART_Rx.v was successful.
+# Compile of UART_Rx_TB.v was successful.
+# Compile of UART_Tx.v was successful.
+# Compile of Uart_Tx_Fsm.v was successful.
+# Compile of UART_Tx_Rx.v was successful.
+# Compile of UART_Tx_Rx_TB.v was successful.
+# Compile of UART_Tx_tb.v was successful.
+# 53 compiles, 0 failed with no errors.
+vsim work.RISC_V_Multi_Cycle_Processor_TB
+# End time: 00:55:38 on Apr 05,2024, Elapsed time: 0:02:59
+# Errors: 0, Warnings: 7
+# vsim work.RISC_V_Multi_Cycle_Processor_TB 
+# Start time: 00:55:38 on Apr 05,2024
+# Loading work.RISC_V_Multi_Cycle_Processor_TB
+# Loading work.RISC_V_Multi_Cycle_Processor
+# Loading work.RISC_V_Multi_Cycle
+# Loading work.Control_Unit
+# Loading work.Control_Signals
+# Loading work.ALU_Decoder
+# Loading work.Instr_Decoder
+# Loading work.Data_Path
+# Loading work.Register
+# Loading work.Mux2x1
+# Loading work.Memory_System
+# Loading work.Program_Memory
+# Loading work.Data_Memory
+# Loading work.Device_Select
+# Loading work.Register_Mux
+# Loading work.Register_File
+# Loading work.Decoder
+# Loading work.Mux32x1
+# Loading work.Sign_Extend
+# Loading work.Mux3x1
+# Loading work.ALU
+# Loading work.UART_Tx_Rx
+# Loading work.UART_Full_Duplex
+# Loading work.UART_Rx
+# Loading work.Shift_Register_R_Param
+# Loading work.Reg_Param
+# Loading work.FF_D_enable
+# Loading work.Bit_Rate_Pulse
+# Loading work.FSM_UART_Rx
+# Loading work.Counter_Param
+# Loading work.Heard_Bit
+# Loading work.UART_Tx
+# Loading work.Counter_Param_Tx
+# Loading work.Bit_Rate_Pulse_Tx
+# Loading work.Uart_Tx_Fsm
+# Loading work.Serializer
+# Loading work.UART_Register_Decode
+# Loading work.Rx_Register_Decoder
+# Loading work.Tx_Register_Encoder
+# Loading work.Tx_Register_Decoder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'AdrSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'ADRSrc'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'counter_i'. The port definition is at: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Multi_Cycle_Processor_TB/UUT/UART/UART/UART_Tx_i/Serializer_i File: C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v Line: 65
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/clk
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: dace_  Hostname: LAPTOP-NUL466BS  ProcessID: 9076
+#           Attempting to use alternate WLF file "./wlft5gc8d3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5gc8d3
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/Op
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/Control/State_and_Signals/state
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUControl
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcA
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/SrcB
+add wave -position insertpoint sim:/RISC_V_Multi_Cycle_Processor_TB/UUT/RISC_V/DataPath/ALUResult
 run

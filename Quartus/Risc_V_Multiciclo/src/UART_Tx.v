@@ -16,7 +16,7 @@ wire data_out_w;
 wire neg_rest;
 wire tx_done_w;
 //wire [31:0] Q_w;
-localparam freq = 50000000;
+localparam freq = 25000000;
 localparam baud = 9600;
 
 wire [31:0] bit_rate_w;

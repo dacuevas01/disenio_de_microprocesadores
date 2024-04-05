@@ -55,8 +55,14 @@ FF_D_enable ff_par (
 // For a baud rate of 9600 baudios: bit time 104.2 us, half time 52.1 us
 // For a clock frequency of 50 MHz bit time = 5210 T50MHz;
 
+localparam freq = 25000000;
+localparam baud = 9600;
+
+wire [31:0] bit_rate_w;
+assign bit_rate_w = freq / baud;
+
 Bit_Rate_Pulse # (
-						.delay_counts(5210) 
+						.delay_counts(2605) 
 						) 
 						BR_pulse (
 										.clk(clk), 

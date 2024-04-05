@@ -1,0 +1,20 @@
+Fitter Status : Successful - Fri Apr 05 10:35:39 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : Risc_V_Multiciclo
+Top-level Entity Name : RISC_V_Multi_Cycle_Processor
+Family : Cyclone V
+Device : 5CSXFC6D6F31C6
+Timing Models : Final
+Logic utilization (in ALMs) : 3,166 / 41,910 ( 8 % )
+Total registers : 5857
+Total pins : 6 / 499 ( 1 % )
+Total virtual pins : 0
+Total block memory bits : 37,248 / 5,662,720 ( < 1 % )
+Total RAM Blocks : 8 / 553 ( 1 % )
+Total DSP Blocks : 2 / 112 ( 2 % )
+Total HSSI RX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 9 ( 0 % )
+Total HSSI TX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 9 ( 0 % )
+Total PLLs : 1 / 15 ( 7 % )
+Total DLLs : 0 / 4 ( 0 % )

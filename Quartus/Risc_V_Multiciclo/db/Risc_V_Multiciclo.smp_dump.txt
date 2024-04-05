@@ -1,0 +1,37 @@
+
+State Machine - |RISC_V_Multi_Cycle_Processor|UART_Tx_Rx:UART|UART_Full_Duplex:UART|UART_Tx:UART_Tx_i|Uart_Tx_Fsm:Uart_Tx_Fsm_i|State
+Name State.TX_Done State.STOP_S State.PARITY_S State.TX_S State.START_S State.INIT_S 
+State.INIT_S 0 0 0 0 0 0 
+State.START_S 0 0 0 0 1 1 
+State.TX_S 0 0 0 1 0 1 
+State.PARITY_S 0 0 1 0 0 1 
+State.STOP_S 0 1 0 0 0 1 
+State.TX_Done 1 0 0 0 0 1 
+
+State Machine - |RISC_V_Multi_Cycle_Processor|UART_Tx_Rx:UART|UART_Full_Duplex:UART|UART_Rx:UART_Rx_i|FSM_UART_Rx:FSM_Rx|Rx_state
+Name Rx_state.SAVE_RX_DATA_S_2 Rx_state.SAVE_RX_DATA_S Rx_state.STOP_S Rx_state.RX_WAIT_S Rx_state.SAMPLE_S Rx_state.RX_BITS_S Rx_state.START_S Rx_state.INI_S 
+Rx_state.INI_S 0 0 0 0 0 0 0 0 
+Rx_state.START_S 0 0 0 0 0 0 1 1 
+Rx_state.RX_BITS_S 0 0 0 0 0 1 0 1 
+Rx_state.SAMPLE_S 0 0 0 0 1 0 0 1 
+Rx_state.RX_WAIT_S 0 0 0 1 0 0 0 1 
+Rx_state.STOP_S 0 0 1 0 0 0 0 1 
+Rx_state.SAVE_RX_DATA_S 0 1 0 0 0 0 0 1 
+Rx_state.SAVE_RX_DATA_S_2 1 0 0 0 0 0 0 1 
+
+State Machine - |RISC_V_Multi_Cycle_Processor|RISC_V_Multi_Cycle:RISC_V|Control_Unit:Control|Control_Signals:State_and_Signals|state
+Name state.JALR_WB state.AUIPC state.SW state.M_WB state.LW state.LWSW state.JALR state.JAL state.BEQ state.ALU_WB state.EX_I state.EX_R state.ID state.IF 
+state.IF 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.ID 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.EX_R 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.EX_I 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.ALU_WB 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.BEQ 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.JAL 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.JALR 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.LWSW 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.LW 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.M_WB 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.SW 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.AUIPC 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.JALR_WB 1 0 0 0 0 0 0 0 0 0 0 0 0 1 

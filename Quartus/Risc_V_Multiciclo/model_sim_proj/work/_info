@@ -10,91 +10,91 @@ z2
 cModel Technology
 dC:/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/questa_proj
 vALU
-!s110 1711682905
+Z0 !s110 1712300110
 !i10b 1
-!s100 9Ik<?DA9NM21F96:2>XUf2
-Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
-Ii8_V`50:OacW5PQB0]T7;1
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/model_sim_proj
-w1711607346
+!s100 c5Rab11`03b67bGGLoz4G2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I?66G:O@jmzi6[9c=]LCjD3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/model_sim_proj
+w1712299048
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/ALU.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/ALU.v
-!i122 2554
-L0 1 30
-Z3 OV;L;2020.1;71
+!i122 3252
+L0 1 31
+Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z4 !s108 1711682905.000000
+Z5 !s108 1712300110.000000
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/ALU.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/ALU.v|
 !i113 1
-Z5 o-work work
-Z6 tCvgOpt 0
+Z6 o-work work
+Z7 tCvgOpt 0
 n@a@l@u
 vALU_Decoder
-Z7 !s110 1711682906
-!i10b 1
-!s100 jmW`ER6B@;Rl:j2YZdU490
 R0
-IY9dmS2kK_o3Fb>hOcQ=Ol0
+!i10b 1
+!s100 c^:QXokVAgM@edk4mWEFQ1
 R1
+IeZFFCKj[7@anS0T2FKW@A2
 R2
-w1711682851
+R3
+w1712293767
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/ALU_Decoder.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/ALU_Decoder.v
-!i122 2555
-Z8 L0 1 54
-R3
+!i122 3253
+L0 1 66
+R4
 r1
 !s85 0
 31
-R4
+R5
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/ALU_Decoder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/ALU_Decoder.v|
 !i113 1
-R5
 R6
+R7
 n@a@l@u_@decoder
 vBit_Rate_Pulse
-R7
+Z8 !s110 1712300111
 !i10b 1
 !s100 T96YkDYP4k9PbML=GmChO1
-R0
-I`n?TIL4A52eCLJO?^bCbz1
 R1
+I`n?TIL4A52eCLJO?^bCbz1
 R2
+R3
 w1667174214
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Bit_Rate_Pulse.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Bit_Rate_Pulse.v
-!i122 2556
+!i122 3254
 L0 7 30
-R3
+R4
 r1
 !s85 0
 31
-Z9 !s108 1711682906.000000
+Z9 !s108 1712300111.000000
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Bit_Rate_Pulse.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Bit_Rate_Pulse.v|
 !i113 1
-R5
 R6
+R7
 n@bit_@rate_@pulse
 vBit_Rate_Pulse_Tx
-R7
+R8
 !i10b 1
 !s100 iMo_ng45kaLjG31aZT<Y90
-R0
-I[2dhFQ5j;1HaVlW_gzCBB3
 R1
+I[2dhFQ5j;1HaVlW_gzCBB3
 R2
+R3
 w1667180351
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Bit_Rate_Pulse_Tx.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Bit_Rate_Pulse_Tx.v
-!i122 2557
+!i122 3255
 L0 3 32
-R3
+R4
 r1
 !s85 0
 31
@@ -102,47 +102,47 @@ R9
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Bit_Rate_Pulse_Tx.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Bit_Rate_Pulse_Tx.v|
 !i113 1
-R5
 R6
+R7
 n@bit_@rate_@pulse_@tx
 vClock_Gen
-Z10 !s110 1711682907
+Z10 !s110 1712300112
 !i10b 1
 !s100 6cB4;D3:]SMIV>V@EXWhd2
-R0
-I:eWR]zojKOHNC<28?Q[mD2
 R1
+I:eWR]zojKOHNC<28?Q[mD2
 R2
+R3
 Z11 w1709050828
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Clock_Gen_bb.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Clock_Gen_bb.v
-!i122 2559
+!i122 3257
 L0 35 8
-R3
+R4
 r1
 !s85 0
 31
-Z12 !s108 1711682907.000000
+Z12 !s108 1712300112.000000
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Clock_Gen_bb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Clock_Gen_bb.v|
 !i113 1
-R5
 R6
+R7
 n@clock_@gen
 vcont_1s_RCO
 R10
 !i10b 1
 !s100 [zk_DC>33N1a=me^oYnI:1
-R0
-IQ5`NSdaRWjbID0L4F_;Vc2
 R1
+IQ5`NSdaRWjbID0L4F_;Vc2
 R2
+R3
 R11
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/cont_1s_RCO.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/cont_1s_RCO.v
-!i122 2560
+!i122 3258
 L0 6 22
-R3
+R4
 r1
 !s85 0
 31
@@ -150,23 +150,23 @@ R12
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/cont_1s_RCO.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/cont_1s_RCO.v|
 !i113 1
-R5
 R6
+R7
 ncont_1s_@r@c@o
 vControl_Signals
-Z13 !s110 1711682908
+Z13 !s110 1712300113
 !i10b 1
 !s100 Q;>4QYj_3EVekWK?Did9E2
-R0
-IVZU2ii:TXgO<AdFE3C`5W3
 R1
+IVZU2ii:TXgO<AdFE3C`5W3
 R2
+R3
 w1711682832
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v
-!i122 2561
+!i122 3259
 L0 1 180
-R3
+R4
 r1
 !s85 0
 31
@@ -174,47 +174,47 @@ R12
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Signals.v|
 !i113 1
-R5
 R6
+R7
 n@control_@signals
 vControl_Unit
 R13
 !i10b 1
-!s100 ZnT0UQ1e8<e^iTcndLkzK0
-R0
-IJlIDNKLQLWl`oP]38@_A00
+!s100 Rc8[G`iC<l:5`;3zSNom41
 R1
+IGZeiG>h4=jNSI<XLF2gm82
 R2
-w1711682833
+R3
+w1712293769
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v
-!i122 2562
+!i122 3260
 L0 1 65
-R3
+R4
 r1
 !s85 0
 31
-Z14 !s108 1711682908.000000
+Z14 !s108 1712300113.000000
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Control_Unit.v|
 !i113 1
-R5
 R6
+R7
 n@control_@unit
 vCounter_Param
 R13
 !i10b 1
 !s100 UT59g6Z79ezzVn[234Pm_0
-R0
-IAEOO9liNk4TdcnK;MPKIW0
 R1
+IAEOO9liNk4TdcnK;MPKIW0
 R2
+R3
 w1710967196
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Counter_Param.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Counter_Param.v
-!i122 2563
+!i122 3261
 L0 7 18
-R3
+R4
 r1
 !s85 0
 31
@@ -222,23 +222,23 @@ R14
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Counter_Param.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Counter_Param.v|
 !i113 1
-R5
 R6
+R7
 n@counter_@param
 vCounter_Param_Tx
-R13
+Z15 !s110 1712300114
 !i10b 1
 !s100 YN=:jbmLQkz:g<WKkO`?U0
-R0
-I[1a@2eW_31B8@0XMk_Hfa2
 R1
+I[1a@2eW_31B8@0XMk_Hfa2
 R2
+R3
 w1667174675
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Counter_Param_Tx.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Counter_Param_Tx.v
-!i122 2564
+!i122 3262
 L0 6 19
-R3
+R4
 r1
 !s85 0
 31
@@ -246,71 +246,71 @@ R14
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Counter_Param_Tx.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Counter_Param_Tx.v|
 !i113 1
-R5
 R6
+R7
 n@counter_@param_@tx
 vData_Memory
-Z15 !s110 1711682909
+R15
 !i10b 1
 !s100 ^eS3bKS?c@cHkQ8FPmmef3
-R0
-IF]C_^m`XgBz4Bd=ahk0AS1
 R1
+IF]C_^m`XgBz4Bd=ahk0AS1
 R2
+R3
 w1711680218
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Memory.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Memory.v
-!i122 2565
+!i122 3263
 Z16 L0 1 28
-R3
+R4
 r1
 !s85 0
 31
-R14
+Z17 !s108 1712300114.000000
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Memory.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Memory.v|
 !i113 1
-R5
 R6
+R7
 n@data_@memory
 vData_Path
 R15
 !i10b 1
-!s100 =lL8_n^T<D^8O:d0P:]]>0
-R0
-Ii3keh`n=V<NSSz^C:b@@S3
+!s100 W42[C6M?DiJkaYU<^0LQQ1
 R1
+IBVbACzo>7d?m]R3[BX4]h0
 R2
-w1711516504
+R3
+w1712293768
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v
-!i122 2566
+!i122 3264
 L0 1 194
-R3
+R4
 r1
 !s85 0
 31
-Z17 !s108 1711682909.000000
+R17
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Data_Path.v|
 !i113 1
-R5
 R6
+R7
 n@data_@path
 vDecoder
-R15
+Z18 !s110 1712300115
 !i10b 1
 !s100 ee<JS<[WUXYDoZ?KEdgX^1
-R0
-IZ`1_QS7?HB>TC0]@]R?9d0
 R1
+IZ`1_QS7?HB>TC0]@]R?9d0
 R2
+R3
 R11
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Decoder.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Decoder.v
-!i122 2567
+!i122 3265
 L0 1 44
-R3
+R4
 r1
 !s85 0
 31
@@ -318,941 +318,941 @@ R17
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Decoder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Decoder.v|
 !i113 1
-R5
 R6
+R7
 n@decoder
 vdecoder_bin_hex_7seg
-Z18 !s110 1711682910
+R18
 !i10b 1
 !s100 ;G]h1cahdC^UcfQnHgXW[0
-R0
-I63zcM5WeSJ4ad@_UjZ0ie3
 R1
+I63zcM5WeSJ4ad@_UjZ0ie3
 R2
+R3
 w1667175443
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/DecoderBinDec7seg.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/DecoderBinDec7seg.v
-!i122 2568
+!i122 3266
 Z19 L0 1 23
-R3
+R4
 r1
 !s85 0
 31
-R17
+Z20 !s108 1712300115.000000
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/DecoderBinDec7seg.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/DecoderBinDec7seg.v|
 !i113 1
-R5
 R6
+R7
 vDevice_Select
-R18
+Z21 !s110 1712300116
 !i10b 1
 !s100 h5bi5aIXGj1FaTFFUI7UY0
-R0
-I2HQ2iL<c99D_CF9z<a5dY0
 R1
+I2HQ2iL<c99D_CF9z<a5dY0
 R2
+R3
 w1711518831
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Device_Select.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Device_Select.v
-!i122 2569
+!i122 3267
 L0 1 77
-R3
+R4
 r1
 !s85 0
 31
-Z20 !s108 1711682910.000000
+R20
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Device_Select.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Device_Select.v|
 !i113 1
-R5
 R6
+R7
 n@device_@select
 vDevice_Selector
-R18
+R21
 !i10b 1
 !s100 US[ih?jMfQSB=cI66Nznk1
-R0
-IE0S1z7PKQNeRn9QEEHf;d0
 R1
+IE0S1z7PKQNeRn9QEEHf;d0
 R2
+R3
 w1711416924
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Device_Selector.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Device_Selector.v
-!i122 2570
+!i122 3268
 L0 1 37
-R3
+R4
 r1
 !s85 0
 31
-R20
+Z22 !s108 1712300116.000000
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Device_Selector.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Device_Selector.v|
 !i113 1
-R5
 R6
+R7
 n@device_@selector
 vExtend
-Z21 !s110 1711682911
+R21
 !i10b 1
 !s100 HV0bTb11S?3m=EmXECR=K0
-R0
-IOm=U]S1bNnkafC<cbUEX;2
 R1
+IOm=U]S1bNnkafC<cbUEX;2
 R2
+R3
 w1710566968
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Extend.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Extend.v
-!i122 2571
-Z22 L0 1 22
-R3
+!i122 3269
+Z23 L0 1 22
+R4
 r1
 !s85 0
 31
-R20
+R22
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Extend.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Extend.v|
 !i113 1
-R5
 R6
+R7
 n@extend
 vFF_D_enable
-R21
+Z24 !s110 1712300117
 !i10b 1
 !s100 _Fm[o]<EJ@JIL?n2WWD5?0
-R0
-I?:5L18XE`RK=fkaAJh3TV1
 R1
+I?:5L18XE`RK=fkaAJh3TV1
 R2
-Z23 w1710966347
+R3
+Z25 w1710966347
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/FF_D_enable.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/FF_D_enable.v
-!i122 2572
+!i122 3270
 L0 6 18
-R3
+R4
 r1
 !s85 0
 31
-Z24 !s108 1711682911.000000
+R22
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/FF_D_enable.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/FF_D_enable.v|
 !i113 1
-R5
 R6
+R7
 n@f@f_@d_enable
 vFSM_UART_Rx
-R21
+R24
 !i10b 1
 !s100 zJ@2QBKFe15:Xd;4FJ1:D3
-R0
-IT^P>RMSiUe6P2@_70V85A3
 R1
+IT^P>RMSiUe6P2@_70V85A3
 R2
+R3
 w1710998061
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/FSM_UART_Rx.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/FSM_UART_Rx.v
-!i122 2573
+!i122 3271
 L0 7 134
-R3
+R4
 r1
 !s85 0
 31
-R24
+Z26 !s108 1712300117.000000
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/FSM_UART_Rx.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/FSM_UART_Rx.v|
 !i113 1
-R5
 R6
+R7
 n@f@s@m_@u@a@r@t_@rx
 vHeard_Bit
-R21
+R24
 !i10b 1
 !s100 U80PhAQ?X4_?82V>SOg451
-R0
-IzIW32AOfJQFP`D=KzYnM21
 R1
+IzIW32AOfJQFP`D=KzYnM21
 R2
+R3
 w1710966346
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Heard_Bit.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Heard_Bit.v
-!i122 2574
+!i122 3272
 L0 8 50
-R3
+R4
 r1
 !s85 0
 31
-R24
+R26
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Heard_Bit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Heard_Bit.v|
 !i113 1
-R5
 R6
+R7
 n@heard_@bit
 vInstr_Decoder
-Z25 !s110 1711682912
+Z27 !s110 1712300118
 !i10b 1
 !s100 WDidXRiN]dG@cK9H=>Yh60
-R0
-IU_``@`@aKT3X1=ig@K:@61
 R1
+IU_``@`@aKT3X1=ig@K:@61
 R2
+R3
 w1710567956
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Instr_Decoder.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Instr_Decoder.v
-!i122 2575
+!i122 3273
 L0 1 49
-R3
+R4
 r1
 !s85 0
 31
-R24
+Z28 !s108 1712300118.000000
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Instr_Decoder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Instr_Decoder.v|
 !i113 1
-R5
 R6
+R7
 n@instr_@decoder
 vMemory_System
-R25
+R27
 !i10b 1
 !s100 oT:aGoAEfX_GJC2=A`FOG0
-R0
-IV0Zh24eMzal_3Fi2]2j:k2
 R1
+IV0Zh24eMzal_3Fi2]2j:k2
 R2
+R3
 w1711516226
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Memory_System.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Memory_System.v
-!i122 2576
+!i122 3274
 L0 1 73
-R3
+R4
 r1
 !s85 0
 31
-Z26 !s108 1711682912.000000
+R28
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Memory_System.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Memory_System.v|
 !i113 1
-R5
 R6
+R7
 n@memory_@system
 vMux2x1
-R25
+Z29 !s110 1712300119
 !i10b 1
 !s100 keHj7WY5R3kd;>C=4PK8P2
-R0
-IW>jd3a^6o:<<Fcgz;ckTG2
 R1
+IW>jd3a^6o:<<Fcgz;ckTG2
 R2
+R3
 R11
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Mux2x1.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Mux2x1.v
-!i122 2577
-Z27 L0 1 20
-R3
+!i122 3275
+Z30 L0 1 20
+R4
 r1
 !s85 0
 31
-R26
+R28
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Mux2x1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Mux2x1.v|
 !i113 1
-R5
 R6
+R7
 n@mux2x1
 vMux32x1
-Z28 !s110 1711682913
+Z31 !s110 1712300120
 !i10b 1
 !s100 ]LOZIP^B=WTncm=o]ZHA?0
-R0
-IRH_C;>i1baZ_:6M=`QF8@0
 R1
+IRH_C;>i1baZ_:6M=`QF8@0
 R2
+R3
 R11
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Mux32x1.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Mux32x1.v
-!i122 2580
+!i122 3278
 L0 1 79
-R3
+R4
 r1
 !s85 0
 31
-Z29 !s108 1711682913.000000
+Z32 !s108 1712300120.000000
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Mux32x1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Mux32x1.v|
 !i113 1
-R5
 R6
+R7
 n@mux32x1
 vMux3x1
-R28
+R29
 !i10b 1
 !s100 dKU9TQMcfeY[l<8JVKV6@3
-R0
-IPb^DZ:7KEcac7:L@W6STV1
 R1
+IPb^DZ:7KEcac7:L@W6STV1
 R2
-Z30 w1709253442
+R3
+Z33 w1709253442
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Mux3x1.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Mux3x1.v
-!i122 2578
+!i122 3276
 R19
-R3
+R4
 r1
 !s85 0
 31
-R26
+Z34 !s108 1712300119.000000
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Mux3x1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Mux3x1.v|
 !i113 1
-R5
 R6
+R7
 n@mux3x1
 vMux4x1
-R28
+R29
 !i10b 1
 !s100 SD?HQB7m^GbS2GRTaOC361
-R0
-I=XHmQhV<;Phl2Qbe;B]6Q2
 R1
+I=XHmQhV<;Phl2Qbe;B]6Q2
 R2
-R30
+R3
+R33
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Mux4x1.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Mux4x1.v
-!i122 2579
+!i122 3277
 L0 1 25
-R3
+R4
 r1
 !s85 0
 31
-R29
+R34
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Mux4x1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Mux4x1.v|
 !i113 1
-R5
 R6
+R7
 n@mux4x1
 vProgram_Memory
-Z31 !s110 1711682914
+R31
 !i10b 1
-!s100 XPBblo1]0L?WBAI30d3@42
-R0
-I_Gl_PRO=^E34Yk?P@j^H>2
+!s100 @R;JRz]Ag7POiBbXiJc6R0
 R1
+IYH9`F0@8HSE[<ROz6HQ1d1
 R2
-w1711604931
+R3
+w1712298141
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Program_Memory.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Program_Memory.v
-!i122 2581
-R22
-R3
+!i122 3279
+R23
+R4
 r1
 !s85 0
 31
-R29
+R32
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Program_Memory.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Program_Memory.v|
 !i113 1
-R5
 R6
+R7
 n@program_@memory
 vReg_Param
-R31
+Z35 !s110 1712300121
 !i10b 1
 !s100 oTE6=ci6<WUgG>@Y<O?Sc0
-R0
-ICnH@EeWG?NTG8f6^_UHKZ1
 R1
+ICnH@EeWG?NTG8f6^_UHKZ1
 R2
-R23
+R3
+R25
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Reg_Param.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Reg_Param.v
-!i122 2582
+!i122 3280
 L0 5 18
-R3
+R4
 r1
 !s85 0
 31
-Z32 !s108 1711682914.000000
+R32
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Reg_Param.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Reg_Param.v|
 !i113 1
-R5
 R6
+R7
 n@reg_@param
 vRegister
-R31
+R35
 !i10b 1
 !s100 322iN_ji@>13dA@BV:zXn0
-R0
-IaWJ9;]3k:FAmBQJ`f04X=2
 R1
+IaWJ9;]3k:FAmBQJ`f04X=2
 R2
+R3
 R11
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Register.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Register.v
-!i122 2583
-Z33 L0 1 21
-R3
+!i122 3281
+Z36 L0 1 21
+R4
 r1
 !s85 0
 31
-R32
+Z37 !s108 1712300121.000000
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Register.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Register.v|
 !i113 1
-R5
 R6
+R7
 n@register
 vRegister_File
-Z34 !s110 1711682915
+R35
 !i10b 1
 !s100 >:n9]KTM[Ym8`bcoHD1hz0
-R0
-I?>e`Z=D^=@KXMmd[9g83F1
 R1
+I?>e`Z=D^=@KXMmd[9g83F1
 R2
+R3
 w1711677011
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Register_File.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Register_File.v
-!i122 2584
+!i122 3282
 L0 1 360
-R3
+R4
 r1
 !s85 0
 31
-R32
+R37
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Register_File.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Register_File.v|
 !i113 1
-R5
 R6
+R7
 n@register_@file
 vRegister_Mux
-R34
+Z38 !s110 1712300122
 !i10b 1
 !s100 7No:?kFojhV`0cz>KZKiI2
-R0
-I^NjcePWNeAnTRfM5N2E]^0
 R1
+I^NjcePWNeAnTRfM5N2E]^0
 R2
+R3
 w1711678823
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Register_Mux.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Register_Mux.v
-!i122 2585
+!i122 3283
 L0 1 26
-R3
+R4
 r1
 !s85 0
 31
-Z35 !s108 1711682915.000000
+R37
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Register_Mux.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Register_Mux.v|
 !i113 1
-R5
 R6
+R7
 n@register_@mux
 vRISC_V_Multi_Cycle
-R34
+R38
 !i10b 1
-!s100 1e0_1UQkJjJ]V[]oFONh13
-R0
-IV7;R07z<KDE4o0N8hm?=?0
+!s100 Plh0Q<h=^EfjT[DT2_1LR3
 R1
+I4K^hbVOS3A8cSR26nc`5I1
 R2
-w1711520056
+R3
+w1712299392
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v
-!i122 2586
+!i122 3284
 L0 1 102
-R3
+R4
 r1
 !s85 0
 31
-R35
+Z39 !s108 1712300122.000000
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle.v|
 !i113 1
-R5
 R6
+R7
 n@r@i@s@c_@v_@multi_@cycle
 vRISC_V_Multi_Cycle_Processor
-R34
+R38
 !i10b 1
-!s100 3dGlkRc7a70zXH<PFZzm[0
-R0
-I8_ijC>69PbCEg]?CD[jjU0
+!s100 KP>Vhz<S`NXQ_CEiZ3EL:1
 R1
+I;IdX5X=Md2>1S3CP5`0SM0
 R2
-w1711420338
-8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor.v
-FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor.v
-!i122 2587
-L0 1 41
 R3
+w1712299119
+8C:\disenio_de_microprocesadores\Practica_1\disenio_de_microprocesadores\Quartus\Risc_V_Multiciclo\src\RISC_V_Multi_Cycle_Processor.v
+FC:\disenio_de_microprocesadores\Practica_1\disenio_de_microprocesadores\Quartus\Risc_V_Multiciclo\src\RISC_V_Multi_Cycle_Processor.v
+!i122 3285
+L0 1 63
+R4
 r1
 !s85 0
 31
-R35
-!s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor.v|
+R39
+!s107 C:\disenio_de_microprocesadores\Practica_1\disenio_de_microprocesadores\Quartus\Risc_V_Multiciclo\src\RISC_V_Multi_Cycle_Processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\disenio_de_microprocesadores\Practica_1\disenio_de_microprocesadores\Quartus\Risc_V_Multiciclo\src\RISC_V_Multi_Cycle_Processor.v|
 !i113 1
-R5
 R6
+R7
 n@r@i@s@c_@v_@multi_@cycle_@processor
 vRISC_V_Multi_Cycle_Processor_TB
-Z36 !s110 1711682916
+Z40 !s110 1712300123
 !i10b 1
-!s100 UMQFQ@Y]DWhUiB3O:?cHG1
-R0
-IAY4^;D0nO7ikHLf08nSYR2
+!s100 <hgbA`jgd8^[X4:^N3WD33
 R1
+IhYon2UiS_Ae3@RV<FKoE31
 R2
-w1711518965
+R3
+w1712266503
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v
-!i122 2588
-L0 2 41
-R3
+!i122 3286
+L0 2 45
+R4
 r1
 !s85 0
 31
-R35
+R39
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_Processor_TB.v|
 !i113 1
-R5
 R6
+R7
 n@r@i@s@c_@v_@multi_@cycle_@processor_@t@b
 vRISC_V_Multi_Cycle_TB
-R36
+R40
 !i10b 1
 !s100 ;SI9Yjb14ZVDKa_[3G<=33
-R0
-IGZ;aPObjcJ0lQNVli_S;:2
 R1
+IGZ;aPObjcJ0lQNVli_S;:2
 R2
+R3
 w1710736155
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_TB.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_TB.v
-!i122 2589
+!i122 3287
 R16
-R3
+R4
 r1
 !s85 0
 31
-Z37 !s108 1711682916.000000
+Z41 !s108 1712300123.000000
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_TB.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Multi_Cycle_TB.v|
 !i113 1
-R5
 R6
+R7
 n@r@i@s@c_@v_@multi_@cycle_@t@b
 vRISC_V_Processor
-R36
+R40
 !i10b 1
 !s100 K><zEVSN`Yf6Z6W5cJ_NT0
-R0
-I]E;BjFiC4^L]1VDZ]cECg0
 R1
+I]E;BjFiC4^L]1VDZ]cECg0
 R2
+R3
 w1709251958
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Processor.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Processor.v
-!i122 2590
+!i122 3288
 L0 1 32
-R3
+R4
 r1
 !s85 0
 31
-R37
+R41
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Processor.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/RISC_V_Processor.v|
 !i113 1
-R5
 R6
+R7
 n@r@i@s@c_@v_@processor
 vRx_Register_Decoder
-Z38 !s110 1711682917
+Z42 !s110 1712300124
 !i10b 1
 !s100 k5mIYDa]6[[2J`Qh6LoSD3
-R0
-I9JNkj0N4BNK;3_lP2B]e53
 R1
+I9JNkj0N4BNK;3_lP2B]e53
 R2
+R3
 w1711419246
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Rx_Register_Decoder.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Rx_Register_Decoder.v
-!i122 2591
-Z39 L0 1 27
-R3
+!i122 3289
+Z43 L0 1 27
+R4
 r1
 !s85 0
 31
-R37
+R41
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Rx_Register_Decoder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Rx_Register_Decoder.v|
 !i113 1
-R5
 R6
+R7
 n@rx_@register_@decoder
 vSerializer
-R38
+R42
 !i10b 1
-!s100 Ob13L4CzA@[BLW6U0fF:S3
-R0
-IKmJhfX:e7CAj8<@7YPalJ1
+!s100 6UPhLJn6G?]<cTcoLNlOW2
 R1
+I]G5:D;Uf5LNKHAI6cX5]l3
 R2
-w1667174713
+R3
+w1712284074
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v
-!i122 2592
+!i122 3290
 L0 2 32
-R3
+R4
 r1
 !s85 0
 31
-Z40 !s108 1711682917.000000
+Z44 !s108 1712300124.000000
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Serializer.v|
 !i113 1
-R5
 R6
+R7
 n@serializer
 vShift_Left_2
-R38
+Z45 !s110 1712300125
 !i10b 1
 !s100 TQQnOJdNH1YY4j]C1UNdg1
-R0
-I?eKQE5cZ[7d38VFjPU_1f1
 R1
+I?eKQE5cZ[7d38VFjPU_1f1
 R2
+R3
 R11
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Shift_Left_2.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Shift_Left_2.v
-!i122 2593
+!i122 3291
 L0 1 14
-R3
+R4
 r1
 !s85 0
 31
-R40
+R44
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Shift_Left_2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Shift_Left_2.v|
 !i113 1
-R5
 R6
+R7
 n@shift_@left_2
 vShift_Register_R_Param
-Z41 !s110 1711682918
+R45
 !i10b 1
 !s100 5T7TzLS8j>@>R]`H]FZGX1
-R0
-IY3Y`ikgLEnej>mzaJSH]b0
 R1
+IY3Y`ikgLEnej>mzaJSH]b0
 R2
+R3
 w1710966348
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Shift_Register_R_Param.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Shift_Register_R_Param.v
-!i122 2594
+!i122 3292
 L0 7 17
-R3
+R4
 r1
 !s85 0
 31
-R40
+Z46 !s108 1712300125.000000
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Shift_Register_R_Param.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Shift_Register_R_Param.v|
 !i113 1
-R5
 R6
+R7
 n@shift_@register_@r_@param
 vSign_Extend
-R41
+R45
 !i10b 1
 !s100 EY]@NKO202gE0fh^Pd`L22
-R0
-IzT:U8S:Qdm`AYlU;O[Ye:2
 R1
+IzT:U8S:Qdm`AYlU;O[Ye:2
 R2
+R3
 w1711070361
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Sign_Extend.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Sign_Extend.v
-!i122 2595
-R27
-R3
+!i122 3293
+R30
+R4
 r1
 !s85 0
 31
-Z42 !s108 1711682918.000000
+R46
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Sign_Extend.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Sign_Extend.v|
 !i113 1
-R5
 R6
+R7
 n@sign_@extend
 vTx_Register_Decoder
-R41
+Z47 !s110 1712300126
 !i10b 1
 !s100 HoRa@2DnC=<EF9ebk<3U80
-R0
-IGFE[ifY4ld5H3Q0F9NaRj3
 R1
+IGFE[ifY4ld5H3Q0F9NaRj3
 R2
+R3
 w1711058823
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Tx_Register_Decoder.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Tx_Register_Decoder.v
-!i122 2596
-R39
-R3
+!i122 3294
+R43
+R4
 r1
 !s85 0
 31
-R42
+R46
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Tx_Register_Decoder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Tx_Register_Decoder.v|
 !i113 1
-R5
 R6
+R7
 n@tx_@register_@decoder
 vTx_Register_Encoder
-R41
+R47
 !i10b 1
 !s100 m5^DE]YWZW4C9Hl:cMe@A3
-R0
-I:^DP[0lkWA3@gU8;D:XMh1
 R1
+I:^DP[0lkWA3@gU8;D:XMh1
 R2
+R3
 w1711003365
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Tx_Register_Encoder.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Tx_Register_Encoder.v
-!i122 2597
-R33
-R3
+!i122 3295
+R36
+R4
 r1
 !s85 0
 31
-R42
+Z48 !s108 1712300126.000000
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Tx_Register_Encoder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Tx_Register_Encoder.v|
 !i113 1
-R5
 R6
+R7
 n@tx_@register_@encoder
 vUART_Full_Duplex
-Z43 !s110 1711682919
+R47
 !i10b 1
 !s100 n;<[hX4^bKRBL4S1iJ1Ya1
-R0
-I?fBLzMzn9_iY04=nSc]2`1
 R1
+I?fBLzMzn9_iY04=nSc]2`1
 R2
+R3
 w1711056670
 8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Full_Duplex.v
 FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Full_Duplex.v
-!i122 2598
-R8
-R3
-r1
-!s85 0
-31
-Z44 !s108 1711682919.000000
-!s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Full_Duplex.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Full_Duplex.v|
-!i113 1
-R5
-R6
-n@u@a@r@t_@full_@duplex
-vUART_Register_Decode
-R43
-!i10b 1
-!s100 W_>[XCJTTK<joSkXB5izA2
-R0
-IeH0hTVRXlI;MM;>ZYRLNW0
-R1
-R2
-w1711604480
-8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Register_Decode.v
-FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Register_Decode.v
-!i122 2599
-L0 1 109
-R3
-r1
-!s85 0
-31
-R44
-!s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Register_Decode.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Register_Decode.v|
-!i113 1
-R5
-R6
-n@u@a@r@t_@register_@decode
-vUART_Rx
-R43
-!i10b 1
-!s100 DPiTC5XVK68B5>iEkcH9e3
-R0
-Ib:6nAD43bV:K9]]0g;?zN1
-R1
-R2
-w1710966344
-8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Rx.v
-FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Rx.v
-!i122 2600
-L0 2 101
-R3
-r1
-!s85 0
-31
-R44
-!s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Rx.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Rx.v|
-!i113 1
-R5
-R6
-n@u@a@r@t_@rx
-vUART_Rx_TB
-Z45 !s110 1711682920
-!i10b 1
-!s100 Pjf=TGSgK]71CK]^P9fgO3
-R0
-I0Yzaf@O5TY3R`<@`ncQb50
-R1
-R2
-w1667174366
-8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Rx_TB.v
-FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Rx_TB.v
-!i122 2601
-L0 5 28
-R3
-r1
-!s85 0
-31
-R44
-!s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Rx_TB.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Rx_TB.v|
-!i113 1
-R5
-R6
-n@u@a@r@t_@rx_@t@b
-vUART_Tx
-R45
-!i10b 1
-!s100 jDeb0i^eZ>U6B5ZAkk<4n1
-R0
-IKdT>koaabViEE1K=lc5TP2
-R1
-R2
-w1711056484
-8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v
-FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v
-!i122 2602
-L0 1 78
-R3
-r1
-!s85 0
-31
-Z46 !s108 1711682920.000000
-!s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v|
-!i113 1
-R5
-R6
-n@u@a@r@t_@tx
-vUart_Tx_Fsm
-R45
-!i10b 1
-!s100 INNlFSk^2hV?LUbPf<[eU1
-R0
-IfMVa[GGzYVSC@mE9=;3Nk3
-R1
-R2
-w1711056485
-8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Uart_Tx_Fsm.v
-FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Uart_Tx_Fsm.v
-!i122 2603
-L0 2 89
-R3
-r1
-!s85 0
-31
-R46
-!s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Uart_Tx_Fsm.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Uart_Tx_Fsm.v|
-!i113 1
-R5
-R6
-n@uart_@tx_@fsm
-vUART_Tx_Rx
-Z47 !s110 1711682921
-!i10b 1
-!s100 MWD_SDeMWH0T@XQYh5_9C0
-R0
-IXNM`4b^KUz0AI`hceo^MY0
-R1
-R2
-w1711604486
-8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx.v
-FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx.v
-!i122 2604
-L0 1 80
-R3
-r1
-!s85 0
-31
-R46
-!s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx.v|
-!i113 1
-R5
-R6
-n@u@a@r@t_@tx_@rx
-vUART_Tx_Rx_TB
-R47
-!i10b 1
-!s100 k1_D`PAAhHL?PDS2neQbc3
-R0
-IT15LmX1PJoMd_0=geX9kB0
-R1
-R2
-w1711054587
-8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx_TB.v
-FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx_TB.v
-!i122 2605
-L0 2 61
-R3
-r1
-!s85 0
-31
-Z48 !s108 1711682921.000000
-!s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx_TB.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx_TB.v|
-!i113 1
-R5
-R6
-n@u@a@r@t_@tx_@rx_@t@b
-vUART_Tx_tb
-R47
-!i10b 1
-!s100 >A7h=C2FLH@9T39Rg]KM>2
-R0
-I=Q2>hooai^FBbS5^Y42]O2
-R1
-R2
-w1666934055
-8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_tb.v
-FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_tb.v
-!i122 2606
-L0 2 26
-R3
+!i122 3296
+L0 1 54
+R4
 r1
 !s85 0
 31
 R48
+!s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Full_Duplex.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Full_Duplex.v|
+!i113 1
+R6
+R7
+n@u@a@r@t_@full_@duplex
+vUART_Register_Decode
+Z49 !s110 1712300127
+!i10b 1
+!s100 W_>[XCJTTK<joSkXB5izA2
+R1
+IeH0hTVRXlI;MM;>ZYRLNW0
+R2
+R3
+w1711604480
+8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Register_Decode.v
+FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Register_Decode.v
+!i122 3297
+L0 1 109
+R4
+r1
+!s85 0
+31
+R48
+!s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Register_Decode.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Register_Decode.v|
+!i113 1
+R6
+R7
+n@u@a@r@t_@register_@decode
+vUART_Rx
+R49
+!i10b 1
+!s100 EM:ZEOo6ahEDZcc@G@]lo1
+R1
+I[m=hE]?QG=dYLF6SbKELL2
+R2
+R3
+w1712193246
+8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Rx.v
+FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Rx.v
+!i122 3298
+L0 2 107
+R4
+r1
+!s85 0
+31
+Z50 !s108 1712300127.000000
+!s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Rx.v|
+!i113 1
+R6
+R7
+n@u@a@r@t_@rx
+vUART_Rx_TB
+Z51 !s110 1712300128
+!i10b 1
+!s100 Pjf=TGSgK]71CK]^P9fgO3
+R1
+I0Yzaf@O5TY3R`<@`ncQb50
+R2
+R3
+w1667174366
+8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Rx_TB.v
+FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Rx_TB.v
+!i122 3299
+L0 5 28
+R4
+r1
+!s85 0
+31
+R50
+!s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Rx_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Rx_TB.v|
+!i113 1
+R6
+R7
+n@u@a@r@t_@rx_@t@b
+vUART_Tx
+R51
+!i10b 1
+!s100 JBBj;mRlf^mN87Qbm>G7X0
+R1
+IeoRdNRHzN:HLo_ijd8WGB0
+R2
+R3
+w1712193160
+8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v
+FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v
+!i122 3300
+L0 1 78
+R4
+r1
+!s85 0
+31
+Z52 !s108 1712300128.000000
+!s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx.v|
+!i113 1
+R6
+R7
+n@u@a@r@t_@tx
+vUart_Tx_Fsm
+R51
+!i10b 1
+!s100 QEE?cWa=fUoWKUWAYQSKA3
+R1
+I@AmcoBKc[lLzBccmZE_j?2
+R2
+R3
+w1712286589
+8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Uart_Tx_Fsm.v
+FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Uart_Tx_Fsm.v
+!i122 3301
+L0 2 161
+R4
+r1
+!s85 0
+31
+R52
+!s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Uart_Tx_Fsm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/Uart_Tx_Fsm.v|
+!i113 1
+R6
+R7
+n@uart_@tx_@fsm
+vUART_Tx_Rx
+Z53 !s110 1712300129
+!i10b 1
+!s100 MWD_SDeMWH0T@XQYh5_9C0
+R1
+IXNM`4b^KUz0AI`hceo^MY0
+R2
+R3
+w1711604486
+8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx.v
+FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx.v
+!i122 3302
+L0 1 80
+R4
+r1
+!s85 0
+31
+R52
+!s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx.v|
+!i113 1
+R6
+R7
+n@u@a@r@t_@tx_@rx
+vUART_Tx_Rx_TB
+R53
+!i10b 1
+!s100 k1_D`PAAhHL?PDS2neQbc3
+R1
+IT15LmX1PJoMd_0=geX9kB0
+R2
+R3
+w1711054587
+8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx_TB.v
+FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx_TB.v
+!i122 3303
+L0 2 61
+R4
+r1
+!s85 0
+31
+Z54 !s108 1712300129.000000
+!s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_Rx_TB.v|
+!i113 1
+R6
+R7
+n@u@a@r@t_@tx_@rx_@t@b
+vUART_Tx_tb
+!s110 1712300130
+!i10b 1
+!s100 >A7h=C2FLH@9T39Rg]KM>2
+R1
+I=Q2>hooai^FBbS5^Y42]O2
+R2
+R3
+w1666934055
+8C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_tb.v
+FC:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_tb.v
+!i122 3304
+L0 2 26
+R4
+r1
+!s85 0
+31
+R54
 !s107 C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/disenio_de_microprocesadores/Practica_1/disenio_de_microprocesadores/Quartus/Risc_V_Multiciclo/src/UART_Tx_tb.v|
 !i113 1
-R5
 R6
+R7
 n@u@a@r@t_@tx_tb

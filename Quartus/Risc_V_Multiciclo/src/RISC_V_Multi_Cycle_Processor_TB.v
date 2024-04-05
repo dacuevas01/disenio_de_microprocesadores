@@ -7,13 +7,17 @@ reg				rx;
 
 //wire	[7:0]		GPIO_Out_w;
 wire				tx;
+wire				LED_Lock_PLL_w;
+wire				LED_heard_bit_out_w;
 
 RISC_V_Multi_Cycle_Processor UUT(
-	.clk(clk_r),
+	.MAX10_CLK1_50(clk_r),
 	.reset(reset_r),
 	.rx(rx),
 	//.GPIO_Out(GPIO_Out_w),
-	.tx(tx)
+	.tx(tx),
+	.LED_Lock_PLL(LED_Lock_PLL_w),
+	.LED_heard_bit_out(LED_heard_bit_out_w)
 );
 
 initial begin

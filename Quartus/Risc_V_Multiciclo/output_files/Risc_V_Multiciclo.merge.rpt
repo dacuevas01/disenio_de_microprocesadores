@@ -1,0 +1,451 @@
+Partition Merge report for Risc_V_Multiciclo
+Tue Apr 02 22:59:55 2024
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Partition Merge Summary
+  3. Partition Merge Netlist Types Used
+  4. Connections to In-System Debugging Instance "auto_signaltap_0"
+  5. Partition Merge Partition Statistics
+  6. Partition Merge Partition Pin Processing
+  7. Partition Merge Resource Usage Summary
+  8. Partition Merge RAM Summary
+  9. Partition Merge DSP Block Usage Summary
+ 10. Partition Merge Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; Partition Merge Summary                                                       ;
++---------------------------------+---------------------------------------------+
+; Partition Merge Status          ; Successful - Tue Apr 02 22:59:55 2024       ;
+; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                   ; Risc_V_Multiciclo                           ;
+; Top-level Entity Name           ; RISC_V_Multi_Cycle_Processor                ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 4162                                        ;
+; Total pins                      ; 6                                           ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 4,352                                       ;
+; Total DSP Blocks                ; 2                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 1                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge Netlist Types Used                                                                                            ;
++--------------------------------+----------------+-------------------+------------------------+--------------------------------+
+; Partition Name                 ; Partition Type ; Netlist Type Used ; Netlist Type Requested ; Partition Contents             ;
++--------------------------------+----------------+-------------------+------------------------+--------------------------------+
+; Top                            ; User-created   ; Source File       ; Source File            ;                                ;
+; sld_hub:auto_hub               ; Auto-generated ; Post-Synthesis    ; Post-Synthesis         ; sld_hub:auto_hub               ;
+; sld_signaltap:auto_signaltap_0 ; Auto-generated ; Post-Synthesis    ; Post-Synthesis         ; sld_signaltap:auto_signaltap_0 ;
+; hard_block:auto_generated_inst ; Auto-generated ; Source File       ; Source File            ; hard_block:auto_generated_inst ;
++--------------------------------+----------------+-------------------+------------------------+--------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Connections to In-System Debugging Instance "auto_signaltap_0"                                                                                                                                                                                     ;
++----------------------------------------+---------------+-----------+--------------------------------+-------------------+----------------------------------------------------------------------------------------------------------------+---------+
+; Name                                   ; Type          ; Status    ; Partition Name                 ; Netlist Type Used ; Actual Connection                                                                                              ; Details ;
++----------------------------------------+---------------+-----------+--------------------------------+-------------------+----------------------------------------------------------------------------------------------------------------+---------+
+; MAX10_CLK1_50                          ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; MAX10_CLK1_50                                                                                                  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[0]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[0]~0   ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[0]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[0]~0   ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[10] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[10]~1  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[10] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[10]~1  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[11] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[11]~2  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[11] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[11]~2  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[12] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[12]~3  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[12] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[12]~3  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[13] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[13]~4  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[13] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[13]~4  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[14] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[14]~5  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[14] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[14]~5  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[15] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[15]~6  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[15] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[15]~6  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[16] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[16]~7  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[16] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[16]~7  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[17] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[17]~8  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[17] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[17]~8  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[18] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[18]~9  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[18] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[18]~9  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[19] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[19]~10 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[19] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[19]~10 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[1]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[1]~11  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[1]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[1]~11  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[20] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[20]~12 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[20] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[20]~12 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[21] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[21]~13 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[21] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[21]~13 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[22] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[22]~14 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[22] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[22]~14 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[23] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[23]~15 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[23] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[23]~15 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[24] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[24]~16 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[24] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[24]~16 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[25] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[25]~17 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[25] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[25]~17 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[26] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[26]~18 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[26] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[26]~18 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[27] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[27]~19 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[27] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[27]~19 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[28] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[28]~20 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[28] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[28]~20 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[29] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[29]~21 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[29] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[29]~21 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[2]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[2]~22  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[2]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[2]~22  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[30] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[30]~23 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[30] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[30]~23 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[31] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[31]~24 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[31] ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[31]~24 ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[3]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[3]~25  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[3]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[3]~25  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[4]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[4]~26  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[4]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[4]~26  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[5]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[5]~27  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[5]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[5]~27  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[6]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[6]~28  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[6]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[6]~28  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[7]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[7]~29  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[7]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[7]~29  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[8]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[8]~30  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[8]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[8]~30  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[9]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[9]~31  ; N/A     ;
+; RISC_V_Multi_Cycle:RISC_V|GPIO_Out[9]  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; RISC_V_Multi_Cycle:RISC_V|Data_Path:DataPath|Memory_System:ROM_RAM|Device_Select:DEV_SEL|Data_Out_Write[9]~31  ; N/A     ;
+; tx                                     ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; UART_Tx_Rx:UART|UART_Full_Duplex:UART|UART_Tx:UART_Tx_i|Serializer:Serializer_i|data_out                       ; N/A     ;
+; tx                                     ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; UART_Tx_Rx:UART|UART_Full_Duplex:UART|UART_Tx:UART_Tx_i|Serializer:Serializer_i|data_out                       ; N/A     ;
+; MAX10_CLK1_50~inputCLKENA0             ; post-fitting  ; connected ; Top                            ; post-synthesis    ; MAX10_CLK1_50                                                                                                  ; N/A     ;
+; MAX10_CLK1_50~inputCLKENA0             ; post-fitting  ; connected ; Top                            ; post-synthesis    ; MAX10_CLK1_50                                                                                                  ; N/A     ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND                                                                            ; N/A     ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND                                                                            ; N/A     ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND                                                                            ; N/A     ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND                                                                            ; N/A     ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND                                                                            ; N/A     ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND                                                                            ; N/A     ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND                                                                            ; N/A     ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND                                                                            ; N/A     ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND                                                                            ; N/A     ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND                                                                            ; N/A     ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND                                                                            ; N/A     ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND                                                                            ; N/A     ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND                                                                            ; N/A     ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND                                                                            ; N/A     ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND                                                                            ; N/A     ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC                                                                            ; N/A     ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC                                                                            ; N/A     ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC                                                                            ; N/A     ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC                                                                            ; N/A     ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC                                                                            ; N/A     ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC                                                                            ; N/A     ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC                                                                            ; N/A     ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC                                                                            ; N/A     ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC                                                                            ; N/A     ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC                                                                            ; N/A     ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC                                                                            ; N/A     ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC                                                                            ; N/A     ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC                                                                            ; N/A     ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC                                                                            ; N/A     ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC                                                                            ; N/A     ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC                                                                            ; N/A     ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC                                                                            ; N/A     ;
++----------------------------------------+---------------+-----------+--------------------------------+-------------------+----------------------------------------------------------------------------------------------------------------+---------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge Partition Statistics                                                                                                     ;
++---------------------------------------------+-------+------------------+--------------------------------+--------------------------------+
+; Statistic                                   ; Top   ; sld_hub:auto_hub ; sld_signaltap:auto_signaltap_0 ; hard_block:auto_generated_inst ;
++---------------------------------------------+-------+------------------+--------------------------------+--------------------------------+
+; Estimate of Logic utilization (ALMs needed) ; 2662  ; 62               ; 372                            ; 0                              ;
+;                                             ;       ;                  ;                                ;                                ;
+; Combinational ALUT usage for logic          ; 2451  ; 92               ; 250                            ; 0                              ;
+;     -- 7 input functions                    ; 28    ; 1                ; 0                              ; 0                              ;
+;     -- 6 input functions                    ; 1782  ; 14               ; 63                             ; 0                              ;
+;     -- 5 input functions                    ; 161   ; 23               ; 61                             ; 0                              ;
+;     -- 4 input functions                    ; 158   ; 17               ; 22                             ; 0                              ;
+;     -- <=3 input functions                  ; 322   ; 37               ; 104                            ; 0                              ;
+; Memory ALUT usage                           ; 0     ; 0                ; 0                              ; 0                              ;
+;     -- 64-address deep                      ; 0     ; 0                ; 0                              ; 0                              ;
+;     -- 32-address deep                      ; 0     ; 0                ; 0                              ; 0                              ;
+;                                             ;       ;                  ;                                ;                                ;
+; Dedicated logic registers                   ; 3391  ; 90               ; 681                            ; 0                              ;
+;                                             ;       ;                  ;                                ;                                ;
+;                                             ;       ;                  ;                                ;                                ;
+; I/O pins                                    ; 4     ; 0                ; 0                              ; 2                              ;
+; I/O registers                               ; 0     ; 0                ; 0                              ; 0                              ;
+; Total block memory bits                     ; 0     ; 0                ; 4352                           ; 0                              ;
+; Total block memory implementation bits      ; 0     ; 0                ; 0                              ; 0                              ;
+; JTAG                                        ; 0     ; 0                ; 0                              ; 1                              ;
+; DSP block                                   ; 2     ; 0                ; 0                              ; 0                              ;
+;                                             ;       ;                  ;                                ;                                ;
+; Connections                                 ;       ;                  ;                                ;                                ;
+;     -- Input Connections                    ; 4681  ; 133              ; 1103                           ; 1                              ;
+;     -- Registered Input Connections         ; 4668  ; 109              ; 768                            ; 0                              ;
+;     -- Output Connections                   ; 66    ; 259              ; 34                             ; 5559                           ;
+;     -- Registered Output Connections        ; 2     ; 259              ; 0                              ; 0                              ;
+;                                             ;       ;                  ;                                ;                                ;
+; Internal Connections                        ;       ;                  ;                                ;                                ;
+;     -- Total Connections                    ; 24693 ; 910              ; 3899                           ; 5573                           ;
+;     -- Registered Connections               ; 12981 ; 732              ; 2638                           ; 0                              ;
+;                                             ;       ;                  ;                                ;                                ;
+; External Connections                        ;       ;                  ;                                ;                                ;
+;     -- Top                                  ; 0     ; 0                ; 66                             ; 4681                           ;
+;     -- sld_hub:auto_hub                     ; 0     ; 20               ; 250                            ; 122                            ;
+;     -- sld_signaltap:auto_signaltap_0       ; 66    ; 250              ; 64                             ; 757                            ;
+;     -- hard_block:auto_generated_inst       ; 4681  ; 122              ; 757                            ; 0                              ;
+;                                             ;       ;                  ;                                ;                                ;
+; Partition Interface                         ;       ;                  ;                                ;                                ;
+;     -- Input Ports                          ; 6     ; 45               ; 171                            ; 6                              ;
+;     -- Output Ports                         ; 36    ; 62               ; 83                             ; 12                             ;
+;     -- Bidir Ports                          ; 0     ; 0                ; 0                              ; 0                              ;
+;                                             ;       ;                  ;                                ;                                ;
+; Registered Ports                            ;       ;                  ;                                ;                                ;
+;     -- Registered Input Ports               ; 0     ; 13               ; 73                             ; 0                              ;
+;     -- Registered Output Ports              ; 0     ; 29               ; 69                             ; 0                              ;
+;                                             ;       ;                  ;                                ;                                ;
+; Port Connectivity                           ;       ;                  ;                                ;                                ;
+;     -- Input Ports driven by GND            ; 0     ; 0                ; 15                             ; 0                              ;
+;     -- Output Ports driven by GND           ; 0     ; 28               ; 2                              ; 0                              ;
+;     -- Input Ports driven by VCC            ; 0     ; 0                ; 17                             ; 0                              ;
+;     -- Output Ports driven by VCC           ; 0     ; 0                ; 1                              ; 0                              ;
+;     -- Input Ports with no Source           ; 0     ; 25               ; 38                             ; 0                              ;
+;     -- Output Ports with no Source          ; 0     ; 0                ; 0                              ; 0                              ;
+;     -- Input Ports with no Fanout           ; 0     ; 30               ; 52                             ; 0                              ;
+;     -- Output Ports with no Fanout          ; 0     ; 29               ; 71                             ; 0                              ;
++---------------------------------------------+-------+------------------+--------------------------------+--------------------------------+
+Note: Resource usage numbers presented for Partitions containing post-synthesis logic are estimates.  For Partitions containing post-fit logic, resource usage numbers are accurate based on previous placement information.  Actual Fitter results may vary depending on current Fitter Preservation Level assignments.
+
+
++----------------------------------------------------------------------------------------+
+; Partition Merge Partition Pin Processing                                               ;
++-----------------------------------+-----------+---------------+----------+-------------+
+; Name                              ; Partition ; Type          ; Location ; Status      ;
++-----------------------------------+-----------+---------------+----------+-------------+
+; LED_Lock_PLL                      ; Top       ; Output Port   ; n/a      ;             ;
+;     -- LED_Lock_PLL               ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- LED_Lock_PLL~output        ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; LED_heard_bit_out                 ; Top       ; Output Port   ; n/a      ;             ;
+;     -- LED_heard_bit_out          ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- LED_heard_bit_out~output   ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; MAX10_CLK1_50                     ; Top       ; Input Port    ; n/a      ;             ;
+;     -- MAX10_CLK1_50              ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- MAX10_CLK1_50~input        ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; altera_reserved_tck               ; Top       ; Input Port    ; n/a      ;             ;
+;     -- altera_reserved_tck        ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- altera_reserved_tck~input  ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; altera_reserved_tdi               ; Top       ; Input Port    ; n/a      ;             ;
+;     -- altera_reserved_tdi        ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- altera_reserved_tdi~input  ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; altera_reserved_tdo               ; Top       ; Output Port   ; n/a      ;             ;
+;     -- altera_reserved_tdo        ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- altera_reserved_tdo~output ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; altera_reserved_tms               ; Top       ; Input Port    ; n/a      ;             ;
+;     -- altera_reserved_tms        ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- altera_reserved_tms~input  ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_0_     ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_10_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_11_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_12_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_13_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_14_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_15_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_16_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_17_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_18_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_19_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_1_     ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_20_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_21_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_22_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_23_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_24_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_25_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_26_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_27_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_28_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_29_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_2_     ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_30_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_31_    ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_3_     ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_4_     ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_5_     ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_6_     ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_7_     ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_8_     ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.RISC_V_GPIO_Out_9_     ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; reset                             ; Top       ; Input Port    ; n/a      ;             ;
+;     -- reset                      ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- reset~input                ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; rx                                ; Top       ; Input Port    ; n/a      ;             ;
+;     -- rx                         ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- rx~input                   ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; tx                                ; Top       ; Output Port   ; n/a      ;             ;
+;     -- tx                         ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- tx~output                  ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
++-----------------------------------+-----------+---------------+----------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge Resource Usage Summary                                                                                                                   ;
++---------------------------------------------+------------------------------------------------------------------------------------------------------------+
+; Resource                                    ; Usage                                                                                                      ;
++---------------------------------------------+------------------------------------------------------------------------------------------------------------+
+; Estimate of Logic utilization (ALMs needed) ; 3098                                                                                                       ;
+;                                             ;                                                                                                            ;
+; Combinational ALUT usage for logic          ; 2793                                                                                                       ;
+;     -- 7 input functions                    ; 29                                                                                                         ;
+;     -- 6 input functions                    ; 1859                                                                                                       ;
+;     -- 5 input functions                    ; 245                                                                                                        ;
+;     -- 4 input functions                    ; 197                                                                                                        ;
+;     -- <=3 input functions                  ; 463                                                                                                        ;
+;                                             ;                                                                                                            ;
+; Dedicated logic registers                   ; 4162                                                                                                       ;
+;                                             ;                                                                                                            ;
+; I/O pins                                    ; 6                                                                                                          ;
+; Total MLAB memory bits                      ; 0                                                                                                          ;
+; Total block memory bits                     ; 4352                                                                                                       ;
+;                                             ;                                                                                                            ;
+; Total DSP Blocks                            ; 2                                                                                                          ;
+;                                             ;                                                                                                            ;
+; Total PLLs                                  ; 1                                                                                                          ;
+;     -- PLLs                                 ; 1                                                                                                          ;
+;                                             ;                                                                                                            ;
+; Maximum fan-out node                        ; PLL_Clock_Gen:PLL_Clock_Gen_i|PLL_Clock_Gen_0002:pll_clock_gen_inst|altera_pll:altera_pll_i|outclk_wire[0] ;
+; Maximum fan-out                             ; 3392                                                                                                       ;
+; Total fan-out                               ; 29135                                                                                                      ;
+; Average fan-out                             ; 4.15                                                                                                       ;
++---------------------------------------------+------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge RAM Summary                                                                                                                                                                                                                                                                               ;
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
+; Name                                                                                                                                                                                                  ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size ; MIF  ;
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram|altsyncram_kb84:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 128          ; 34           ; 128          ; 34           ; 4352 ; None ;
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
+
+
++-----------------------------------------------+
+; Partition Merge DSP Block Usage Summary       ;
++---------------------------------+-------------+
+; Statistic                       ; Number Used ;
++---------------------------------+-------------+
+; Two Independent 18x18           ; 1           ;
+; Sum of two 18x18                ; 1           ;
+; Total number of DSP blocks      ; 2           ;
+;                                 ;             ;
+; Fixed Point Unsigned Multiplier ; 3           ;
++---------------------------------+-------------+
+
+
++--------------------------+
+; Partition Merge Messages ;
++--------------------------+
+Warning (125092): Tcl Script File src/PLL_Clock_Gen.qip not found
+    Info (125063): set_global_assignment -name QIP_FILE src/PLL_Clock_Gen.qip
+Warning (125092): Tcl Script File src/PLL_Clock_Gen.sip not found
+    Info (125063): set_global_assignment -name SIP_FILE src/PLL_Clock_Gen.sip
+Info: *******************************************************************
+Info: Running Quartus Prime Partition Merge
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Tue Apr 02 22:59:53 2024
+Info: Command: quartus_cdb --read_settings_files=off --write_settings_files=off Risc_V_Multiciclo -c Risc_V_Multiciclo --merge=on
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (35007): Using synthesis netlist for partition "Top"
+Info (35007): Using synthesis netlist for partition "sld_hub:auto_hub"
+Info (35007): Using synthesis netlist for partition "sld_signaltap:auto_signaltap_0"
+Info (35024): Successfully connected in-system debug instance "auto_signaltap_0" to all 101 required data inputs, trigger inputs, acquisition clocks, and dynamic pins
+Info (35002): Resolved and merged 3 partition(s)
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 14 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
+Critical Warning (138067): Current license file does not support incremental compilation. The Quartus Prime software removes all the user-specified design partitions in the design automatically.
+Info (21057): Implemented 6637 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 6 input pins
+    Info (21059): Implemented 4 output pins
+    Info (21061): Implemented 6589 logic cells
+    Info (21064): Implemented 34 RAM segments
+    Info (21065): Implemented 1 PLLs
+    Info (21062): Implemented 2 DSP elements
+Info: Quartus Prime Partition Merge was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 4787 megabytes
+    Info: Processing ended: Tue Apr 02 22:59:55 2024
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+

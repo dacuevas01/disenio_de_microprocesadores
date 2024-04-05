@@ -16,7 +16,7 @@ module Control_Unit
 	output	[1:0]	ResultSrc,
 	output 	[1:0]	ALUSrcB,
 	output 	[1:0]	ALUSrcA,
-	output 	[2:0]	ALUControl,
+	output 	[3:0]	ALUControl,
 	output 	[1:0]	ADRSrc,
 	output	[2:0] ImmSrc
 );

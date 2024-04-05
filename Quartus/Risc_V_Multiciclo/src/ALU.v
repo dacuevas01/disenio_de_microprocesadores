@@ -4,7 +4,7 @@ module ALU
 	parameter DATA_WIDTH = 32
 )
 (
-	input			[2: 0]					Control,
+	input			[3:0]					Control,
 	input			[DATA_WIDTH-1: 0]		A,
 	input			[DATA_WIDTH-1: 0]		B,
 	
@@ -15,14 +15,15 @@ module ALU
 	always @ (*) begin
 		Result = 32'b0;
 		case (Control)
-			3'b000	:	Result = A + B;
-			3'b001	:	Result = A - B;
-			3'b010	:	Result = A * B;
-			3'b011	:	Result = A & B;
-			3'b100	:	Result = A | B;
-			3'b101	: 	Result = A ^ B;
-			3'b110	: 	Result = A << B;
-			3'b111	:	Result = (A < B) ? 32'd1 : 32'd0;
+			4'b0000	:	Result = A + B;
+			4'b0001	:	Result = A - B;
+			4'b0010	:	Result = A * B;
+			4'b0011	:	Result = A & B;
+			4'b0100	:	Result = A | B;
+			4'b0101	: 	Result = A ^ B;
+			4'b0110	: 	Result = A << B;
+			4'b0111	:	Result = (A < B) ? 32'd1 : 32'd0;
+			4'b1000	:	Result = A >> B;
 			
 			default:		Result = 32'b0;
 		endcase

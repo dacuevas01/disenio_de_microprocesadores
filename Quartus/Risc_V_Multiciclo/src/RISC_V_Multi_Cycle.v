@@ -18,7 +18,7 @@ module RISC_V_Multi_Cycle
 	wire	[1:0]		ResultSrc_w;
 	wire 	[1:0]		ALUSrcB_w;
 	wire	[1:0]		ALUSrcA_w;
-	wire 	[2:0]		ALUControl_w;
+	wire 	[3:0]		ALUControl_w;
 	wire 	[1:0]		ADRSrc_w;
 	wire  [2:0]		ImmSrc_w;
 	wire				Zero_w;
